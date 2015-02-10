@@ -1,5 +1,6 @@
 var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
 console.log("HHH: ", path);
+path = '';
 
 fallback.load({
       bootstrapcss: [
