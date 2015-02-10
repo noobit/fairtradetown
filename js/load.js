@@ -20,7 +20,7 @@ fallback.load({
         '/css/MarkerCluster.css'
       ],
       markerccss: [
-        path + "/LeafletStyleSheet.css"
+        path + "LeafletStyleSheet.css"
       ],
       markerdefaultcss: [
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css',
@@ -30,8 +30,8 @@ fallback.load({
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css',
         '/css/L.Control.Locate.css'
       ],
-      appc: path + "/css/app.css", 
-      popup:  path + "/css/popup.css",
+      appc: path + "css/app.css", 
+      popup:  path + "css/popup.css",
       jQuery: [
           '//code.jquery.com/jquery-1.11.2.min.js',
           '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
@@ -67,10 +67,10 @@ fallback.load({
         '/js/L.Control.Locate.js'
       ],
       'PruneCluster': [
-        path + "/js/PruneCluster.js"
+        path + "js/PruneCluster.js"
       ],
-      makimarkers: path + "/js/leaflet.makimarkers.js",
-      app: path + " /js/app.js"  
+      makimarkers: path + "js/leaflet.makimarkers.js",
+      app: path + "js/app.js"  
   }, {
       deps: {},
       dependencies: {},
