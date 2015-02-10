@@ -16,7 +16,7 @@ fallback.load({
         '/css/MarkerCluster.css'
       ],
       markerccss: [
-        '/LeafletStyleSheet.css'
+        '/fairtradetown/LeafletStyleSheet.css'
       ],
       markerdefaultcss: [
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css',
@@ -26,8 +26,8 @@ fallback.load({
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css',
         '/css/L.Control.Locate.css'
       ],
-      appc: '/css/app.css', 
-      popup:  '/css/popup.css',
+      appc: '/fairtradetown/css/app.css', 
+      popup:  '/fairtradetown/css/popup.css',
       jQuery: [
           '//code.jquery.com/jquery-1.11.2.min.js',
           '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
@@ -63,10 +63,10 @@ fallback.load({
         '/js/L.Control.Locate.js'
       ],
       'PruneCluster': [
-        '/js/PruneCluster.js'
+        '/fairtradetown/js/PruneCluster.js'
       ],
-      makimarkers: '/js/leaflet.makimarkers.js',
-      app: '/js/app.js'   
+      makimarkers: '/fairtradetown/js/leaflet.makimarkers.js',
+      app: '/fairtradetown/js/app.js'   
   }, {
       deps: {},
       dependencies: {},
