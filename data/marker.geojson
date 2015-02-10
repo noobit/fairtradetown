@@ -1,0 +1,3965 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Edeka/Reichelt",
+        "strasse": "Prager Platz 1-3",
+        "plz": 10779,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": "Montag-Samstag: 8-22 Uhr",
+        "beschreibung": "",
+        "images": "",
+        "produkte": "undefined",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.33306,
+          52.4936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "Edeka/Reichelt",
+        "strasse": "Wiesbadener Str. 53",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": "Montag-Freitag 8-24 ",
+        "beschreibung": "",
+        "images": "",
+        "produkte": "undefined",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30244,
+          52.47337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "A Janela Weltladen",
+        "strasse": "Emser Str. 45 ",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Einzelhandel",
+        "kategorie2": "Weltladen",
+        "telefon1": "886 80 877",
+        "telefon2": "",
+        "telefax": "",
+        "email": "a.janela@ewsl.de",
+        "facebook": "facebook.com/ajanela",
+        "google": "googleplus.com/ajanela",
+        "twitter": "twitter.com/ajanela",
+        "homepage": "www.ajanela.de",
+        "logo": "",
+        "oeffnungszeiten": "Mo - Fr. 10-19 Uh",
+        "beschreibung": "",
+        "images": "",
+        "produkte": "Praktische Info   ",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31964,
+          52.49644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Dritte-Welt-GmbH. Weltladen im Glockenturm der Kaiser-Wilhelm-Gedächtniskirche ",
+        "strasse": "Am Breitscheidplatz",
+        "plz": 10787,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "0172-3167634",
+        "telefon2": "030-8315432",
+        "telefax": "",
+        "email": "weltladen@t-online.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": "Mo-Fr 11-19. Sa 10-19",
+        "beschreibung": "Der Dritte-Welt-Laden GmbH existiert seit April 2975.",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3376,
+          52.5042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "kompledo - bio vom feinsten",
+        "strasse": "Reichstr. 10",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "30 10 85 87",
+        "telefax": "",
+        "email": "info@kompledo.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.kompledo.de",
+        "logo": "kompledo.png",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Bio-Markt mit Bisto und MittagstischMo - Fr. 9 - 20 Uhr. Sa 9 - 18 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2552389,
+          52.515385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "name": "Erdkorn GmbH",
+        "strasse": "Bundesallee 201-203",
+        "plz": 10717,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-219 68 535",
+        "telefon2": "",
+        "telefax": "030 - 236 24 564",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.erdkorn.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Geschäft für Bio-Lebensmittel Öffnungzeiten:Mo - Fr. 9-20 UhrSa     9-18 Uhr   ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.33125,
+          52.49358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "kompledo - bio vom feinsten",
+        "strasse": "Knesebeckstr. 59/61",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "280 39 702",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@kompledo.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.kompledo.de",
+        "logo": "kompledo.png",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Bio-Markt mit Bistro und Mittagstisch  Mo - Fr. 9 - 20 Uhr. Sa 9-18 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3224,
+          52.50077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "name": "kompledo - bio vom feinsten",
+        "strasse": "Berliner Str. 132",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "86 39 56 14",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@kompledo.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.kompledo.de",
+        "logo": "kompledo.png",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Bio Markt mit Bistro und MittagstischMo - Fr 8-20 Uhr. Sa 8- 16 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32149,
+          52.4864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "name": "Oxfam-Shop",
+        "strasse": "Kurfüstendamm 146",
+        "plz": "",
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-89542267/68",
+        "telefon2": "",
+        "telefax": "",
+        "email": "berlin-kudamm-shop@oxfam.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 10-19 Uhr. Sa 10-15 UhrDer Oxfam-Shop führt ein kleines Sortiment fairtrade-gepa Lebensmittel (Kaffee. Tee. Süßwaren). ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29865,
+          52.4981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "name": "Reformhaus",
+        "strasse": "Blissestr. 2-6",
+        "plz": 10713,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Einzelhandel",
+        "kategorie2": "Reformhaus",
+        "telefon1": "030-8228369",
+        "telefon2": "",
+        "telefax": "030-89745645",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 9-18.30 Uhr. Sa. 9-14.00 Uhr ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32006,
+          52.48615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "name": "Halelu JAh World Trade",
+        "strasse": "Fechnerstraße 6a",
+        "plz": 10717,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030/7861953",
+        "telefon2": "",
+        "telefax": "",
+        "email": "halelujah@asare.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.halelujah.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 12-19 Uhr. Sa 11-16 Uhr Wir sind ein Fair-Trade Laden und führen zahlreiche Produkte zertifizierter Distributern oder Waren direkt von Kleinproduzenten aus Asien und Afrika.",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.323707,
+          52.487248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "name": "LPG Naturkost D.Dilling und U.Ritter",
+        "strasse": "Wilhemlsaue 134",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 86423829",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 9.00 - 18.30 UhrSa     9.00 - 14.00 Uhr Ihr Naturkostfachgeschäft nebenan. die alternative Einkaufsgemeinschaft mit dem zwei-Preise-System = beste Frische-Qualität zum günstigen Preis!",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32922,
+          52.48492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "name": "Bio Company Filiale Wilmersdorf",
+        "strasse": "Uhlandstraße 41",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 22494957",
+        "telefon2": "",
+        "telefax": "030 22494958",
+        "email": "BC-wilmersdorf@BIOCOMPANY.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 8.00 - 20.30 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32426,
+          52.49914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "name": "valonea",
+        "strasse": "Günzelstr. 23",
+        "plz": 10717,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-89208462",
+        "telefon2": "",
+        "telefax": "030-89208463",
+        "email": "kontakt@valonea.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.valonea.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Boutique für Taschen und Accessoires aus Naturleder und/oder fairem HandelInh.: Valerie DenisMo 13-19 Uhr. Di-Fr. 11-19 Uhr. Sa 10-16 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3281464,
+          52.4907814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "name": "Eva´s Spielbude",
+        "strasse": "Rüdesheimer Platz 1",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 8228665",
+        "telefon2": "",
+        "telefax": "030 8220505",
+        "email": "eva.spiel@t-online.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.evas-spielbude.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Evas Spielbude ist ein Spielzeugladen. der aus Fairem Handel ausgewählte Sorten Tee und Kaffee führt.Ansonsten lädt immer wieder zum Stöbern ein: Pfiffige kleine Geschenke. und ausgesuchtes Spielzeug verschiedener Markenfirmen. eine gute Auswahl an Kinderbüchern und immer etwas Ausgefallenes (nicht nur für Kinder).Beratung. Geschenkverpackung. Bonuskarte und nicht zuletzt unser Bücher-Bestellservice runden das Angebot ab. Jedes lieferbare Buch. werktags bis 17 Uhr bestellt. ist am nächsten Tag abholbereit. Mo-Fr 9.00-18.30 UhrSa 9.00-14.00 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3165,
+          52.47351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "name": "LPG BioMarkt",
+        "strasse": "Kaiserdamm 12",
+        "plz": 14027,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 33772702",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2894572,
+          52.5107382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "name": "La Vigna",
+        "strasse": "Bregenzer Straße 9",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 883 54 16",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.lavigna-berlin.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 12-24 UhrSa  16-24 UhrSonntag: geschlossen",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3134567,
+          52.4986433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "name": "Blumen-Koch Berlin",
+        "strasse": "Westfälische Straße 38",
+        "plz": 10711,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 896 69 00",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@blumen-koch.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.blumen-koch.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 8 - 18.30 UhrSa 9 - 14 Uhr Bei unserem Wareneinkauf hat zertifizierte Ware erste Priorität. Wir haben ständig ein feines Sortiment FLP-gelabelter Rosen aus Ecuador im Sortiment - traumhaft schön - sehr haltbar. ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2950632,
+          52.4962304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "name": "Kaaswinkel",
+        "strasse": "Berliner Str.36",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 86423327",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.kaaswinkel.net",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Do + Fr   12-19 UhrSa        9-15 Uhr  ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3218031,
+          52.4866228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "name": "Weichardt-Brot GmbH",
+        "strasse": "Mehlitzstraße 7",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 8738099",
+        "telefon2": "",
+        "telefax": "030 8611699",
+        "email": "info@weichardt.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.weichardt.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo geschlossenDi-Fr 7.30 Uhr - 19 UhrSa 7.30 Uhr - 13 Uhr Wir führen verschiedene Produkte aus oder mit fair gehandelter Kuvertüre.",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3263212,
+          52.4859916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "name": "Weichardt-Brot&Bioladen",
+        "strasse": "Schlüterstraße 14",
+        "plz": 10625,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": " 030 25 04 59 76",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Dienstag bis Freitag 8.30 - 18.30 Uhr Samstag 8.30 - 14.00 Uhrmontags geschlossen   ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31717,
+          52.50832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "name": "Weichardt-Brot&Bioladen",
+        "strasse": "Windscheidstraße 15",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 76 23 58 29 ",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Dienstag bis Freitag 8.30 - 18.30 Uhr Samstag 8.30 - 14.00 Uhrmontags geschlossen",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29863,
+          52.50625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "name": "Restaurant Robbengatter",
+        "strasse": "Grunewaldstraße 55",
+        "plz": 10825,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/einzeln",
+        "kategorie2": "",
+        "telefon1": "030 8535255",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@robbengatter.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "8.00 - 02.00 Uhr   ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3383192,
+          52.4882455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "name": "Lylla Biomarkt",
+        "strasse": "Neufertstraße 13",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Einzelhandel",
+        "kategorie2": "Bioladen",
+        "telefon1": "030 3216399",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.lyllabiomarkt.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 8.00 - 20.00 Uhr Wir vertreiben Ökotopia Produkte. tazpresso. diverse Tees und Gewürze. neuerdings auch ethiquable-Produkte.",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29402,
+          52.51749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "name": "Der Joachimsthaler BIO Supermarkt",
+        "strasse": "Grolmanstraße 48",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030 54710254",
+        "telefon2": "",
+        "telefax": "030 54710267",
+        "email": "rkwitthuhn@gmx.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 9-20 Uhr  ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32344,
+          52.50505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "name": "Rohnke Floristik",
+        "strasse": "Wilmersdorfer STr. 20",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-3422424",
+        "telefon2": "",
+        "telefax": "",
+        "email": "rohnkefloristik@t-online.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.rohnke-floristik.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 9-18 UhrSa 9-13 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3046253,
+          52.5151356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "name": "betterfair",
+        "strasse": "Goethestr. 2-3",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-30831244",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@betterfair.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.betterfair.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Online-Shop. keinLadengeschäft!!!",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3242651,
+          52.5088394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "name": "Konstanza Naturkost",
+        "strasse": "Konstanzer Str. 10",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-8813228",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.konstanza-naturkost.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr. 9-19 hSa 9-16 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3108962,
+          52.4961025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "name": "Bio Company Rüdesheimer Platz",
+        "strasse": "Rüdesheimer Platz 3",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "22 19 22 59 0",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 8-20 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31592,
+          52.47363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "name": "Bio Company Charlottenburg",
+        "strasse": "Wilmersdorfer Str. 102",
+        "plz": 10629,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "323 81 31",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 9-20 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30782,
+          52.50388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "name": "Bio Company Westend",
+        "strasse": "Reichstr. 10",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "810 33 26 20",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 8-20 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26757,
+          52.51272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "name": "Blume 2000",
+        "strasse": "Berliner Str. 36",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "030-8735486",
+        "telefon2": "",
+        "telefax": "030-8622167",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.BLUME2000.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32167,
+          52.48673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "name": "Karstadt Charlottenburg",
+        "strasse": "Wilmersdorfer Straße 118",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Fairtrade Produkte seit 1993.insbesondere im Perfetto-Feinkostmarktund in Steinecke`s Heidebrot Backstube Mo-Sa 7-20 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30654,
+          52.50835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "name": "Karstadt Kurfürstendamm ",
+        "strasse": "Kurfürstendamm 231",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": "Fairtrade Produkte seit 1993",
+        "beschreibung": "Fairtrade Produkte seit 1993.insbesondere im Perfetto-Feinkostmarktund in Steineckes Heidebrot Backstube Mo-Sa. 10-20h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3277303,
+          52.5034128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "name": "Edeka  Schöppenthau",
+        "strasse": "Grunewaldstr. 48",
+        "plz": 10825,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Öffnungszeit: 8-20 UhrTel. 2181 113e4002756@minden.edeka.de",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.338616,
+          52.4885377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "name": "Karstadt am Kranzlereck/Sporthaus",
+        "strasse": "Joachimstaler Straße 5-6",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.33039,
+          52.50514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "name": "Steinecke´s Heidebrot Backstube/Cafe",
+        "strasse": "Uhlandstr. 19",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr. 6.30-18.00 Uhr. Sa. 7.00-13.00 Uhr",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3253159,
+          52.5046023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "name": "Steinecke´s Heidebrot Backstube/Cafe",
+        "strasse": "Güntzelstr. 23",
+        "plz": 10717,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30-18.00 hSa 6.30-14.00 hSo 8.00-16.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32434,
+          52.49162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Spandauer Damm 19",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 5.00 - 17.30 hSa 7.00 - 11.30 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2942907,
+          52.5191353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Kurfürstendamm 114",
+        "plz": 10711,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30-18.00 hSa 7.00-13.00 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2911756,
+          52.4974506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "name": "Steinecke´s Heidebrot Backstube/Cafe",
+        "strasse": "Steinplatz 1",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30 - 20.00 hSa 7.00 - 18.00 hSo 7.00 - 18.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3252411,
+          52.5089721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Knesebeckstr. 77",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30 - 19.00 hSa 7.00 - 14.00 hSo 7.00 - 13.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32308,
+          52.50411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Taunzienstr. 9-12",
+        "plz": 10789,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30-20.00 hSa 7.00-20.00 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3368339,
+          52.5043021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Kurfürstendamm 115",
+        "plz": 10711,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr. 5.30-19.00 hSa 7.00-13.00h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2898985,
+          52.4976901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Leonhardtstr. 5",
+        "plz": 14057,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30 - 18.00 hSa 7.00 - 14.00 hSo 7.00 - 12.00 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29788,
+          52.50529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Halemweg 15-19",
+        "plz": 13627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo - Fr 6.30 - 18.00 hSa 6.30 - 13.00 hSo 7.00 - 12.00 h",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.28517,
+          52.53714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Heckerdamm 225-231",
+        "plz": 13627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.00 - 18.00 hSa 7.00 - 13.00 hSo 7.00 - 12.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29917,
+          52.53924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Warnemünder Str. 17",
+        "plz": 14199,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo - Fr 6.30 - 18.00 hSa 7.00 - 13.00 hSo 7.00 - 12.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2899153,
+          52.4712199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Am Bahnhof Grunewald",
+        "plz": 12165,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Fr 6.30 - 18.00 hSa 7.00 - 13.00 hSo 7.00 - 12.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2636527,
+          52.4877723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "name": "Steinecke´s Heidebrot Backstube",
+        "strasse": "Schlangenbader Str. 25",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.steinecke.info",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "Mo-Sa 7.00 - 22.00 h ",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30764,
+          52.47306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "name": "Tchibo",
+        "strasse": "Theodor-Heuss-Platz 2",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.27377,
+          52.51017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "name": "Tchibo",
+        "strasse": "Breite Straße 30",
+        "plz": 14199,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2920916,
+          52.4748147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "name": "Tchibo",
+        "strasse": "Wilmersdorfer Str. 143-144",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30611,
+          52.5127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "name": "Tchibo",
+        "strasse": "Tauentzienstr. 9-12",
+        "plz": 10789,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3368339,
+          52.5043021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "name": "Tchibo",
+        "strasse": "Otto-Suhr-Allee 111",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30709,
+          52.5172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "name": "Tchibo",
+        "strasse": "Reichsstraße 84a",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26152,
+          52.51532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "name": "Tchibo",
+        "strasse": "Wilmersdorfer Str. 55/6",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30576,
+          52.50828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "name": "Tchibo (Coffee-Shop)",
+        "strasse": "Berliner Str. 37",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "info@tchibo.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3214222,
+          52.4866204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "name": "Tchibo Fililale und Coffee Bar",
+        "strasse": "Tchibo Fililale Coffee BarKurfürstendamm 143",
+        "plz": 10709,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Gastronomie/Kette",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29809,
+          52.49802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "name": "REWE Markt GmbH Charlottenburg",
+        "strasse": "Dovestr. 1",
+        "plz": 10587,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 3938177,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31901,
+          52.52003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "name": "REWE Markt GmbH. Charlottenburg",
+        "strasse": "Sömmeringstr. 24-26",
+        "plz": 10589,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": 34902122,
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3063677,
+          52.5235188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "name": "REWE Markt GmbH.Wilmersdorf",
+        "strasse": "Schlangenbader Str. 25",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 89702280,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30764,
+          52.47306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "name": "REWE Markt GmbH. Berlin ",
+        "strasse": "Steubenplatz 3",
+        "plz": 14050,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 307209,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26176,
+          52.51715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "name": "REWE Markt GmbH. Berlin",
+        "strasse": "Sophie-Charlotte-Str. 41",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 32602360,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "xz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2635197,
+          52.4449301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "name": "REWE Markt GmbH. Charlottenburg",
+        "strasse": "Fritschestr. 45-46",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 31807325,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30012,
+          52.50742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "name": "REWE Markt GmbH. Berlin",
+        "strasse": "Grolmannstr. 48",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "rewe.jpg",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3233273,
+          52.5050706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "name": "Blume 2000",
+        "strasse": "Wilmersdorfer Str.146",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.BLUME2000.de",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3052845,
+          52.512957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "name": "Blume 2000",
+        "strasse": "Lindenallee 28",
+        "plz": 14050,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2715867,
+          52.5106188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "name": "Blume 2000",
+        "strasse": "Tauentzienstr. 1",
+        "plz": 10789,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.34233,
+          52.50244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "name": "Blume 2000",
+        "strasse": "Kantstraße 56",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3074975,
+          52.5068035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "name": "Blume 2000",
+        "strasse": "Breite Straße 14a",
+        "plz": 14199,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29394,
+          52.47465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "name": "Netto Marken-Discount City",
+        "strasse": "Nürnberger Straße 25",
+        "plz": 10789,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtrade-Kaffee und Fairtrade bei Aktionen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.33631,
+          52.50077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "name": "Netto Marken-Discount",
+        "strasse": "Halemweg 17-19",
+        "plz": 13627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und Fairtraderosen als Aktionsware",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2865425,
+          52.5368859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "name": "Netto Marken-Discount",
+        "strasse": "Heerstr. 11",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und Fairtraderosen bei Aktionen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2685271,
+          52.5090471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "name": "Netto Marken-Discount",
+        "strasse": "Wilmersdorfer Str. 46",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und Fairtraderosen bei Aktionen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.304722,
+          52.509274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "name": "Netto Marken-Discount City",
+        "strasse": "Eisenzahnstraße 9",
+        "plz": 10709,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und bei Aktionen Fairtraderosen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3046,
+          52.49624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "name": "Netto Marken-Discount",
+        "strasse": "Kurfürstendamm 38",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und bei Aktionen Fairtraderosen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32234,
+          52.50245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "name": "Netto Marken-Discount City",
+        "strasse": "Babelsberger Straße 52",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und bei Aktionen Fairtraderosen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3354568,
+          52.4877922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "name": "Netto Marken-Discount City",
+        "strasse": "Richard-Wagner-Straße 51",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und bei Aktionen Fairtraderosen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30621,
+          52.51658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "name": "Netto Marken-Discount City",
+        "strasse": "Pariser Straße 41",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "1 Fairtradekaffee und bei Aktionen Fairtraderosen",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3182737,
+          52.4981547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "name": "Rossmann",
+        "strasse": "Wilmersdorfer Str. 122-123",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 31809350,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30607,
+          52.50903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "name": "Rossmann",
+        "strasse": "Reichsstr. 85",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": 30201851,
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2621019,
+          52.5152314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "name": "Rossmann",
+        "strasse": "Königin-Elisabeth-Str. 4",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 30614100,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2808399,
+          52.511559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "name": "Rossmann",
+        "strasse": "Uhlandstr. 30",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 88554360,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3248845,
+          52.501016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "name": "Rossmann",
+        "strasse": "Otto-Suhr-Allee 94",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 36407030,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30944,
+          52.5172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "name": "Rossmann",
+        "strasse": "Berliner Str. 36",
+        "plz": 10715,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 86421810,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3217907,
+          52.4866219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "name": "Rossmann",
+        "strasse": "Bismarckstr. 44",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": 34703030,
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3053948,
+          52.5117686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "name": "Kaisers",
+        "strasse": "Otto-Suhr-Allee 105",
+        "plz": 10585,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3073998,
+          52.51709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "name": "Kaisers",
+        "strasse": "Bismarckstr. 91",
+        "plz": 10625,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.309635,
+          52.5116758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "name": "Kaisers",
+        "strasse": "Wilmersdorfer Straße 46 (In den Arkaden)",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3015288,
+          52.5073952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "name": "Kaisers",
+        "strasse": "Danckelmannstr. 57-60",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2870698,
+          52.5212611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "name": "Kaisers",
+        "strasse": "Neue Kantstr. 29-30",
+        "plz": 14057,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2856413,
+          52.5064936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "name": "Kaisers",
+        "strasse": "Wundtstr. 26",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2870698,
+          52.5212611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "name": "Kaisers",
+        "strasse": "Bleibtreustr. 18",
+        "plz": 10623,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3196902,
+          52.5033383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "name": "Kaisers",
+        "strasse": "Königin-Elisabeth-Str. 9a",
+        "plz": 14059,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.28116,
+          52.51143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "name": "Kaisers",
+        "strasse": "Konstanzer Str. 2",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3147792,
+          52.4950243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "name": "Kaisers",
+        "strasse": "Kurfürstendamm 140",
+        "plz": 10709,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.29697,
+          52.49782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "name": "Kaisers",
+        "strasse": "Uhlandstr. 32",
+        "plz": 10719,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.32455,
+          52.50057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "name": "Kaisers",
+        "strasse": "Konstanzer Str. 53",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3147792,
+          52.4950243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "name": "Kaisers",
+        "strasse": "Albrecht-Achilles-Str. 52-53",
+        "plz": 10709,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30363,
+          52.49464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "name": "Kaisers",
+        "strasse": "Theodor-Heuss-Platz 6",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.27251,
+          52.51025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "name": "Kaisers",
+        "strasse": "Reichsstr. 94",
+        "plz": 14052,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2552389,
+          52.515385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "name": "Kaisers",
+        "strasse": "Wittenbergplatz 4",
+        "plz": 10789,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.34382,
+          52.50262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "name": "Kaisers",
+        "strasse": "Salzbrunner Str. 18-20",
+        "plz": 14193,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2107326,
+          52.4675293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "name": "Kaisers",
+        "strasse": "Jenaerstr. 27",
+        "plz": 10717,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3357652,
+          52.4909071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "name": "Kaisers",
+        "strasse": "Trabener Str. 2",
+        "plz": 14193,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26467,
+          52.48762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "name": "Kaisers",
+        "strasse": "Berkaerstr. 3",
+        "plz": 14199,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2896221,
+          52.4763177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "name": "Kaisers",
+        "strasse": "Südwestkorso 36",
+        "plz": 14197,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "",
+        "telefon2": "",
+        "telefax": "",
+        "email": "",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "",
+        "logo": "",
+        "oeffnungszeiten": 0,
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.310821,
+          52.4751239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "name": "Blume 31",
+        "strasse": "Bleibtreustr. 31",
+        "plz": 10707,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "030-88474604",
+        "telefon2": "",
+        "telefax": "030-88474444",
+        "email": "info@bleibtreu.com",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.bleibtreu.de",
+        "logo": "",
+        "oeffnungszeiten": "Montag - Freitag: 10:00 - 19:00 Uhr Samstag: 10:00 - 16:00 Uhr",
+        "beschreibung": "",
+        "images": "",
+        "produkte": "",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3193936,
+          52.5001712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "name": "yoga108 yogastore & ecowear",
+        "strasse": "Bismarckstr. 39",
+        "plz": 10627,
+        "ort": "Berlin",
+        "bezirk": "",
+        "ortsteil": "",
+        "kategorie1": "Supermarkt",
+        "kategorie2": "",
+        "telefon1": "030-3409 28 68",
+        "telefon2": "",
+        "telefax": "",
+        "email": "post@yoga108.de",
+        "facebook": "",
+        "google": "",
+        "twitter": "",
+        "homepage": "www.yoga108.de",
+        "logo": "",
+        "oeffnungszeiten": "Montag - Freitag: 11:00 - 19:00 Uhr",
+        "beschreibung": "",
+        "images": "",
+        "produkte": "Mo.-Fr. 11-19 Uhr. Sa. 11-16 hEine vielfältige Auswahl an ökofairer Kleidung zum Wohlfühlen erwartet Sie. sowie Meditationskissen und Yogazubehör. Bei uns finden auch Yogakurse statt.",
+        "link": "",
+        "show": "x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30678,
+          52.51193
+        ]
+      }
+    }
+  ]
+}
