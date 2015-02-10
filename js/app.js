@@ -75,6 +75,9 @@ function sidebarClick(id) {
   }
 }
 
+var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
+console.log("UUU: ", path);
+
 function syncSidebar() {
   /* Empty sidebar features */
   jQuery("#feature-list tbody").empty();
@@ -342,7 +345,7 @@ function bindePopup(feature, layer) {
   } 
 
 }
-jQuery.getJSON("/data/marker.geojson", function (data) {
+jQuery.getJSON(path + "/data/marker.geojson", function (data) {
   //marker.addData(data);
   displayFeatures(data.features, layers, icons);
 });
@@ -428,7 +431,7 @@ var ortsteile = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON("/data/ortsteile.geojson", function (data) {
+jQuery.getJSON(path + "/data/ortsteile.geojson", function (data) {
   ortsteile.addData(data);
 });
 
@@ -481,7 +484,7 @@ var bezirke = L.geoJson(null, {
     })(layer, feature.properties);
   }
 });
-jQuery.getJSON("/data/bezirke.geojson", function (data) {
+jQuery.getJSON(path + "/data/bezirke.geojson", function (data) {
   bezirke.addData(data);
 });
 
@@ -553,7 +556,7 @@ var plz = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON("/data/plz.geojson", function (data) {
+jQuery.getJSON(path + "/data/plz.geojson", function (data) {
   plz.addData(data);
 });
 

@@ -1,3 +1,6 @@
+var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
+console.log("HHH: ", path);
+
 fallback.load({
       bootstrapcss: [
         '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css',
@@ -16,7 +19,7 @@ fallback.load({
         '/css/MarkerCluster.css'
       ],
       markerccss: [
-        '/fairtradetown/LeafletStyleSheet.css'
+        path + "/LeafletStyleSheet.css"
       ],
       markerdefaultcss: [
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css',
@@ -26,8 +29,8 @@ fallback.load({
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css',
         '/css/L.Control.Locate.css'
       ],
-      appc: '/fairtradetown/css/app.css', 
-      popup:  '/fairtradetown/css/popup.css',
+      appc: path + "/css/app.css", 
+      popup:  path + "/css/popup.css",
       jQuery: [
           '//code.jquery.com/jquery-1.11.2.min.js',
           '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
@@ -63,10 +66,10 @@ fallback.load({
         '/js/L.Control.Locate.js'
       ],
       'PruneCluster': [
-        '/fairtradetown/js/PruneCluster.js'
+        path + "/js/PruneCluster.js"
       ],
-      makimarkers: '/fairtradetown/js/leaflet.makimarkers.js',
-      app: '/fairtradetown/js/app.js'   
+      makimarkers: path + "/js/leaflet.makimarkers.js",
+      app: path + " /js/app.js"  
   }, {
       deps: {},
       dependencies: {},
