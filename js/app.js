@@ -569,7 +569,7 @@ jQuery.getJSON("data/plz.geojson", function (data) {
 });*/ 
 
 map = L.map("map", {
-  layers: [positronTile],
+  layers: [mapquestTile],
   attributionControl: true
 });
 
@@ -694,12 +694,12 @@ for (var icat in categories) {
   cultureLayer.addTo(map);
 
   // Add Base Tiles
-  layerControl.addBaseLayer(baseTile, 'Normal OSM');
-  layerControl.addBaseLayer(blackwhiteTile, 'Schwarz / Weiß');
-  layerControl.addBaseLayer(bmapTile, 'BMap');
-  layerControl.addBaseLayer(mapquestTile, 'Mapquest OSM');
-  layerControl.addBaseLayer(positronTile, 'Positron (Mein Favorit)');
-  layerControl.addBaseLayer(mapboxTile, 'Mapbox (50.000 / Month)');
+  // layerControl.addBaseLayer(baseTile, 'Openstreetmap');
+  // layerControl.addBaseLayer(blackwhiteTile, 'Schwarz / Weiß');
+  // layerControl.addBaseLayer(bmapTile, 'BMap');
+  // layerControl.addBaseLayer(mapquestTile, 'Mapquest OSM');
+  // layerControl.addBaseLayer(positronTile, 'Schwarz / Weiß');
+  // layerControl.addBaseLayer(mapboxTile, 'Mapbox (50.000 / Month)');
 
 
   // Add Choices
