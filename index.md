@@ -70,9 +70,10 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
       </div>
       <div class="modal-body">
         <ul class="nav nav-tabs" id="aboutTabs">
-          <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;Über das Projekt</a></li>
+          <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;Darum geht es</a></li>
+          <li><a href="#bepart" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Machen Sie mit</a></li>
           <li><a href="#contact" data-toggle="tab"><i class="fa fa-envelope"></i>&nbsp;Kontakt</a></li>
-          <li><a href="#disclaimer" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Impressum</a></li>
+          <li><a href="#disclaimer" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Impressum/Disclaimer</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>&nbsp;Metadata <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -82,8 +83,10 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
           </li>
         </ul>
         <div class="tab-content" id="aboutTabsContent">
-          <div class="tab-pane fade active in" id="about">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...</p>
+          <div class="tab-pane fade in" id="about">
+            <p>Wenn eine Stadt oder ein Bezirk Aktivitäten zum fairen Handel in einem bestimmten Umfang nachweist, kann der Titel Fairtrade-Town oder -Bezirk verliehen werden. Nähere Informationen zu dieser Kampagne erhalten Sie unter <a href="www.fairtrade-towns.de">www.fairtrade-towns</a>a>.de In Mitte bsp. hat eine Steuerungsgruppe alle notwendigen Schritte auf dem Weg zum Fairtrade-Bezirk koordiniert.<br />
+            Sie besteht aus Vertreter/Innen der Zivilgesellschaft, Politik und Wirtschaft und entwickelt Ideen für eine zielgruppenspezifische Öffentlichkeitsarbeit. Ziel ist es, viele Partner zu gewinnen, die dann selbst aktiv werden. <br />
+            Nachdem alle Kriterien erfüllt wurden hat Mitte im Oktober 2014 als zweiter Berliner Fairtrade-Bezirk offiziell den Titel erhalten.</p>
             <div class="panel panel-primary">
               <div class="panel-heading">Zusammenfassung</div>
               <ul class="list-group">
@@ -93,9 +96,30 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
               </ul>
             </div>
           </div>
-          <div id="disclaimer" class="tab-pane fade text-danger">
-            <p>Lorem ipsum.</p>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+
+          <div class="tab-pane fade in" id="bepart">
+            <p>Wenn eine Stadt oder ein Bezirk Aktivitäten zum fairen Handel in einem bestimmten Umfang nachweist, kann der Titel Fairtrade-Town oder -Bezirk verliehen werden. Nähere Informationen zu dieser Kampagne erhalten Sie unter <a href="www.fairtrade-towns.de">www.fairtrade-towns</a>a>.de In Mitte bsp. hat eine Steuerungsgruppe alle notwendigen Schritte auf dem Weg zum Fairtrade-Bezirk koordiniert.<br />
+            Sie besteht aus Vertreter/Innen der Zivilgesellschaft, Politik und Wirtschaft und entwickelt Ideen für eine zielgruppenspezifische Öffentlichkeitsarbeit. Ziel ist es, viele Partner zu gewinnen, die dann selbst aktiv werden. <br />
+            Nachdem alle Kriterien erfüllt wurden hat Mitte im Oktober 2014 als zweiter Berliner Fairtrade-Bezirk offiziell den Titel erhalten.</p>
+            <div class="panel panel-primary">
+              <div class="panel-heading">Zusammenfassung</div>
+              <ul class="list-group">
+                <li class="list-group-item">Unterpunkte</li>
+                <li class="list-group-item">Vielleicht so ein Layout...</li>
+                <li class="list-group-item">Logical multiple layer marker clustering via the <a href="https://github.com/" target="_blank">...plugin</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab-pane fade in"  id="disclaimer" class="tab-pane fade text-danger">
+            <blockquote>
+              <h2>English</h2>
+              <p>This document has been produced with the financial assistance of the European Union. The contents of this document are the sole responsibility of Senatsverwaltung für Wirtschaft, Technologie und Forschung and can under no circumstances be regarded as reflecting the position of the European Union.</p>
+            </blockquote>
+            <blockquote>
+              <h2>Deutsch</h2>
+              <p>Dieses Dokument wurde mit finanzieller Unterstützung der Europäischen Union erstellt. Für seinen Inhalt ist allein die Senatsverwaltung für Wirtschaft, Technologie und Forschung verantwortlich; es gibt nicht den Standpunkt der Europäischen Union wieder.</p>
+            </blockquote>
           </div>
           <div class="tab-pane fade" id="contact">
             <form id="contact-form">

@@ -13,16 +13,18 @@
 /* Utility classes */
 .map {
     position:absolute;
-    top:0;
-    width:100%;
+    bottom:0;
+    right:0;
+    width:40%;
     height:50%;
+    z-index: 999;
 }
 
 .right {
     overflow-x:hidden;
     position:absolute;
-    bottom:0;
-    height:50%;
+    top:0;
+    height:100%;
     width:100%;
     box-sizing:border-box;
     background:#fff;
@@ -49,7 +51,7 @@ body.fullscreen .file-bar .fr {
 
 body.fullscreen .leaflet-control-mapbox-geocoder { margin-top:50px; }
 
-.deemphasize { color: #888;}
+.deemphasize { color: #888; display:none;}
 
 p.intro-hint {
     margin:10px auto;
@@ -91,8 +93,7 @@ p.intro-hint:hover {
 }
 
 .top .buttons {
-    margin-left:28px;
-    height:40px;
+
 }
 
 /*

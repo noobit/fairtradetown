@@ -2947,6 +2947,15 @@ function metatable() {
                     .append('div')
                     .attr('class', 'controls');
 
+                
+
+                var enter = sel.selectAll('table').data([d]).enter().append('table');
+                var thead = enter.append('thead');
+                var tbody = enter.append('tbody');
+                var tr = thead.append('tr');
+
+                table = sel.select('table');
+
                 var colbutton = controls.append('button')
                     .on('click', function() {
                         var name = prompt('column name');
@@ -2957,13 +2966,6 @@ function metatable() {
                     });
                 colbutton.append('span').attr('class', 'icon-plus');
                 colbutton.append('span').text(' new column');
-
-                var enter = sel.selectAll('table').data([d]).enter().append('table');
-                var thead = enter.append('thead');
-                var tbody = enter.append('tbody');
-                var tr = thead.append('tr');
-
-                table = sel.select('table');
             }
 
             function paint() {
@@ -3004,12 +3006,12 @@ function metatable() {
 
                 td.exit().remove();
 
-                delbutton.on('click', deleteClick);
+                /*delbutton.on('click', deleteClick);
                 delbutton.append('span').attr('class', 'icon-minus');
-                delbutton.append('span').text(' delete');
+                delbutton.append('span').text(' DEL');
 
-                renamebutton.append('span').text(' rename');
-                renamebutton.on('click', renameClick);
+                renamebutton.append('span').text(' F2');
+                renamebutton.on('click', renameClick);*/
 
                 function deleteClick(d) {
                     var name = d;
@@ -19613,7 +19615,7 @@ module.exports = function(gj) {
 		localStorageName = 'localStorage',
 		storage
 
-	store.disabled = false
+	store.disabled = 0
 	store.set = function(key, value) {}
 	store.get = function(key) {}
 	store.remove = function(key) {}
@@ -24326,6 +24328,7 @@ module.exports = function(context) {
                         .on('rowfocus', function(row, i) {
                             var bounds = context.mapLayer.getBounds();
                             var j = 0;
+
                             context.mapLayer.eachLayer(function(l) {
                                 if (i === j++) smartZoom(context.map, l, bounds);
                             });
@@ -24793,25 +24796,11 @@ module.exports = function fileBar(context) {
         title: 'GeoJSON',
         action: downloadGeoJSON
     }, {
-        title: 'TopoJSON',
-        action: downloadTopo
-    }, {
         title: 'CSV',
         action: downloadDSV
-    }, {
-        title: 'KML',
-        action: downloadKML
-    }, {
-        title: 'WKT',
-        action: downloadWKT
     }];
 
-    if (shpSupport) {
-        exportFormats.push({
-            title: 'Shapefile',
-            action: downloadShp
-        });
-    }
+    
 
     function bar(selection) {
 
@@ -24819,47 +24808,6 @@ module.exports = function fileBar(context) {
             title: 'Save',
             action: saveAction,
             children: exportFormats
-        }, {
-            title: 'New',
-            action: function() {
-                window.open('/#new');
-            }
-        }, {
-            title: 'Meta',
-            action: function() {},
-            children: [
-                {
-                    title: 'Clear',
-                    alt: 'Delete all features from the map',
-                    action: function() {
-                        if (confirm('Are you sure you want to delete all features from this map?')) {
-                            meta.clear(context);
-                        }
-                    }
-                }, {
-                    title: 'Random: Points',
-                    alt: 'Add random points to your map',
-                    action: function() {
-                        var response = prompt('Number of points (default: 100)');
-                        if (response === null) return;
-                        var count = parseInt(response, 10);
-                        if (isNaN(count)) count = 100;
-                        meta.random(context, count, 'point');
-                    }
-                }, {
-                    title: 'Add bboxes',
-                    alt: 'Add bounding box members to all applicable GeoJSON objects',
-                    action: function() {
-                        meta.bboxify(context);
-                    }
-                }, {
-                    title: 'Flatten Multi Features',
-                    alt: 'Flatten MultiPolygons, MultiLines, and GeometryCollections into simple geometries',
-                    action: function() {
-                        meta.flatten(context);
-                    }
-                }
-            ]
         }];
 
         if (mapboxAPI || githubAPI) {
@@ -24895,12 +24843,7 @@ module.exports = function fileBar(context) {
                     action: clickGistSave
                 });
             
-            if (mapboxAPI) actions.splice(3, 0, {
-                    title: 'Share',
-                    action: function() {
-                        context.container.call(share(context));
-                    }
-                });
+            
         } else {
             actions.unshift({
                 title: 'Open',
@@ -25130,7 +25073,7 @@ module.exports = function fileBar(context) {
                 .style('position', 'absolute')
                 .style('height', '0')
                 .on('change', function() {
-                    var files = this.files;
+                    var files = this.files; //'../data/marker.geojson'; //
                     if (!(files && files[0])) return;
                     readFile.readAsText(files[0], function(err, text) {
                         readFile.readFile(files[0], text, onImport);
@@ -25167,16 +25110,6 @@ module.exports = function fileBar(context) {
                 .on('⌘+s', saveAction));
     }
 
-    function downloadTopo() {
-        var content = JSON.stringify(topojson.topology({
-            collection: clone(context.data.get('map'))
-        }, {'property-transform': allProperties}));
-
-        saveAs(new Blob([content], {
-            type: 'text/plain;charset=utf-8'
-        }), 'map.topojson');
-
-    }
 
     function downloadGeoJSON() {
         if (d3.event) d3.event.preventDefault();
@@ -25262,32 +25195,17 @@ module.exports = function(context) {
     return function(selection) {
         var layers;
 
-        if (!(/a\.tiles\.mapbox.com/).test(L.mapbox.config.HTTP_URL)) {
-            layers = [{
-                title: 'Mapbox',
-                layer: L.mapbox.tileLayer('mapbox.osm-bright')
-            }, {
-                title: 'Mapbox Outdoors',
-                layer: L.mapbox.tileLayer('mapbox.mapbox-outdoors')
-            }, {
-                title: 'Satellite',
-                layer: L.mapbox.tileLayer('mapbox.satellite-full')
-            }];
-
-        } else {
+  
             layers = [{
                 title: 'Mapbox',
                 layer: L.mapbox.tileLayer('tmcw.map-7s15q36b')
-            }, {
-                title: 'Satellite',
-                layer: L.mapbox.tileLayer('tmcw.map-j5fsp01s')
             }, {
                 title: 'OSM',
                 layer: L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 })
             }];
-        }
+        
 
         var layerSwap = function(d) {
             var clicked = this instanceof d3.selection ? this.node() : this;
@@ -25334,10 +25252,8 @@ module.exports = function(context, readonly) {
                 infoControl: false,
                 attributionControl: true
             })
-            .setView([20, 0], 2)
-            .addControl(L.mapbox.geocoderControl('mapbox.places-permanent', {
-                position: 'bottomright'
-            }));
+            .setView([53, 14], 12)
+            
 
             var kontrolle = L.Control.geocoder().addTo(context.map);
 
@@ -25353,9 +25269,6 @@ module.exports = function(context, readonly) {
               position: 'topright',
               edit: { featureGroup: context.mapLayer },
               draw: {
-                  circle: false,
-                  polyline: { metric: navigator.language !== 'en-US' },
-                  polygon: { metric: navigator.language !== 'en-US' },
                   marker: {
                       icon: L.mapbox.marker.icon({})
                   }
@@ -25371,8 +25284,8 @@ module.exports = function(context, readonly) {
             .on('draw:created', created)
             .on('popupopen', popup(context));
 
-        context.map.attributionControl.addAttribution('<a target="_blank" href="http://tmcw.wufoo.com/forms/z7x4m1/">Feedback</a>');
-        context.map.attributionControl.addAttribution('<a target="_blank" href="http://geojson.io/about.html">About</a>');
+        //context.map.attributionControl.addAttribution('<a target="_blank" href="http://tmcw.wufoo.com/forms/z7x4m1/">Feedback</a>');
+        //context.map.attributionControl.addAttribution('<a target="_blank" href="http://geojson.io/about.html">About</a>');
 
         function update() {
             geojsonToLayer(context.mapLayer.toGeoJSON(), context.mapLayer);
@@ -25586,15 +25499,15 @@ module.exports = function(context, pane) {
         var mode = null;
 
         var buttonData = [{
-            icon: 'code',
-            title: ' JSON',
-            alt: 'JSON Source',
-            behavior: json
-        }, {
             icon: 'table',
             title: ' Table',
             alt: 'Edit feature properties in a table',
             behavior: table
+        }, {
+            icon: 'code',
+            title: ' JSON',
+            alt: 'JSON Source',
+            behavior: json
         }, {
             icon: 'question',
             title: ' Help',

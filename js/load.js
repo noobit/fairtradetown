@@ -4,7 +4,7 @@ path = '';
 
 fallback.load({
       bootstrapcss: [
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css',
+        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css',
         '/css/bootstrap.min.css'
       ],
       facss: [
@@ -33,13 +33,13 @@ fallback.load({
       appc: path + "css/app.css", 
       popup:  path + "css/popup.css",
       jQuery: [
-          '//code.jquery.com/jquery-1.11.2.min.js',
-          '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
-          '//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js',
-          '/js/jquery-1.11.2.min.js'
+          '//code.jquery.com/jquery-1.11.3.min.js',
+          '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js',
+          '/js/jquery-1.11.3.min.js'
       ],
       'jQuery.fn.modal': [
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js',
+        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js',
         '/js/bootstrap.min.js'
       ],
       'L': [

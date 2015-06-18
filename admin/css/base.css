@@ -183,7 +183,7 @@ table tbody tr td input {
     text-align:left;
     font:inherit;
     padding:5px;
-    width:150px;
+    //width:150px;
     box-sizing:border-box;
     margin:0;
 }

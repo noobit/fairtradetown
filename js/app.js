@@ -20,7 +20,7 @@ jQuery("#about-btn").click(function() {
 });
 
 jQuery("#full-extent-btn").click(function() {
-  map.fitBounds(marker.getBounds());
+  map.fitBounds(marker.getBounds(), {padding: [0, 150]});
   jQuery(".navbar-collapse.in").collapse("hide");
   return false;
 });
@@ -144,10 +144,9 @@ var pruneCluster = new PruneClusterForLeaflet();
 
 
 var categories = {
-  'Einzelhandel' : {desc: "Einzelhandel", icon: "shop", color: "000000", category: 0},
-  'Supermarkt' : {desc: "Supermärkte", icon: "grocery", color: "00FF00", category: 1},
-  'Gastronomie/Kette' : {desc: "Gastronomie / Kette", icon: "cafe", color: "0000FF", category: 2},
-  'Gastronomie/einzeln' : {desc: "Gastronomie / einzeln", icon: "restaurant", color: "FF0000", category: 3},
+  'Bioläden & -ketten' : {desc: "Bioläden & -ketten", icon: "shop", color: "CED41E", category: 0},
+  'Weltläden, Cafés & Einzelgeschäfte' : {desc: "Weltläden, Cafés & Einzelgeschäfte", icon: "grocery", color: "00B4DF", category: 1},
+  'Supermarkt- & Gastronomieketten' : {desc: "Supermarkt- & Gastronomieketten", icon: "cafe", color: "FFFFFF", category: 2},
   'nicht kategorisiert' : {desc: "nicht kategorisiert", icon: "square", color: "FFFFFF", opacity: 0.8, category: 4}
 };
 
@@ -158,7 +157,7 @@ pruneCluster.BuildLeafletClusterIcon = function(cluster) {
     return e;
 };
 
-L.Icon.MarkerCluster = L.Icon.extend({
+/*L.Icon.MarkerCluster = L.Icon.extend({
   options: {
     iconSize: new L.Point(44, 44),
     className: 'prunecluster leaflet-markercluster-icon'
@@ -208,7 +207,7 @@ L.Icon.MarkerCluster = L.Icon.extend({
     canvas.font = 'bold 12px sans-serif';
     canvas.fillText(this.population, 22, 22, 40);
   }
-});
+});*/
 
 var setupIcons = function() {
   var icons = {};
@@ -243,12 +242,29 @@ function displayFeatures(features, layers, icons) {
   var popup = L.DomUtil.create('div', 'tiny-popup', map.getContainer());
   for (var id in features) {
     var feat = features[id];
-    var cat = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';
+    var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
+    if (feat.properties.kategorie1.indexOf("Super") != -1 || feat.properties.kategorie1.indexOf("kette") != -1) {
+      cat = "Supermarkt- & Gastronomieketten" ;
+    }
+    else if (feat.properties.kategorie1.indexOf("Bio") != -1) {
+      cat = "Bioläden & -ketten";
+    }
+    else if (feat.properties.kategorie1.indexOf("Welt") != -1 || feat.properties.kategorie1.indexOf("Einzel") != -1 || feat.properties.kategorie1.indexOf("Café") != -1) {
+      cat = "Weltläden, Cafés & Einzelgeschäfte";
+    }
+    else {
+      cat = "nicht kategorisiert";
+    }
     var layer = layers[cat];
     var cati = categories[cat];
     marker = L.geoJson(feat, {
       pointToLayer: function(feature, latLng) {         
-        var icon = icons[cat]; 
+        //var icon = icons[cat]; 
+        var icon = new L.MakiMarkers.icon({
+          icon: feature.properties.kategorie2 ? feature.properties.kategorie2 : 'circle-stroked',
+          color: '#' + categories[cat].color, 
+          size: "m"
+        });
         /*var markerPrune = new PruneCluster.Marker(latLng.lat, latLng.lng);
           markerPrune.data.name = feature.properties.name;
           markerPrune.data.ID = feature.properties.id;
@@ -299,18 +315,31 @@ function displayFeatures(features, layers, icons) {
       });
     }  
   }
-  map.fitBounds(layer.getBounds());
+  map.fitBounds(layer.getBounds(), {padding: [0, 150]});
 
   return layers;
 }
  
 
 function bindePopup(feature, layer) {
-  /* feature.layer = layer; */   
+  /* feature.layer = layer; */  
   var props = feature.properties;
+  var color =  "fff"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
+    if (props.kategorie1.indexOf("Super") != -1 || props.kategorie1.indexOf("kette") != -1) {
+      color = categories["Supermarkt- & Gastronomieketten"].color ;
+    }
+    else if (props.kategorie1.indexOf("Bio") != -1) {
+      color = categories["Bioläden & -ketten"].color;
+    }
+    else if (props.kategorie1.indexOf("Welt") != -1 || props.kategorie1.indexOf("Einzel") != -1 || props.kategorie1.indexOf("Café") != -1) {
+      color = categories["Weltläden, Cafés & Einzelgeschäfte"].color;
+    }
+    else {
+      color = ["nicht kategorisiert"].color;
+    }
   if (props) {
     var desc = '<span id="feature-popup">';
-    desc += "<h2>" + props.name + "</h2>";
+    desc += "<h2 style='padding:20px;margin-left:-20px; margin-right:-20px; background-color:#" + color + "'>" + props.name + "</h2>";
     desc += (props.beschreibung ? "<p>" + props.beschreibung + "</p>" : "");
     desc += "<div id='address'>",
     desc +=     "<i class='fa fa-map-marker fa-fw'></i>&nbsp;" + props.strasse + "<br />";
@@ -339,7 +368,8 @@ function bindePopup(feature, layer) {
     
     layer.bindPopup(desc, {
       minWidth: 250,
-      maxWidth: 400
+      maxWidth: 400,
+      autoPanPaddingTopLeft: [10,120]
      // class: 
     }); 
   } 
@@ -703,9 +733,9 @@ for (var icat in categories) {
 
 
   // Add Choices
-  layerControl.addOverlay(bezirke, 'Bezirke (WFS)');
-  layerControl.addOverlay(ortsteile, 'Ortsteile (WFS)');
-  layerControl.addOverlay(plz, 'PLZ (WFS)');
+  layerControl.addOverlay(bezirke, 'Grenzen Bezirke');
+  layerControl.addOverlay(ortsteile, 'Grenzen Ortsteile');
+  layerControl.addOverlay(plz, 'Grenzen PLZ');
 
 
 

@@ -4,7 +4,7 @@ html, body, #container {
   overflow: hidden;
 }
 body {
-  padding-top: 50px;
+  //padding-top: 50px;
 }
 input[type="radio"], input[type="checkbox"] {
   margin: 0;
@@ -21,7 +21,7 @@ input[type="radio"], input[type="checkbox"] {
 #map {
   width: auto;
   height: 100%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ // box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 #loading {
   position: absolute;
@@ -73,8 +73,14 @@ input[type="radio"], input[type="checkbox"] {
 .leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
   margin: 2px;
 }
+.leaflet-top {
+  top:200px;
+}
 .table {
   margin-bottom: 0px;
+}
+.navbar-fixed-top {
+  top:-60px;
 }
 .navbar .navbar-brand {
   font-weight: bold;
@@ -93,6 +99,29 @@ input[type="radio"], input[type="checkbox"] {
 }
 .navbar-header a.navbar-icon {
   margin-left: 25px;
+}
+.navbar-nav {
+  background: #00B4DF;
+  color: #fff;
+  margin-top:100px;
+}
+.navbar-nav>li>a {
+  color:#fff;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+  .navbar-nav>li>a:hover {
+    background: rgb(206, 212, 30);
+  }
+  .navbar-form {
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(206, 212, 30);
+  }
 }
 .typeahead {
   background-color: #FFFFFF;
@@ -166,4 +195,9 @@ input[type="radio"], input[type="checkbox"] {
   .leaflet-control-container {
     display: none !important;
   }
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #00B4DF;
+  border-color: #00B4DF;
 }
