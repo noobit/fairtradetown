@@ -83,7 +83,7 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
           </li>
         </ul>
         <div class="tab-content" id="aboutTabsContent">
-          <div class="tab-pane fade in" id="about">
+          <div class="tab-pane active fade in" id="about">
             <p>Wenn eine Stadt oder ein Bezirk Aktivitäten zum fairen Handel in einem bestimmten Umfang nachweist, kann der Titel Fairtrade-Town oder -Bezirk verliehen werden. Nähere Informationen zu dieser Kampagne erhalten Sie unter <a href="www.fairtrade-towns.de">www.fairtrade-towns</a>a>.de In Mitte bsp. hat eine Steuerungsgruppe alle notwendigen Schritte auf dem Weg zum Fairtrade-Bezirk koordiniert.<br />
             Sie besteht aus Vertreter/Innen der Zivilgesellschaft, Politik und Wirtschaft und entwickelt Ideen für eine zielgruppenspezifische Öffentlichkeitsarbeit. Ziel ist es, viele Partner zu gewinnen, die dann selbst aktiv werden. <br />
             Nachdem alle Kriterien erfüllt wurden hat Mitte im Oktober 2014 als zweiter Berliner Fairtrade-Bezirk offiziell den Titel erhalten.</p>
@@ -111,7 +111,7 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
             </div>
           </div>
 
-          <div class="tab-pane fade in"  id="disclaimer" class="tab-pane fade text-danger">
+          <div id="disclaimer" class="tab-pane fade text-danger">
             <blockquote>
               <h2>English</h2>
               <p>This document has been produced with the financial assistance of the European Union. The contents of this document are the sole responsibility of Senatsverwaltung für Wirtschaft, Technologie und Forschung and can under no circumstances be regarded as reflecting the position of the European Union.</p>

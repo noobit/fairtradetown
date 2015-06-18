@@ -76,7 +76,6 @@ function sidebarClick(id) {
 }
 
 var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
-console.log("UUU: ", path);
 
 function syncSidebar() {
   /* Empty sidebar features */
