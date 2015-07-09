@@ -3,13 +3,76 @@
 
   {% include head.html %}
 
-  <body>
+  <body>  
+  <div class="container-fluid">
+    <nav class="navbar-default col-lg-2 col-md-3">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img alt="Brand" src="/images/logo.jpg">
+      </a>
 
-    {% include header.html %}
-	  {{ content }} 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/darum-geht-es"><i class="fa fa-university"></i>&nbsp;&nbsp;Darum geht es</a></li>
+        <li><a href="/fairer-handel-wirkt"><i class="fa fa-thumbs-up "></i>&nbsp;&nbsp;Fairer Handel wirkt</a></li>
+        <li><a href="/jeder-kann-etwas-tun"><i class="fa fa-user-plus "></i>&nbsp;&nbsp;Jeder kann etwas tun</a></li>
+        <li><a href="/machen-sie-mit"><i class="fa fa-check"></i>&nbsp;&nbsp;Machen Sie mit</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-square-o"></i>&nbsp;&nbsp;Bezirke <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/bezirke/mitte">Mitte</a></li>
+              <li><a href="/bezirke/friedrichshain-kreuzberg">Friedrichshain-Kreuzberg</a></li>
+              <li><a href="/bezirke/pankow">Pankow</a></li>
+              <li><a href="/bezirke/charlottenburg-wilmersdorf">Charlottenburg-Wilmersdorf</a></li>
+              <li><a href="/bezirke/spandau">Spandau</a></li>
+              <li><a href="/bezirke/steglitz-zehlendorf">Steglitz-Zehlendorf</a></li>
+              <li><a href="/bezirke/tempelhof-schoeneberg">Tempelhof-Schöneberg</a></li>
+              <li><a href="/bezirke/neukoelln">Neukölln</a></li>
+              <li><a href="/bezirke/treptow-koepenick">Treptow-Köpenick</a></li>
+              <li><a href="/bezirke/marzahn-hellersdorf">Marzahn-Hellersdorf</a></li>
+              <li><a href="/bezirke/lichtenberg">Lichtenberg</a></li>
+              <li><a href="/bezirke/reinickendorf">Reinickendorf</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <footer class="small">	    	
+       <div class="text-center">
+      		<a href="/impressum">Impressum</a> | <a href="/datenschutz">Datenschutz</a>
+      	</div>
+      </footer>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
+<main class="col-lg-4 col-md-5">
+	<div class="content">
+  	{{ content }} 
+  </div>
+</main>
+
+
+	<div id="map" class="col-lg-6 col-md-6">
+	  <div class="leaflet-top leaflet-left  leaflet-custom col-lg-8	">
+	    <form class="has-feedback ">
+	      <input id="searchbox" type="text" placeholder="Suche, z.B. Weltladen oder Charlottenburg" class="form-control">
+	      <span id="searchicon" class="fa fa-search form-control-feedback"></span>
+	    </form>
+	   </div>
+	</div>
+</div>
 
 
 
+	  
   </body>
 
 

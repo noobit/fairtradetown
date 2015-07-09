@@ -1,12 +1,7 @@
 ---
-layout: page
+layout: map
 title: Pankow
 permalink: /bezirke/pankow/
 ---
 
-
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

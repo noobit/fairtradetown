@@ -1,14 +1,4 @@
-html, body, #container {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-body {
-  //padding-top: 50px;
-}
-input[type="radio"], input[type="checkbox"] {
-  margin: 0;
-}
+
 #sidebar {
   width: 250px;
   height: 100%;
@@ -18,20 +8,68 @@ input[type="radio"], input[type="checkbox"] {
     -moz-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
 }
+
+.navbar-default {
+  background-color: #fff;
+  border:none;
+}
 #map {
-  width: auto;
-  height: 100%;
- // box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  height:100vH;
 }
-#loading {
+
+main h1 {
+  background-color: rgb(4, 177, 221);
+  color: #fff;
+  line-height: 58px;
+  margin:25px -15px 10px -15px;
+  padding-left: 15px;
+}
+main h2 {
+  display: inline-block;
+  margin: 25px -15px 10px -15px;
+  padding: 5px 15px;
+  background-color: rgb(206, 212, 30);
+}
+
+.leaflet-custom {
+  pointer-events: auto;
+  margin-top:25px;
+  padding-top:10px;
+  height:58px;
+  background: rgb(206, 212, 30);
+}
+main {
+  height:100vH;
+  overflow-x:scroll;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+}
+
+main ul {
+  border-left: 6px solid rgb(206, 212, 30);
+}
+li {
+  margin-bottom: 5px;
+}
+footer {
   position: absolute;
-  width: 220px;
-  height: 19px;
-  top: 50%;
-  left: 50%;
-  margin: -10px 0 0 -110px;
-  z-index: 20001;
+  bottom: 0;
+  padding-bottom:15px;
 }
+.navbar-brand {
+  height:initial;
+  padding:25px 0;
+}
+.navbar-brand img, main img {
+  max-width:100%;
+}
+.navbar-collapse {
+  padding:0;
+}
+.container-fluid {
+  padding:0;
+}
+
 #features {
   margin: 0px;
   border: none;
@@ -70,57 +108,49 @@ input[type="radio"], input[type="checkbox"] {
   font-weight: normal;
   margin-bottom: 0px;
 }
-.leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
-  margin: 2px;
-}
-.leaflet-top {
-  top:200px;
-}
+
+
 .table {
   margin-bottom: 0px;
 }
-.navbar-fixed-top {
-  top:-60px;
-}
-.navbar .navbar-brand {
-  font-weight: bold;
-  font-size: 25px;
-  color: #FFFFFF;
-}
+
+
 .navbar-collapse.in {
   overflow-y: hidden;
 }
-.navbar-header .navbar-icon-container {
-  margin-right: 15px;
+
+.form-group {
+  margin-top:15px;
 }
-.navbar-header .navbar-icon {
-  line-height: 50px;
-  height: 50px;
+label {
+  font-weight: normal;
 }
-.navbar-header a.navbar-icon {
-  margin-left: 25px;
+
+.form-custom {
+  border:none;
+  border-bottom:1px dashed #ccc;
+  border-radius: 0;
+  margin-top:10px;
+  width:100%;
 }
-.navbar-nav {
-  background: #00B4DF;
-  color: #fff;
-  margin-top:100px;
-}
-.navbar-nav>li>a {
-  color:#fff;
+.form-custom:focus {
+border:none;
 }
 @media (min-width: 768px) {
-  .navbar-nav>li>a {
-    padding-top: 27px;
-    padding-bottom: 27px;
-  }
-  .navbar-nav>li>a:hover {
+
+  nav li>a:hover {
     background: rgb(206, 212, 30);
   }
   .navbar-form {
-    margin-top: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+/*    padding-top: 20px;
+    padding-bottom: 20px;*/
     background-color: rgb(206, 212, 30);
+  }
+
+  .header {
+    text-align: right;
+    margin-right: 15px;
+    color: rgb(0, 180, 222);
   }
 }
 .typeahead {
@@ -168,15 +198,18 @@ input[type="radio"], input[type="checkbox"] {
   line-height: 34px;
   text-align: center;
 }
-@media (max-width: 992px) {
-  .navbar .navbar-brand {
-    font-size: 18px;
-  }
+.twitter-typeahead .form-control, .twitter-typeahead #searchbox {
+  width: 100% !important;
+
+}
+  nav {
+    height:100vH !important;
 }
 @media (max-width: 767px){
   #sidebar {
     display: none;
   }
+
   .url-break {
     word-break: break-all;
     word-break: break-word;
@@ -187,6 +220,18 @@ input[type="radio"], input[type="checkbox"] {
     color: #FFFFFF;
   }
 }
+
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #00B4DF;
+  border-color: #00B4DF;
+}
+
+.leaflet-control-layers {
+  border-radius:0;
+  background-color: rgb(206, 212, 30);
+}
+
 /* Print Handling */
 @media print {
   .navbar {
@@ -195,15 +240,4 @@ input[type="radio"], input[type="checkbox"] {
   .leaflet-control-container {
     display: none !important;
   }
-}
-.panel-primary>.panel-heading {
-  color: #fff;
-  background-color: #00B4DF;
-  border-color: #00B4DF;
-}
-
-.leaflet-control-layers {
-  top: -96px;
-  background-color: rgb(206, 212, 30);
-  border-radius: 0;
 }

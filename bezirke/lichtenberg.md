@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: map
 title: Lichtenberg
 permalink: /bezirke/lichtenberg/
 ---
 
 
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

@@ -1,12 +1,7 @@
 ---
-layout: page
+layout: map
 title: Treptow-Köpenick
 permalink: /bezirke/treptow-koepenick/
 ---
 
-
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

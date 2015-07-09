@@ -1,12 +1,9 @@
 ---
-layout: page
+layout: map
 title: Charlottenburg-Wilmersdorf
 permalink: /bezirke/charlottenburg-wilmersdorf/
 ---
 
+#{{ page.title }}
 
-Bezirke -- sdfd
-
-Liste
-
-Übersicht
+Check

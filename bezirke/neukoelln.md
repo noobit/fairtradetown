@@ -1,12 +1,7 @@
 ---
-layout: page
+layout: map
 title: Neukölln
 permalink: /bezirke/neukoelln/
 ---
 
-
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

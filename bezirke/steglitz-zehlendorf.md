@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: map
 title: Steglitz-Zehlendorf
 permalink: /bezirke/steglitz-zehlendorf/
 ---
 
 
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

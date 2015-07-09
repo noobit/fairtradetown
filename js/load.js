@@ -1,6 +1,5 @@
 var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
-console.log("HHH: ", path);
-path = '';
+path = '/';
 
 fallback.load({
       bootstrapcss: [
@@ -30,6 +29,9 @@ fallback.load({
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css',
         '/css/L.Control.Locate.css'
       ],
+      loadingcss: [
+        '/css/L.Control.Loading.css'
+      ],
       appc: path + "css/app.css", 
       popup:  path + "css/popup.css",
       jQuery: [
@@ -58,6 +60,9 @@ fallback.load({
         '//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js',
         '/js/list.min.js'
       ], 
+      'L.Control.Loading': [
+        '/js/L.Control.Loading.js'
+      ], 
       'L.MarkerClusterGroup': [
         '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js',
         '/js/leaflet.markercluster.js'
@@ -69,6 +74,9 @@ fallback.load({
       'PruneCluster': [
         path + "js/PruneCluster.js"
       ],
+      'jQuery.History.js': [
+        path + "js/jquery.history.js"
+      ],
       makimarkers: path + "js/leaflet.makimarkers.js",
       app: path + "js/app.js"  
   }, {
@@ -76,12 +84,14 @@ fallback.load({
       dependencies: {},
       shim: {
           'jQuery.fn.modal': ['jQuery'],
+          'jQuery.History.js': ['jQuery'],
           'L': ['jQuery'],
           'jQuery.fn.typeahead': ['jQuery'],
           'List': ['jQuery'],
           'L.MarkerClusterGroup': ['L'],
           'PruneCluster': ['L'],
           'L.Control.Locate': ['L'],
+          'L.Control.Loading': ['L'],
           makimarkers: ['L'],
           app: ['L.Control.Locate']
       },

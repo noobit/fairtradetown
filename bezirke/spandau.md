@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: map
 title: Spandau
 permalink: /bezirke/spandau/
 ---
 
 
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

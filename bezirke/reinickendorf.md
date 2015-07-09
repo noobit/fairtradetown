@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: map
 title: Reinickendorf
 permalink: /bezirke/reinickendorf/
 ---
 
 
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}

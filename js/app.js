@@ -2,6 +2,40 @@
 
 var map, featureList, markerSearch = [], ortsteileSearch = [], bezirkeSearch = [], plzSearch = [];
 
+jQuery(document).ready(function($) {
+    var siteUrl = 'http://'+(document.location.hostname||document.location.host);
+
+    // Make sure that all clicked links that link to your internal website
+    // don't just reload the page but execute a History.pushState call
+    $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
+        e.preventDefault();
+        History.pushState({}, "", this.pathname);
+    });
+
+    // Catch all History stateChange events
+    History.Adapter.bind(window, 'statechange', function(){
+        var State = History.getState();
+
+        // Load the new state's URL via an Ajax Call
+        $.get(State.url, function(data){
+            // Replace the "<title>" tag's content
+            document.title = $(data).find("title").text();
+
+            // Replace the content of the main container (.content)
+            // If you're using another div, you should change the selector
+            $('.content').html($(data).find('.content'));
+
+            // If you're using Google analytics, make sure the pageview is registered!
+            // ga('send', 'pageview', {
+            //     'page': State.url,
+            //     'title': document.title
+            // });
+        });
+    });
+});
+
+
+
 jQuery(document).on("click", ".feature-row", function(e) {
   jQuery(document).off("mouseout", ".feature-row", clearHighlight);
   sidebarClick(parseInt(jQuery(this).attr("id"), 10));
@@ -13,35 +47,6 @@ jQuery(document).on("mouseover", ".feature-row", function(e) {
 
 jQuery(document).on("mouseout", ".feature-row", clearHighlight);
 
-jQuery("#about-btn").click(function() {
-  jQuery("#aboutModal").modal("show");
-  jQuery(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-jQuery("#full-extent-btn").click(function() {
-  map.fitBounds(marker.getBounds(), {padding: [0, 150]});
-  jQuery(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-jQuery("#legend-btn").click(function() {
-  jQuery("#legendModal").modal("show");
-  jQuery(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-jQuery("#login-btn").click(function() {
-  jQuery("#loginModal").modal("show");
-  jQuery(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-jQuery("#list-btn").click(function() {
-  jQuery('#sidebar').toggle();
-  map.invalidateSize();
-  return false;
-});
 
 jQuery("#nav-btn").click(function() {
   jQuery(".navbar-collapse").collapse("toggle");
@@ -74,6 +79,21 @@ function sidebarClick(id) {
     map.invalidateSize();
   }
 }
+
+// Loading Handler Spin
+var loadingHandler = function (event) {
+    mapInstance.fireEvent('dataloading', event);
+};
+
+var loadHandler = function (event) {
+    mapInstance.fireEvent('dataload', event);
+};
+
+
+
+// layerInstanceBar.on('loading', loadingHandler);
+// layerInstanceBar.on('load', loadHandler);
+
 
 var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
 
@@ -368,16 +388,27 @@ function bindePopup(feature, layer) {
     layer.bindPopup(desc, {
       minWidth: 250,
       maxWidth: 400,
-      autoPanPaddingTopLeft: [10,120]
+      autoPanPaddingTopLeft: [60,100]
      // class: 
     }); 
   } 
 
 }
-jQuery.getJSON("data/marker.geojson", function (data) {
-  //marker.addData(data);
+
+var account_name = 'noobit';
+var sql_statement = 'SELECT * FROM Marker Map';
+
+$.getJSON('https://'+account_name+'.cartodb.com/api/v2/sql?format=GeoJSON&q='+sql_statement, function(data) {
   displayFeatures(data.features, layers, icons);
+    $.each(data.features, function(key, val) {
+      // console.log(val);
+  });
 });
+
+// jQuery.getJSON("/data/marker.geojson", function (data) {
+//   //marker.addData(data);
+//   displayFeatures(data.features, layers, icons);
+// });
 
 
 // ORTSTEILE:
@@ -460,7 +491,7 @@ var ortsteile = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON("data/ortsteile.geojson", function (data) {
+jQuery.getJSON("/data/ortsteile.geojson", function (data) {
   ortsteile.addData(data);
 });
 
@@ -513,7 +544,7 @@ var bezirke = L.geoJson(null, {
     })(layer, feature.properties);
   }
 });
-jQuery.getJSON("data/bezirke.geojson", function (data) {
+jQuery.getJSON("/data/bezirke.geojson", function (data) {
   bezirke.addData(data);
 });
 
@@ -585,7 +616,7 @@ var plz = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON("data/plz.geojson", function (data) {
+jQuery.getJSON("/data/plz.geojson", function (data) {
   plz.addData(data);
 });
 
@@ -596,23 +627,43 @@ jQuery.getJSON("data/plz.geojson", function (data) {
   zoomToBoundsOnClick: true,
   disableClusteringAtZoom: 16
 });*/ 
+               
+
 
 map = L.map("map", {
   layers: [mapquestTile],
-  attributionControl: true
+  attributionControl: true,
+  zoomControl: false
 });
 
 
 map.setView([52.505, 13.29], 13);
 map.addLayer(pruneCluster);
 
+markerLayer.on('loading', loadingHandler);
+markerLayer.on('load', loadHandler);
+
+
+// Add our zoom control manually where we want to
+  var zoomControl = L.control.zoom({
+      position: 'topright'
+  });
+  map.addControl(zoomControl);
+
+
+ // Add our loading control in the same position and pass the 
+  // zoom control to attach to it
+  var loadingControl = L.Control.loading({
+      position: 'topright',
+      zoomControl: zoomControl
+  });
+  map.addControl(loadingControl);
 
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
   if (e.layer === markerLayer) {
-    console.log('markerlayer');
     //markerClusters.addLayer(marker);
-    syncSidebar();
+    //syncSidebar();
   }
  /* if (e.layer === museumLayer) {
     markerClusters.addLayer(museums);
@@ -625,10 +676,10 @@ map.on("overlayremove", function(e) {
    // markerClusters.removeLayer(marker);
     syncSidebar();
   }
-  /*if (e.layer === museumLayer) {
+  if (e.layer === museumLayer) {
     markerClusters.removeLayer(museums);
     syncSidebar();
-  }*/
+  }
 });
 
 /* Filter sidebar feature list to only show features in current map bounds */
@@ -667,7 +718,7 @@ map.addControl(attributionControl);
 
 /* GPS enabled geolocation control set to follow the user's location */
 var locateControl = L.control.locate({
-  position: "topleft",
+  position: "topright",
   drawCircle: true,
   follow: true,
   setView: true,
@@ -707,8 +758,13 @@ if (document.body.clientWidth <= 767) {
 }
 
 var layerControl = L.control.layers(null, null, {
+  position: 'bottomleft',
   collapsed: isCollapsed
 });
+// var zoomControl = L.control.zoom({
+//   position: 'topright'
+// });
+var borderControl = L.control.layers(null, null);
 
 for (var icat in categories) {
   var layer = L.featureGroup();
@@ -732,14 +788,19 @@ for (var icat in categories) {
 
 
   // Add Choices
-  layerControl.addOverlay(bezirke, 'Grenzen Bezirke');
-  layerControl.addOverlay(ortsteile, 'Grenzen Ortsteile');
-  layerControl.addOverlay(plz, 'Grenzen PLZ');
+  borderControl.addOverlay(bezirke, 'Grenzen Bezirke');
+  borderControl.addOverlay(ortsteile, 'Grenzen Ortsteile');
+  borderControl.addOverlay(plz, 'Grenzen PLZ');
 
 
 
+
+  //zoomControl.addTo(map);
 
   layerControl.addTo(map);
+  borderControl.addTo(map);
+
+
   var icons = setupIcons();
 
   /* Highlight search box text on click */
@@ -837,7 +898,6 @@ jQuery(document).one("ajaxStop", function () {
   ortsteileBH.initialize();
   bezirkeBH.initialize();
   plzBH.initialize();
-
   geonamesBH.initialize();
 
 

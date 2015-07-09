@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: map
 title: Marzahn-Hellersdorf
 permalink: /bezirke/marzahn-hellersdorf/
 ---
 
 
-#{{title}}
-
-Liste
-
-Übersicht
+#{{ page.title }}
