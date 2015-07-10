@@ -1,4 +1,7 @@
-var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown/' : '/';
+---
+---
+
+var path = window.location.host.indexOf('noobit') > -1 ? '/fairtradetown/' : '/';
 //path = '/';
 
 fallback.load({
