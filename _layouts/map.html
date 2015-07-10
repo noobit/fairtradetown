@@ -22,32 +22,32 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="/darum-geht-es"><i class="fa fa-university"></i>&nbsp;&nbsp;Darum geht es</a></li>
-        <li><a href="/fairer-handel-wirkt"><i class="fa fa-thumbs-up "></i>&nbsp;&nbsp;Fairer Handel wirkt</a></li>
-        <li><a href="/jeder-kann-etwas-tun"><i class="fa fa-user-plus "></i>&nbsp;&nbsp;Jeder kann etwas tun</a></li>
-        <li><a href="/machen-sie-mit"><i class="fa fa-check"></i>&nbsp;&nbsp;Machen Sie mit</a></li>
+        <li><a href="{{ "/fairer-handel-wirkt" | prepend: site.baseurl }}""><i class="fa fa-thumbs-up "></i>&nbsp;&nbsp;Fairer Handel wirkt</a></li>
+        <li><a href="{{ "/jeder-kann-etwas-tun" | prepend: site.baseurl }}""><i class="fa fa-user-plus "></i>&nbsp;&nbsp;Jeder kann etwas tun</a></li>
+        <li><a href="{{ "/machen-sie-mit" | prepend: site.baseurl }}"><i class="fa fa-check"></i>&nbsp;&nbsp;Machen Sie mit</a></li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-square-o"></i>&nbsp;&nbsp;Bezirke <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/bezirke/mitte">Mitte</a></li>
-              <li><a href="/bezirke/friedrichshain-kreuzberg">Friedrichshain-Kreuzberg</a></li>
-              <li><a href="/bezirke/pankow">Pankow</a></li>
-              <li><a href="/bezirke/charlottenburg-wilmersdorf">Charlottenburg-Wilmersdorf</a></li>
-              <li><a href="/bezirke/spandau">Spandau</a></li>
-              <li><a href="/bezirke/steglitz-zehlendorf">Steglitz-Zehlendorf</a></li>
-              <li><a href="/bezirke/tempelhof-schoeneberg">Tempelhof-Schöneberg</a></li>
-              <li><a href="/bezirke/neukoelln">Neukölln</a></li>
-              <li><a href="/bezirke/treptow-koepenick">Treptow-Köpenick</a></li>
-              <li><a href="/bezirke/marzahn-hellersdorf">Marzahn-Hellersdorf</a></li>
-              <li><a href="/bezirke/lichtenberg">Lichtenberg</a></li>
-              <li><a href="/bezirke/reinickendorf">Reinickendorf</a></li>
+            <li><a href="{{ "/bezirke/mitte" | prepend: site.baseurl }}">Mitte</a></li>
+            <li><a href="{{ "/bezirke/friedrichshain-kreuzberg" | prepend: site.baseurl }}">Friedrichshain-Kreuzberg</a></li>
+            <li><a href="{{ "/bezirke/pankow" | prepend: site.baseurl }}">Pankow</a></li>
+            <li><a href="{{ "/bezirke/charlottenburg-wilmersdorf" | prepend: site.baseurl }}">Charlottenburg-Wilmersdorf</a></li>
+            <li><a href="{{ "/bezirke/spandau" | prepend: site.baseurl }}">Spandau</a></li>
+            <li><a href="{{ "/bezirke/steglitz-zehlendorf" | prepend: site.baseurl }}">Steglitz-Zehlendorf</a></li>
+            <li><a href="{{ "/bezirke/tempelhof-schoeneberg" | prepend: site.baseurl }}">Tempelhof-Schöneberg</a></li>
+            <li><a href="{{ "/bezirke/neukoelln" | prepend: site.baseurl }}">Neukölln</a></li>
+            <li><a href="{{ "/bezirke/treptow-koepenick" | prepend: site.baseurl }}">Treptow-Köpenick</a></li>
+            <li><a href="{{ "/bezirke/marzahn-hellersdorf" | prepend: site.baseurl }}">Marzahn-Hellersdorf</a></li>
+            <li><a href="{{ "/bezirke/lichtenberg" | prepend: site.baseurl }}">Lichtenberg</a></li>
+            <li><a href="{{ "/bezirke/reinickendorf" | prepend: site.baseurl }}">Reinickendorf</a></li>
           </ul>
         </li>
       </ul>
       
       <footer class="small">	    	
        <div class="text-center">
-      		<a href="/impressum">Impressum</a> | <a href="/datenschutz">Datenschutz</a>
+      		<a href="{{ "/impressum" | prepend: site.baseurl }}">Impressum</a> | <a href="{{ "/datenschutz" | prepend: site.baseurl }}">Datenschutz</a>
       	</div>
       </footer>
     </div><!-- /.navbar-collapse -->
