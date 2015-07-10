@@ -269,72 +269,37 @@ var markerLayer = L.geoJson(null);
 
 function displayFeatures(features, layers, icons) {
   var popup = L.DomUtil.create('div', 'tiny-popup', map.getContainer());
-  var symbol;
   for (var id in features) {
     var feat = features[id];
-    //var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
-    switch (feat.properties.kategorie1) {
-      case "Supermarktkette":
-        symbol = "grocery";
-        cat  = "Supermarkt- & Gastronomieketten" ;
-        break;
-      case "Discounter":
-        symbol = "grocery";
-        cat  = "Supermarkt- & Gastronomieketten" ;
-        break;
-      case "Restaurantkette":
-        symbol = "restaurant";
-        cat  = "Supermarkt- & Gastronomieketten" ;
-        break;
-      case "Cafékette":
-        symbol = "cafe";
-        cat  = "Supermarkt- & Gastronomieketten" ;
-        break;
-      case "Bioladen":
-        symbol = "shop";
-        cat  = "Bioläden & -ketten";
-        break;
-      case "Biomarkt":
-        symbol = "grocery";
-        cat  = "Bioläden & -ketten";
-        break;
-      case "Blumengeschäft":
-        symbol = "garden";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      case "Textilgeschäft":
-        symbol = "clothing-store";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      case "Weltladen":
-        symbol = "heart";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      case "Café":
-        symbol = "cafe";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      case "Restaurant":
-        symbol = "restaurant";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      case "Spielwarengeschäft":
-        symbol = "soccer";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
-        break;
-      default:
-        symbol = "circle";
-        cat  = "nicht kategorisiert";
+    var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
+    if (feat.properties.kategorie1 == "Supermarktkette" || 
+        feat.properties.kategorie1 == "Discounter" || 
+        feat.properties.kategorie1 == "Restaurantkette" || 
+        feat.properties.kategorie1 == "Cafékette") {
+      cat = "Supermarkt- & Gastronomieketten" ;
     }
-
-
+    else if (feat.properties.kategorie1 == "Bioladen" ||
+             feat.properties.kategorie1 == "Biomarkt ")  {
+      cat = "Bioläden & -ketten";
+    }
+    if (feat.properties.kategorie1 == "Blumengeschäft" || 
+        feat.properties.kategorie1 == "Textilgeschäft" || 
+        feat.properties.kategorie1 == "Weltladen" || 
+        feat.properties.kategorie1 == "Café" ||
+        feat.properties.kategorie1 == "Restaurant" ||
+        feat.properties.kategorie1 == "Spielwarengeschäft") {      
+      cat = "Weltläden, Cafés & Einzelgeschäfte";
+    }
+    else {
+      cat = "nicht kategorisiert";
+    }
     var layer = layers[cat];
     var cati = categories[cat];
     marker = L.geoJson(feat, {
       pointToLayer: function(feature, latLng) {         
         //var icon = icons[cat]; 
         var icon = new L.MakiMarkers.icon({
-          icon: symbol ? symbol : 'circle-stroked',
+          icon: feature.properties.kategorie2 ? feature.properties.kategorie2 : 'circle-stroked',
           color: '#' + categories[cat].color, 
           size: "m"
         });
