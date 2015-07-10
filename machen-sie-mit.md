@@ -4,9 +4,6 @@ title: Machen Sie mit!
 permalink: /machen-sie-mit/
 ---
 
-
-#{{ page.title }}
-
 Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das Engagement für den Fairen Handel aufrechtzuerhalten und weiterzuentwickeln.
 
 **Wenn Sie sich daran beteiligen möchten, ist Ihre Mithilfe sehr willkommen!**

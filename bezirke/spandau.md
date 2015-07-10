@@ -4,5 +4,3 @@ title: Spandau
 permalink: /bezirke/spandau/
 ---
 
-
-#{{ page.title }}

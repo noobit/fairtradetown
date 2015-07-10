@@ -4,5 +4,3 @@ title: Friedrichshain-Kreuzberg
 permalink: /bezirke/friedrichshain-kreuzberg/
 ---
 
-
-#{{ page.title }}

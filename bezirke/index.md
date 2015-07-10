@@ -4,9 +4,6 @@ title: Bezirke
 permalink: /bezirke/
 ---
 
-#{{ page.title }}
-
-
 <div class="sidebar-table">
   <table class="table table-hover" id="feature-list">
     <thead class="hidden">

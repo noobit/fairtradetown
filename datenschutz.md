@@ -4,8 +4,6 @@ title: Datenschutz
 permalink: /datenschutz/
 ---
 
-#{{ page.title }}
-
 ## Datenschutzerklärung
 
 

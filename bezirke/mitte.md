@@ -5,8 +5,6 @@ permalink: /bezirke/mitte/
 ---
 
 
-#{{ page.title }}
-
 ## Über
 ![Team](/images/team.jpg)
 

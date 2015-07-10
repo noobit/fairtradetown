@@ -5,11 +5,6 @@ permalink: /bezirke/tempelhof-schoeneberg/
 ---
 
 
-
-#{{ page.title }}
-
-
-
 ## Kontakt
 Netzwerk Faires Berlin
 

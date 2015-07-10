@@ -53,15 +53,16 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>  
-<main class="col-lg-4 col-md-5">
+<main id="main" class="col-lg-4 col-md-5">
 	<div class="content">
+	  <h1>{{ page.title }}<i class="pull-right fa fa-times-circle"></i></h1>
   	{{ content }} 
   </div>
 </main>
 
 
 	<div id="map" class="col-lg-6 col-md-6">
-	  <div class="leaflet-top leaflet-left  leaflet-custom col-lg-8	">
+	  <div class="leaflet-top leaflet-left leaflet-custom">
 	    <form class="has-feedback ">
 	      <input id="searchbox" type="text" placeholder="Suche, z.B. Weltladen oder Charlottenburg" class="form-control">
 	      <span id="searchicon" class="fa fa-search form-control-feedback"></span>

@@ -8,8 +8,6 @@ permalink: /
 <!-- PLZ: http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_postleit?
 REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
 
-#{{ page.title }}
-
 
 ## Das faire Angebot wächst
 Darüber hinaus gibt es in Weltläden fair gehandelte Produkte, die nicht das Fairtrade-Siegel tragen, aber von Mitgliedsorganisationen der WFTO (World Fair Trade Organisation) vertrieben werden und somit ebenfalls faire Standards erfüllen.

@@ -5,4 +5,3 @@ permalink: /bezirke/reinickendorf/
 ---
 
 
-#{{ page.title }}

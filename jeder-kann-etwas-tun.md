@@ -4,7 +4,6 @@ title: Jeder kann etwas tun
 permalink: /jeder-kann-etwas-tun/
 ---
 
-#{{ page.title }}
 
 In vielen Städten und Gemeinden in Deutschland engagieren sich zunehmend mehr Menschen und Institutionen für den Fairen Handel:
 

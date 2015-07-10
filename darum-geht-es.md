@@ -4,8 +4,6 @@ title: Darum geht es
 permalink: /darum-geht-es/
 ---
 
-#{{ page.title }}
-
 Wenn eine Stadt oder ein Bezirk Aktivitäten zum fairen Handel in einem bestimmten Umfang nachweist, kann der Titel Fairtrade-Town oder -Bezirk verliehen werden.
 
 Nähere Informationen zu dieser Kampagne erhalten Sie unter [www.fairtrade-towns.de](http://www.fairtrade-towns.de){:target="_blank"}.

@@ -16,7 +16,11 @@
 #map {
   height:100vH;
 }
-
+.fa-times-circle {
+  line-height: 58px;
+  margin-right: 15px;
+  cursor:pointer;
+}
 main h1 {
   background-color: rgb(4, 177, 221);
   color: #fff;
@@ -24,6 +28,7 @@ main h1 {
   margin:25px -15px 10px -15px;
   padding-left: 15px;
 }
+
 main h2 {
   display: inline-block;
   margin: 25px -15px 10px -15px;
@@ -33,8 +38,9 @@ main h2 {
 
 .leaflet-custom {
   pointer-events: auto;
+  width:400px;
   margin-top:25px;
-  padding-top:10px;
+  padding: 10px 15px;
   height:58px;
   background: rgb(206, 212, 30);
 }

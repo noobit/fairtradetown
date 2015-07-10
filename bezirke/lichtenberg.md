@@ -4,5 +4,3 @@ title: Lichtenberg
 permalink: /bezirke/lichtenberg/
 ---
 
-
-#{{ page.title }}

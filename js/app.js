@@ -8,7 +8,11 @@ jQuery(document).ready(function($) {
     // Make sure that all clicked links that link to your internal website
     // don't just reload the page but execute a History.pushState call
     $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
+        jQuery("#main").animate({left: 'show'});
+        jQuery("#map").addClass("col-lg-6");
+        jQuery("#map").removeClass("col-lg-10");
         e.preventDefault();
+        
         History.pushState({}, "", this.pathname);
     });
 
@@ -23,7 +27,7 @@ jQuery(document).ready(function($) {
 
             // Replace the content of the main container (.content)
             // If you're using another div, you should change the selector
-            $('.content').html($(data).find('.content'));
+            $('#main').html($(data).find('.content'));
 
             // If you're using Google analytics, make sure the pageview is registered!
             // ga('send', 'pageview', {
@@ -43,6 +47,14 @@ jQuery(document).on("click", ".feature-row", function(e) {
 
 jQuery(document).on("mouseover", ".feature-row", function(e) {
   highlight.clearLayers().addLayer(L.circleMarker([jQuery(this).attr("lat"), jQuery(this).attr("lng")], highlightStyle));
+});
+
+jQuery(document).on("click", ".fa-times-circle", function(e) {
+  jQuery("#main").hide(); //collapse("toggle");
+  jQuery("#map").addClass("col-lg-10");
+  jQuery("#map").removeClass("col-lg-6");
+  map.invalidateSize();
+  return false;
 });
 
 jQuery(document).on("mouseout", ".feature-row", clearHighlight);
@@ -163,8 +175,8 @@ var pruneCluster = new PruneClusterForLeaflet();
 
 
 var categories = {
-  'Bioläden & -ketten' : {desc: "Bioläden & -ketten", icon: "shop", color: "CED41E", category: 0},
   'Weltläden, Cafés & Einzelgeschäfte' : {desc: "Weltläden, Cafés & Einzelgeschäfte", icon: "grocery", color: "00B4DF", category: 1},
+  'Bioläden & -ketten' : {desc: "Bioläden & -ketten", icon: "shop", color: "CED41E", category: 0},
   'Supermarkt- & Gastronomieketten' : {desc: "Supermarkt- & Gastronomieketten", icon: "cafe", color: "FFFFFF", category: 2},
   'nicht kategorisiert' : {desc: "nicht kategorisiert", icon: "square", color: "FFFFFF", opacity: 0.8, category: 4}
 };

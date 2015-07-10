@@ -4,8 +4,6 @@ title: Impressum
 permalink: /impressum/
 ---
 
-#{{ page.title }}
-
 
 ## Angaben gemäß § 5 TMG
 Volkmar Lübke
