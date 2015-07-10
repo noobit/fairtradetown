@@ -12,7 +12,7 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
 ## Das faire Angebot wächst
 Darüber hinaus gibt es in Weltläden fair gehandelte Produkte, die nicht das Fairtrade-Siegel tragen, aber von Mitgliedsorganisationen der WFTO (World Fair Trade Organisation) vertrieben werden und somit ebenfalls faire Standards erfüllen.
 
-![Fair](/images/wir-handeln-fair.jpg)
+![Fair](images/wir-handeln-fair.jpg)
 
 Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das Engagement für den Fairen Handel aufrechtzuerhalten und weiterzuentwickeln.
 
