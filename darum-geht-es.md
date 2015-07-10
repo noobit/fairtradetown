@@ -12,4 +12,4 @@ Die Bezirksverordnetenversammlung Tempelhof- Schöneberg fasste im November 2014
 
 Eine bezirkliche Steuerungsgruppe koordiniert alle Aktivitäten auf dem Weg zum Fairtrade-Bezirk. Sie besteht aus Vertreter/innen der Bereiche Zivilgesellschaft, Politik und Wirtschaft. Die Gruppe entwickelt Ideen für eine zielgruppenspezifische Öfffentlichkeitsarbeit. Ziel ist es, möglichst viele Partner im Bezirk zu gewinnen, die dann selbst aktiv werden.
 
-![Gruppenfoto](images/gruppenfoto.jpg)
+![Gruppenfoto](/images/gruppenfoto.jpg)

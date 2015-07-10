@@ -10,5 +10,5 @@ Der Faire Handel setzt sich für eine Verbesserung der wirtschaftlichen, soziale
 
 Demokratische Entscheidungsstrukturen, die Vermeidung von Kinderarbeit und die Förderung des biologischen Anbaus sind weitere wichtige Prinzipien, deren Einhaltung unabhängig überprüft wird.
 
-![Trinkwasserbrunnen](images/fairer-handel-wirkt.jpg)
+![Trinkwasserbrunnen](/images/fairer-handel-wirkt.jpg)
 _Kasinthula Cane Growers Association in Malawi: Die Gemeinde nutzt einen Trinkwasserbrunnen, der mit Hilfe der Fairtrade- Prämie angelegt wurde._

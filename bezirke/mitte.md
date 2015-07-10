@@ -6,7 +6,7 @@ permalink: /bezirke/mitte/
 
 
 ## Über
-![Team](images/team.jpg)
+![Team](/images/team.jpg)
 
 ## Kriterien
 1. Ratsbeschluss

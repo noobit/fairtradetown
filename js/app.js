@@ -4,7 +4,7 @@ var path = window.location.host.indexOf('noobit') > -1 ? '/fairtradetown' : '';
 var map, featureList, markerSearch = [], ortsteileSearch = [], bezirkeSearch = [], plzSearch = [];
 
 jQuery(document).ready(function($) {
-    var siteUrl = 'http://'+(document.location.hostname||document.location.host);
+    var siteUrl = 'http://'+(document.location.hostname||document.location.host)+'path';
 
     // Make sure that all clicked links that link to your internal website
     // don't just reload the page but execute a History.pushState call
