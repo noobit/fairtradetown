@@ -1,5 +1,5 @@
 /* PLZ: http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_postleit?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0 */
-var path = window.location.host.indexOf('noobit') > -1 ? '/fairtradetown/' : './';
+var path = window.location.host.indexOf('noobit') > -1 ? '/fairtradetown' : '';
 
 var map, featureList, markerSearch = [], ortsteileSearch = [], bezirkeSearch = [], plzSearch = [];
 
@@ -106,7 +106,7 @@ var loadHandler = function (event) {
 // layerInstanceBar.on('load', loadHandler);
 
 
-var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
+//var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
 
 function syncSidebar() {
   /* Empty sidebar features */
@@ -546,7 +546,7 @@ var ortsteile = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON(path + "data/ortsteile.geojson", function (data) {
+jQuery.getJSON(path + "/data/ortsteile.geojson", function (data) {
   ortsteile.addData(data);
 });
 
@@ -599,7 +599,7 @@ var bezirke = L.geoJson(null, {
     })(layer, feature.properties);
   }
 });
-jQuery.getJSON(path + "data/bezirke.geojson", function (data) {
+jQuery.getJSON(path + "/data/bezirke.geojson", function (data) {
   bezirke.addData(data);
 });
 
@@ -671,7 +671,7 @@ var plz = L.geoJson(null, {
   
   }
 });
-jQuery.getJSON(path + "data/plz.geojson", function (data) {
+jQuery.getJSON(path + "/data/plz.geojson", function (data) {
   plz.addData(data);
 });
 
@@ -1009,13 +1009,16 @@ jQuery(document).one("ajaxStop", function () {
      map.setView([datum.lat, datum.lng], 14);
    }
     if (datum.source === "Marker") {
+
       if (!map.hasLayer(markerLayer)) {
         map.addLayer(markerLayer);
       }
       map.setView([datum.lat, datum.lng], 16);
+      console.log(datum);
+      datum.openPopup();
       if (map._layers[datum.id]) {
         map._layers[datum.id].fire("click");
-        //datum.openPopup();
+        
       }
     }
     if (datum.source === "GeoNames") {
