@@ -63,6 +63,7 @@ footer {
   padding-bottom:15px;
 }
 .navbar-brand {
+  float:none;
   height:initial;
   padding:25px 0;
 }

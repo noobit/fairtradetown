@@ -426,7 +426,7 @@ function bindePopup(feature, layer) {
     desc +=   (props.email      ? "<i class='fa fa-envelope-o fa-fw'></i>&nbsp;<a href='mailto:" + props.email + "'>" + props.email + "</a><br />" : "" );
     desc +=   (props.homepage   ? "<i class='fa fa-external-link fa-fw'></i>&nbsp;<a href='http://" + props.homepage + "' target=_blank>" + props.homepage + "</a><br />" : "" );
     desc +=   (props.kategorie1 ? "<i class='fa fa-th-list fa-fw'></i>&nbsp;" + props.kategorie1 : "" ); 
-    desc +=   (props.kategorie2 ? "&nbsp;/&nbsp;" + props.kategorie2 : "");
+    // desc +=   (props.kategorie2 ? "&nbsp;/&nbsp;" + props.kategorie2 : "");
     desc += "</div>"
     desc += "<div id='oeffnungszeiten'>";
     desc +=   (props.oeffnungszeiten ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
