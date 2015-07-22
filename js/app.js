@@ -1,6 +1,6 @@
 /* PLZ: http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_postleit?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0 */
 var path = window.location.host.indexOf('noobit') > -1 ? '/fairtradetown' : '';
-
+var color1 = 'fff';
 var map, featureList, markerSearch = [], ortsteileSearch = [], bezirkeSearch = [], plzSearch = [];
 
 jQuery(document).ready(function($) {
@@ -176,7 +176,7 @@ var marker = L.featureGroup;
 var categories = {
   'Weltläden, Cafés & Einzelgeschäfte' : {desc: "Weltläden, Cafés & Einzelgeschäfte", icon: "marker", color: "00B4DF", category: 0},
   'Bioläden & -ketten' : {desc: "Bioläden & -ketten", icon: "marker", color: "CED41E", category: 1},
-  'Supermarkt- & Gastronomieketten' : {desc: "Supermarkt- & Gastronomieketten", icon: "marker", color: "FFFFFF", category: 2},
+  'Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)' : {desc: "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)", icon: "marker", color: "FFFFFF", category: 2},
   'nicht kategorisiert' : {desc: "nicht kategorisiert", icon: "marker", color: "FFFFFF", opacity: 0.8, category: 4}
 };
 
@@ -271,25 +271,42 @@ var markerLayer = L.geoJson(null);
 function displayFeatures(features, layers, icons) {
   var popup = L.DomUtil.create('div', 'tiny-popup', map.getContainer());
   var symbol;
+
   for (var id in features) {
     var feat = features[id];
     //var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
     switch (feat.properties.kategorie1) {
-      case "Supermarktkette":
+      case "Supermarkt":
         symbol = "grocery";
-        cat  = "Supermarkt- & Gastronomieketten" ;
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
         break;
       case "Discounter":
         symbol = "grocery";
-        cat  = "Supermarkt- & Gastronomieketten" ;
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
+        break;
+      case "Drogeriemarkt":
+        symbol = "grocery";
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
+        break;
+      case "Warenhaus":
+        symbol = "grocery";
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
         break;
       case "Restaurantkette":
         symbol = "restaurant";
-        cat  = "Supermarkt- & Gastronomieketten" ;
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
         break;
-      case "Cafékette":
+      case "Bäckerei- / Cafékette":
         symbol = "cafe";
-        cat  = "Supermarkt- & Gastronomieketten" ;
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
+        break;
+      case "Textilkette":
+        symbol = "clothing-store";
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
+        break;
+      case "Blumenfilialist":
+        symbol = "garden";
+        cat  = "Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)" ;
         break;
       case "Bioladen":
         symbol = "shop";
@@ -299,20 +316,24 @@ function displayFeatures(features, layers, icons) {
         symbol = "grocery";
         cat  = "Bioläden & -ketten";
         break;
-      case "Blumengeschäft":
-        symbol = "garden";
-        cat  = "Weltläden, Cafés & Einzelgeschäfte";
+      case "Reformhaus":
+        symbol = "shop";
+        cat  = "Bioläden & -ketten";
         break;
       case "Textilgeschäft":
         symbol = "clothing-store";
         cat  = "Weltläden, Cafés & Einzelgeschäfte";
         break;
       case "Weltladen":
-        symbol = "heart";
+        symbol = "shop";
         cat  = "Weltläden, Cafés & Einzelgeschäfte";
         break;
-      case "Café":
+      case "Bäckerie / Café":
         symbol = "cafe";
+        cat  = "Weltläden, Cafés & Einzelgeschäfte";
+        break;
+      case "Blumengeschäft":
+        symbol = "garden";
         cat  = "Weltläden, Cafés & Einzelgeschäfte";
         break;
       case "Restaurant":
@@ -328,6 +349,7 @@ function displayFeatures(features, layers, icons) {
         cat  = "nicht kategorisiert";
     }
 
+    color1 = categories[cat].color;
 
     var layer = layers[cat];
     var cati = categories[cat];
@@ -396,24 +418,25 @@ function displayFeatures(features, layers, icons) {
  
 
 function bindePopup(feature, layer) {
+
   /* feature.layer = layer; */  
   var props = feature.properties;
-  var color =  "fff"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
-    if (props.kategorie1.indexOf("Super") != -1 || props.kategorie1.indexOf("kette") != -1) {
-      color = categories["Supermarkt- & Gastronomieketten"].color ;
-    }
-    else if (props.kategorie1.indexOf("Bio") != -1) {
-      color = categories["Bioläden & -ketten"].color;
-    }
-    else if (props.kategorie1.indexOf("Welt") != -1 || props.kategorie1.indexOf("Einzel") != -1 || props.kategorie1.indexOf("Café") != -1) {
-      color = categories["Weltläden, Cafés & Einzelgeschäfte"].color;
-    }
-    else {
-      color = ["nicht kategorisiert"].color;
-    }
+  // var color =  "fff"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
+  //   if (props.kategorie1.indexOf("Super") != -1 || props.kategorie1.indexOf("kette") != -1) {
+  //     color = categories["Sonstige Ketten (Supermärkte, Drogeriemärkte, Gastrononmieketten, usw.)"].color ;
+  //   }
+  //   else if (props.kategorie1.indexOf("Bio") != -1) {
+  //     color = categories["Bioläden & -ketten"].color;
+  //   }
+  //   else if (props.kategorie1.indexOf("Welt") != -1 || props.kategorie1.indexOf("Einzel") != -1 || props.kategorie1.indexOf("Café") != -1) {
+  //     color = categories["Weltläden, Cafés & Einzelgeschäfte"].color;
+  //   }
+  //   else {
+  //     color = ["nicht kategorisiert"].color;
+  //   }
   if (props) {
     var desc = '<span id="feature-popup">';
-    desc += "<h2 style='padding:20px;margin-left:-20px; margin-right:-20px; background-color:#" + color + "'>" + props.name + "</h2>";
+    desc += "<h2 style='padding:20px;margin-left:-20px; margin-right:-20px; background-color:#" + color1 + "'>" + props.name + "</h2>";
     desc += (props.beschreibung ? "<p>" + props.beschreibung + "</p>" : "");
     desc += "<div id='address'>",
     desc +=     "<i class='fa fa-map-marker fa-fw'></i>&nbsp;" + props.strasse + "<br />";
