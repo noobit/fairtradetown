@@ -328,8 +328,12 @@ function displayFeatures(features, layers, icons) {
         symbol = "shop";
         cat  = "Weltläden, Cafés & Einzelgeschäfte";
         break;
-      case "Bäckerie / Café":
+      case "Bäckerei / Café":
         symbol = "cafe";
+        cat  = "Weltläden, Cafés & Einzelgeschäfte";
+        break;
+      case "Einzelgeschäft":
+        symbol = "warehouse";
         cat  = "Weltläden, Cafés & Einzelgeschäfte";
         break;
       case "Blumengeschäft":
@@ -448,11 +452,11 @@ function bindePopup(feature, layer) {
     desc +=   (props.telefax    ? "<i class='fa fa-fax fa-fw'></i>&nbsp;" + props.telefax + "<br />" : "" );
     desc +=   (props.email      ? "<i class='fa fa-envelope-o fa-fw'></i>&nbsp;<a href='mailto:" + props.email + "'>" + props.email + "</a><br />" : "" );
     desc +=   (props.homepage   ? "<i class='fa fa-external-link fa-fw'></i>&nbsp;<a href='http://" + props.homepage + "' target=_blank>" + props.homepage + "</a><br />" : "" );
-    desc +=   (props.kategorie1 ? "<i class='fa fa-th-list fa-fw'></i>&nbsp;" + props.kategorie1 : "" ); 
+    // desc +=   (props.kategorie1 ? "<i class='fa fa-th-list fa-fw'></i>&nbsp;" + props.kategorie1 : "" ); 
     // desc +=   (props.kategorie2 ? "&nbsp;/&nbsp;" + props.kategorie2 : "");
     desc += "</div>"
     desc += "<div id='oeffnungszeiten'>";
-    desc +=   (props.oeffnungszeiten ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
+    desc +=   (props.oeffnungszeiten != '0' ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
     desc += "</div>";
     desc += (props.logo ? "<img src='/images/logos/" + props.logo + "' alt='logo' />" : "" );
     desc += "<div id='socialweb'>";
@@ -845,15 +849,19 @@ var layerControl = L.control.layers(null, null, {
 var borderControl = L.control.layers(null, null);
 
 for (var icat in categories) {
-  var layer = L.featureGroup();
-  layers[icat] = layer;
-  cultureLayer.addLayer(layer);
- 
-  var cat = categories[icat];
-      ico = "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cat.icon + "+" + cat.color + "@2x.png";
-     desc = "<img class='layer-control-img' src='" + ico + "' />"  +  cat.desc;
-    layerControl.addOverlay(layer, desc);
-  }
+  
+    var layer = L.featureGroup();
+    layers[icat] = layer;
+    cultureLayer.addLayer(layer);
+   
+    if (icat != 'nicht kategorisiert') {
+      var cat = categories[icat];
+        ico = "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cat.icon + "+" + cat.color + "@2x.png";
+       desc = "<img class='layer-control-img' src='" + ico + "' />"  +  cat.desc;
+      layerControl.addOverlay(layer, desc);
+    }
+    }
+  
   cultureLayer.addTo(map);
 
   // Add Base Tiles
