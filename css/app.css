@@ -38,7 +38,7 @@ main h2 {
 
 .leaflet-custom {
   pointer-events: auto;
-  width:400px;
+  position: absolute;
   margin-top:25px;
   padding: 10px 15px;
   height:58px;
@@ -49,6 +49,10 @@ main {
   overflow-x:scroll;
   border-right: 1px solid #e7e7e7;
   border-left: 1px solid #e7e7e7;
+  position: absolute !important; 
+  left: 16.666667%; 
+  background: rgba(255,255,255,.9);
+  z-index: 1001;
 }
 
 main ul {
@@ -164,14 +168,14 @@ border:none;
   background-color: #FFFFFF;
 }
 .tt-dropdown-menu {
-  background-color: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255,255,255,.9);
+  /*border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px 4px 4px 4px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
+  margin-top: 8px;
   padding: 4px 0;
   width: 100%;
-  max-height: 300px;
+  max-height: 80vH;
   overflow: auto;
 }
 .tt-suggestion {

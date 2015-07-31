@@ -9,9 +9,12 @@ jQuery(document).ready(function($) {
     // Make sure that all clicked links that link to your internal website
     // don't just reload the page but execute a History.pushState call
     $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
-        jQuery("#main").animate({left: 'show'});
-        jQuery("#map").addClass("col-lg-6");
-        jQuery("#map").removeClass("col-lg-10");
+        jQuery("#main").show(); //animate({left: 'show'});
+        // jQuery("#map").addClass("col-lg-6");
+        // jQuery("#map").removeClass("col-lg-10");
+        jQuery("#search").removeClass("col-lg-offset-2");
+        jQuery("#search").addClass("col-lg-offset-6");
+
         e.preventDefault();
         
         History.pushState({}, "", this.pathname);
@@ -52,9 +55,11 @@ jQuery(document).on("mouseover", ".feature-row", function(e) {
 
 jQuery(document).on("click", ".fa-times-circle", function(e) {
   jQuery("#main").hide(); //collapse("toggle");
-  jQuery("#map").addClass("col-lg-10");
-  jQuery("#map").removeClass("col-lg-6");
-  map.invalidateSize();
+  // jQuery("#map").addClass("col-lg-10");
+  // jQuery("#map").removeClass("col-lg-6");
+  jQuery("#search").addClass("col-lg-offset-2");
+  jQuery("#search").removeClass("col-lg-offset-6");
+  //map.invalidateSize();
   return false;
 });
 
@@ -396,7 +401,6 @@ function displayFeatures(features, layers, icons) {
         }*/
        // pruneCluster.RegisterMarker(markerPrune);
        // pruneCluster.ProcessView();
-
         return marker;
       },
       onEachFeature: bindePopup
@@ -406,17 +410,16 @@ function displayFeatures(features, layers, icons) {
       markerSearch.push({
         name: feat.properties.name,
         address: feat.properties.strasse,
-
+        marker: marker, 
         icon: "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cati.icon + "+" + cati.color + ".png",
         source: "Marker",
-        id: L.stamp(layer),
+        id: feat.properties.id, //L.stamp(layer),
         lat: feat.geometry.coordinates[1],
         lng: feat.geometry.coordinates[0]
       });
     }  
   }
-  map.fitBounds(layer.getBounds(), {padding: [0, 150]});
-
+  map.fitBounds(layer.getBounds(), {padding: [10, 10]});
   return layers;
 }
  
@@ -470,7 +473,7 @@ function bindePopup(feature, layer) {
     layer.bindPopup(desc, {
       minWidth: 250,
       maxWidth: 400,
-      autoPanPaddingTopLeft: [60,100]
+      autoPanPaddingTopLeft: [10,90]
      // class: 
     }); 
   } 
@@ -611,7 +614,9 @@ var bezirke = L.geoJson(null, {
           opacity: 0.6,
           fillOpacity: 0.65,
           fillColor: '#226434'
-        });        
+        });
+        jQuery("#bezirk").text(properties.spatial_alias); 
+       
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
@@ -683,6 +688,7 @@ var plz = L.geoJson(null, {
             css: { fontSize: "16px", marginBottom: "3px" }
         }).appendTo(popup);
         popup.appendTo("#map");*/
+        
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
@@ -759,7 +765,7 @@ map.on("overlayremove", function(e) {
     syncSidebar();
   }
   if (e.layer === museumLayer) {
-    markerClusters.removeLayer(museums);
+    // markerLayerClusters.removeLayer(museums);
     syncSidebar();
   }
 });
@@ -840,13 +846,15 @@ if (document.body.clientWidth <= 767) {
 }
 
 var layerControl = L.control.layers(null, null, {
-  position: 'bottomleft',
+  position: 'bottomright',
   collapsed: isCollapsed
 });
 // var zoomControl = L.control.zoom({
 //   position: 'topright'
 // });
-var borderControl = L.control.layers(null, null);
+var borderControl = L.control.layers(null, null, {
+  position: 'topright',
+  collapsed: 'true' });
 
 for (var icat in categories) {
   
@@ -874,9 +882,9 @@ for (var icat in categories) {
 
 
   // Add Choices
-  borderControl.addOverlay(bezirke, 'Grenzen Bezirke');
-  borderControl.addOverlay(ortsteile, 'Grenzen Ortsteile');
-  borderControl.addOverlay(plz, 'Grenzen PLZ');
+  borderControl.addOverlay(bezirke, 'Bezirk: <span id="bezirk"></span>');
+  borderControl.addOverlay(ortsteile, 'Ortsteil: <span id="ortsteil"></span>');
+  borderControl.addOverlay(plz, 'PLZ: <span id="plz"></span>');
 
 
 
@@ -890,9 +898,9 @@ for (var icat in categories) {
   var icons = setupIcons();
 
   /* Highlight search box text on click */
-  jQuery("#searchbox").click(function () {
-    jQuery(this).select();
-  });
+  // jQuery("#searchbox").click(function () {
+  //   jQuery(this).select();
+  // });
 
   /* Prevent hitting enter from refreshing the page */
   jQuery("#searchbox").keypress(function (e) {
@@ -1036,21 +1044,17 @@ jQuery(document).one("ajaxStop", function () {
       map.fitBounds(datum.bounds);
     }
    if (datum.source === "GeoNames") {
-     console.log('GeoNames');
      map.setView([datum.lat, datum.lng], 14);
    }
     if (datum.source === "Marker") {
-
-      if (!map.hasLayer(markerLayer)) {
-        map.addLayer(markerLayer);
-      }
-      map.setView([datum.lat, datum.lng], 16);
-      console.log(datum);
-      datum.openPopup();
-      if (map._layers[datum.id]) {
-        map._layers[datum.id].fire("click");
-        
-      }
+      // if (!map.hasLayer(markerLayer)) {
+      //   map.addLayer(markerLayer);
+      // }
+      map.setView([datum.lat, datum.lng], 16);    
+      datum.marker.openPopup();
+      // if (map._layers[datum.id]) {
+      //   map._layers[datum.id].fire("click");  
+      // }
     }
     if (datum.source === "GeoNames") {
       map.setView([datum.lat, datum.lng], 14);

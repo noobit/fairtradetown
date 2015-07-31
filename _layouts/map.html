@@ -30,17 +30,17 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-square-o"></i>&nbsp;&nbsp;Bezirke <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ "/bezirke/mitte" | prepend: site.baseurl }}">Mitte</a></li>
-            <li><a href="{{ "/bezirke/friedrichshain-kreuzberg" | prepend: site.baseurl }}">Friedrichshain-Kreuzberg</a></li>
-            <li><a href="{{ "/bezirke/pankow" | prepend: site.baseurl }}">Pankow</a></li>
-            <li><a href="{{ "/bezirke/charlottenburg-wilmersdorf" | prepend: site.baseurl }}">Charlottenburg-Wilmersdorf</a></li>
-            <li><a href="{{ "/bezirke/spandau" | prepend: site.baseurl }}">Spandau</a></li>
-            <li><a href="{{ "/bezirke/steglitz-zehlendorf" | prepend: site.baseurl }}">Steglitz-Zehlendorf</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/friedrichshain-kreuzberg" | prepend: site.baseurl }}">Friedrichshain-Kreuzberg</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/pankow" | prepend: site.baseurl }}">Pankow</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/charlottenburg-wilmersdorf" | prepend: site.baseurl }}">Charlottenburg-Wilmersdorf</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/spandau" | prepend: site.baseurl }}">Spandau</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/steglitz-zehlendorf" | prepend: site.baseurl }}">Steglitz-Zehlendorf</a></li>
             <li><a href="{{ "/bezirke/tempelhof-schoeneberg" | prepend: site.baseurl }}">Tempelhof-Schöneberg</a></li>
-            <li><a href="{{ "/bezirke/neukoelln" | prepend: site.baseurl }}">Neukölln</a></li>
-            <li><a href="{{ "/bezirke/treptow-koepenick" | prepend: site.baseurl }}">Treptow-Köpenick</a></li>
-            <li><a href="{{ "/bezirke/marzahn-hellersdorf" | prepend: site.baseurl }}">Marzahn-Hellersdorf</a></li>
-            <li><a href="{{ "/bezirke/lichtenberg" | prepend: site.baseurl }}">Lichtenberg</a></li>
-            <li><a href="{{ "/bezirke/reinickendorf" | prepend: site.baseurl }}">Reinickendorf</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/neukoelln" | prepend: site.baseurl }}">Neukölln</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/treptow-koepenick" | prepend: site.baseurl }}">Treptow-Köpenick</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/marzahn-hellersdorf" | prepend: site.baseurl }}">Marzahn-Hellersdorf</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/lichtenberg" | prepend: site.baseurl }}">Lichtenberg</a></li>
+            <li class="disabled"><a href="{{ "/bezirke/reinickendorf" | prepend: site.baseurl }}">Reinickendorf</a></li>
           </ul>
         </li>
       </ul>
@@ -61,14 +61,16 @@
 </main>
 
 
-	<div id="map" class="col-lg-6 col-md-6">
-	  <div class="leaflet-top leaflet-left leaflet-custom">
-	    <form class="has-feedback ">
-	      <input id="searchbox" type="text" placeholder="Suche, z.B. Weltladen oder Charlottenburg" class="form-control">
-	      <span id="searchicon" class="fa fa-search form-control-feedback"></span>
-	    </form>
-	   </div>
-	</div>
+	<div id="map" class="col-lg-10 col-md-9"></div>
+	  
+  <div id="search" class="leaflet-custom col-lg-3 col-md-5 col-lg-offset-6">
+    <form class="has-feedback">
+      <input id="searchbox" type="text" placeholder="Suche, z.B. Weltladen oder Charlottenburg" class="form-control">   
+          <i id="searchicon" class="pull-right fa fa-search form-control-feedback"></i>
+
+    </form>
+   </div>
+  
 </div>
 
 
