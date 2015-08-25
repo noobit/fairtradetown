@@ -279,6 +279,8 @@ function displayFeatures(features, layers, icons) {
 
   for (var id in features) {
     var feat = features[id];
+    //console.log(feat);
+    if (feat.geometry === null) { continue; }
     //var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
     switch (feat.properties.kategorie1) {
       case "Supermarkt":
@@ -486,7 +488,7 @@ var sql_statement = 'SELECT * FROM Marker Map';
 $.getJSON('https://'+account_name+'.cartodb.com/api/v2/sql?format=GeoJSON&q='+sql_statement, function(data) {
   displayFeatures(data.features, layers, icons);
     $.each(data.features, function(key, val) {
-      // console.log(val);
+       //console.log(key, val);
   });
 });
 
