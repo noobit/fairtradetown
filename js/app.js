@@ -461,7 +461,7 @@ function bindePopup(feature, layer) {
     // desc +=   (props.kategorie2 ? "&nbsp;/&nbsp;" + props.kategorie2 : "");
     desc += "</div>"
     desc += "<div id='oeffnungszeiten'>";
-    desc +=   (props.oeffnungszeiten != '' ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
+    desc +=   ((!props.oeffnungszeiten == null) ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
     desc += "</div>";
     desc += (props.logo ? "<img src='/images/logos/" + props.logo + "' alt='logo' />" : "" );
     desc += "<div id='socialweb'>";
