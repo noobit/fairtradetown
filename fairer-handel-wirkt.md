@@ -4,7 +4,7 @@ title: Fairer Handel wirkt
 permalink: /fairer-handel-wirkt/
 ---
 
-In vielen Ländern leben Menschen in Armut, obwohl sie hart arbeiten. Sie bekommen für ihre Produkte zu wenig Geld, um davon ein menschenwürdiges Leben führen zu können. Häufig herrschen unsichere und gefährliche Arbeitsbedingungen.
+In VVVielen Ländern leben Menschen in Armut, obwohl sie hart arbeiten. Sie bekommen für ihre Produkte zu wenig Geld, um davon ein menschenwürdiges Leben führen zu können. Häufig herrschen unsichere und gefährliche Arbeitsbedingungen.
 
 Der Faire Handel setzt sich für eine Verbesserung der wirtschaftlichen, sozialen und ökologischen Situation von Produzent/Innen im globalen Süden ein. Garantierte Mindestpreise, die Zahlung eines Fairtrade-Aufschlags und die Vorfinanzierung der Waren helfen aus der Armut. 
 
