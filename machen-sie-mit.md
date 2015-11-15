@@ -8,7 +8,11 @@ Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das E
 
 **Wenn Sie sich daran beteiligen möchten, ist Ihre Mithilfe sehr willkommen!**
 
-Falls Sie zum Beispiel weitere Einzelhandelsgeschäfte oder gastronomische Betriebe kennen, die in unserem Einkaufsführer noch nicht genannt sind, waren wir für Hinweise sehr dankbar!
+Falls Sie zum Beispiel weitere Einzelhandelsgeschäfte oder gastronomische Betriebe kennen, die in unserem Einkaufsführer noch nicht genannt sind, sind wir für Ihre Hinweise sehr dankbar!
+
+## Anmeldformular 
+
+Für Betriebe, die in den Einkaufsführer aufgenommen werden möchten:
 
 <form class="form-inline" action="http://formspree.io/info@fairtradetown.berlin" method="post">
   <input type="text" class="form-custom" size="40" /><label>Name des Geschäftes / des Betriebs</label><br />

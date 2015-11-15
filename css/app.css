@@ -55,7 +55,7 @@ main {
   z-index: 1001;
 }
 
-main ul {
+main ul, main ol {
   border-left: 6px solid rgb(206, 212, 30);
 }
 li {

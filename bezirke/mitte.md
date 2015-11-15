@@ -4,19 +4,14 @@ title: Mitte
 permalink: /bezirke/mitte/
 ---
 
+Dem Bezirk Mitte wurde der Titel Fairtrade-Bezirk am 08.10.2014 verliehen. Seitdem arbeitet eine Steuerungsgruppe aktiv im Bezirk und bereitet bereits die Erneuerung des Titels im Jahr 2016 vor. 
 
-## Über
-![Team]({{site.baseurl}}/images/team.jpg)
+![Verleihung]({{site.baseurl}}/images/team.jpg)_Verleihung der Urkunde im Rathaus Mitte_
 
-## Kriterien
-1. Ratsbeschluss
-2. Steuerungsgruppe
-3. Fairtrade-Produkte im Sortiment
-4. Zivilgesellschaft
-5. Medien
+Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie auch [hier](http://www.berlin.de/ba-mitte/ueber-den-bezirk/fairtrade-bezirk){:target="_blank"}.
 
 
-## Kontakt
+## Kontakt: 
 Bezirksamt Mitte von Berlin, Umwelt- und Naturschutzamt
 
 Susanne Wander
@@ -27,4 +22,10 @@ Karl-Marx-Allee 31
 Tel: (030) 9018-22081  
 E-Mail: [Fairtrade@ba-mitte.berlin.de](mailto:Fairtrade@ba-mitte.berlin.de)
 
-Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie auch unter [www.berlin.de/ba-mitte/ueber-den-bezirk/fairtrade-bezirk/](https://www.berlin.de/ba-mitte/ueber-den-bezirk/fairtrade-bezirk){:target="_blank"}.
+
+
+
+
+
+
+

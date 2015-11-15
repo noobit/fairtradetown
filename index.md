@@ -9,16 +9,17 @@ permalink: /
 REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
 
 
-## Das faire Angebot wächst
-Darüber hinaus gibt es in Weltläden fair gehandelte Produkte, die nicht das Fairtrade-Siegel tragen, aber von Mitgliedsorganisationen der WFTO (World Fair Trade Organisation) vertrieben werden und somit ebenfalls faire Standards erfüllen.
+## Über den Einkaufsführer
+Der Faire Einkaufsführer Berlin wird von [Berliner Bezirken]({{site.baseurl}}/bezirke) getragen, in denen [die Kampagne Fairtrade Towns]({{site.baseurl}}/kampagne) durchgeführt wird.
 
-![Fair]({{site.baseurl}}/images/wir-handeln-fair.jpg)
+Er führt Geschäfte und gastronomische Betriebe auf, in denen dauerhaft mindestens 2 fair gehandelte [Produkte](({{site.baseurl}}/fairer_handel) angeboten werden.
 
-Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das Engagement für den Fairen Handel aufrechtzuerhalten und weiterzuentwickeln.
+Er entstand im Jahr 2015 im Rahmen des EU-geförderten [TriNet-Projektes](http://trinet-global.eu){:target="_blank"} und wird laufend weiterentwickelt. 
 
-**Wenn Sie sich daran beteiligen möchten, ist Ihre Mithilfe sehr willkommen!**
-Falls Sie zum Beispiel weitere Einzelhandelsgeschäfte oder gastronomische Betriebe kennen, die in unserem Einkaufsführer noch nicht genannt sind, waren wir für Hinweise sehr dankbar!
-  
+Falls Sie Anregungen oder Korrekturvorschläge haben sollten, bitte benutzen Sie unser [Kontaktformular]({{site.baseurl}}/kontakt).
+
+Falls Sie einen eigenen Betrieb zur Aufnahme in den Einkaufsführer anmelden möchten, bitte benutzen Sie unser Anmeldformular: (interner Link: Anmeldungen).
+
 
 <img src="{{ "/images/eu.jpg" | prepend: site.baseurl }}"  width="66px" style="float:left; margin-right:10px;" />
 _Dieses Dokument wurde mit finanzieller Unterstützung der Europäischen Union erstellt._
