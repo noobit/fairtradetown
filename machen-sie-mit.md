@@ -10,7 +10,7 @@ Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das E
 
 Falls Sie zum Beispiel weitere Einzelhandelsgeschäfte oder gastronomische Betriebe kennen, die in unserem Einkaufsführer noch nicht genannt sind, sind wir für Ihre Hinweise sehr dankbar!
 
-## Anmeldformular 
+## Anmeldeformular 
 
 Für Betriebe, die in den Einkaufsführer aufgenommen werden möchten:
 

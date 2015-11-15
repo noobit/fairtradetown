@@ -12,7 +12,7 @@ REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
 ## Über den Einkaufsführer
 Der Faire Einkaufsführer Berlin wird von [Berliner Bezirken]({{site.baseurl}}/bezirke) getragen, in denen [die Kampagne Fairtrade Towns]({{site.baseurl}}/kampagne) durchgeführt wird.
 
-Er führt Geschäfte und gastronomische Betriebe auf, in denen dauerhaft mindestens 2 fair gehandelte [Produkte](({{site.baseurl}}/fairer_handel) angeboten werden.
+Er führt Geschäfte und gastronomische Betriebe auf, in denen dauerhaft mindestens 2 fair gehandelte [Produkte]({{site.baseurl}}/fairer_handel) angeboten werden.
 
 Er entstand im Jahr 2015 im Rahmen des EU-geförderten [TriNet-Projektes](http://trinet-global.eu){:target="_blank"} und wird laufend weiterentwickelt. 
 
