@@ -1,7 +1,7 @@
 ---
 layout: map
 title: Machen Sie mit!
-permalink: /machen-sie-mit/
+permalink: /kontakt
 ---
 
 Da der Titel Fairtrade-Bezirk für zwei Jahre verliehen wird, gilt es nun, das Engagement für den Fairen Handel aufrechtzuerhalten und weiterzuentwickeln.
