@@ -1,6 +1,6 @@
 ---
 layout: map
-title: Wir handeln fair!
+title: Über den Einkaufsführer
 permalink: /
 ---
 
@@ -9,7 +9,6 @@ permalink: /
 REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0-->
 
 
-## Über den Einkaufsführer
 Der Faire Einkaufsführer Berlin wird von [Berliner Bezirken]({{site.baseurl}}/bezirke) getragen, in denen [die Kampagne Fairtrade Towns]({{site.baseurl}}/kampagne) durchgeführt wird.
 
 Er führt Geschäfte und gastronomische Betriebe auf, in denen dauerhaft mindestens 2 fair gehandelte [Produkte]({{site.baseurl}}/fairer-handel) angeboten werden.

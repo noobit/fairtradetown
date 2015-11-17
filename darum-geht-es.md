@@ -1,7 +1,6 @@
 ---
 layout: map
-title: Darum geht es
-permalink: /darum-geht-es/
+
 ---
 
 Wenn eine Stadt oder ein Bezirk Aktivitäten zum fairen Handel in einem bestimmten Umfang nachweist, kann der Titel Fairtrade-Town oder -Bezirk verliehen werden.

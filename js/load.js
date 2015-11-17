@@ -6,10 +6,10 @@ fallback.load({
         '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css',
         path + '/css/bootstrap.min.css'
       ],
-      facss: [
-        '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
+       facss: [
+        '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css',
         path + '/css/font-awesome.min.css'
-      ],
+      ], 
       leafletcss: [
         '//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css',
         path + '/css/leaflet.css'

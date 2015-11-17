@@ -21,29 +21,34 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="{{ "/darum-geht-es" | prepend: site.baseurl }}"><i class="fa fa-university"></i>&nbsp;&nbsp;Darum geht es</a></li>
-        <li><a href="{{ "/fairer-handel" | prepend: site.baseurl }}""><i class="fa fa-thumbs-up "></i>&nbsp;&nbsp;Fairer Handel</a></li>
-        <li><a href="{{ "/kampagne" | prepend: site.baseurl }}""><i class="fa fa-thumbs-up "></i>&nbsp;&nbsp;Die Kampagne</a></li>
-        <li><a href="{{ "/jeder-kann-etwas-tun" | prepend: site.baseurl }}""><i class="fa fa-user-plus "></i>&nbsp;&nbsp;Jeder kann etwas tun</a></li>
-        <li><a href="{{ "/kontakt" | prepend: site.baseurl }}"><i class="fa fa-check"></i>&nbsp;&nbsp;Machen Sie mit</a></li>
+        <li><a href="{{ "/" | prepend: site.baseurl }}"><i class="glyphicon glyphicon-map-marker"></i>&nbsp;&nbsp;Über den Einkaufsführer</a></li>
 
-        <li class="dropdown">
-          <a href=""{{ "/bezirke" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-square-o"></i>&nbsp;&nbsp;Bezirke <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ "/bezirke/mitte" | prepend: site.baseurl }}">Mitte</a></li>
-            <li class=""><a href="{{ "/bezirke/friedrichshain-kreuzberg" | prepend: site.baseurl }}">Friedrichshain-Kreuzberg</a></li>
-            <li class=""><a href="{{ "/bezirke/pankow" | prepend: site.baseurl }}">Pankow</a></li>
-            <li class=""><a href="{{ "/bezirke/charlottenburg-wilmersdorf" | prepend: site.baseurl }}">Charlottenburg-Wilmersdorf</a></li>
-            <li class=""><a href="{{ "/bezirke/spandau" | prepend: site.baseurl }}">Spandau</a></li>
-            <li class=""><a href="{{ "/bezirke/steglitz-zehlendorf" | prepend: site.baseurl }}">Steglitz-Zehlendorf</a></li>
-            <li><a href="{{ "/bezirke/tempelhof-schoeneberg" | prepend: site.baseurl }}">Tempelhof-Schöneberg</a></li>
-            <li class=""><a href="{{ "/bezirke/neukoelln" | prepend: site.baseurl }}">Neukölln</a></li>
-            <li class=""><a href="{{ "/bezirke/treptow-koepenick" | prepend: site.baseurl }}">Treptow-Köpenick</a></li>
-            <li class=""><a href="{{ "/bezirke/marzahn-hellersdorf" | prepend: site.baseurl }}">Marzahn-Hellersdorf</a></li>
-            <li class=""><a href="{{ "/bezirke/lichtenberg" | prepend: site.baseurl }}">Lichtenberg</a></li>
-            <li class=""><a href="{{ "/bezirke/reinickendorf" | prepend: site.baseurl }}">Reinickendorf</a></li>
+        <li><a href="{{ "/fairer-handel" | prepend: site.baseurl }}"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;&nbsp;Fairer Handel</a></li>
+        
+        <li><a href="{{ "/kampagne" | prepend: site.baseurl }}"><i class="glyphicon glyphicon-th-list"></i>&nbsp;&nbsp;Die Kampagne</a></li>
+
+        <!-- <li><a href="{{ "/jeder-kann-etwas-tun" | prepend: site.baseurl }}"><i class="fa fa-user-plus "></i>&nbsp;&nbsp;Jeder kann etwas tun</a></li> -->
+
+        <li><a href="{{ "/anmeldeformular" | prepend: site.baseurl }}"><i class="glyphicon glyphicon-ok"></i>&nbsp;&nbsp;Anmeldeformular</a></li>
+
+        <li> <a href="{{ "/bezirke" | prepend: site.baseurl }}"><i class="glyphicon glyphicon-globe"></i>&nbsp;&nbsp;Fairtrade Town Berlin</a></li>
+
+        <li>
+          <ul class="fa-ul navbar-bezirke">
+            <li><a href="{{ "/bezirke/mitte" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-end"></i>Mitte</a></li>
+            <li class=""><a href="{{ "/bezirke/friedrichshain-kreuzberg" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Friedrichshain-Kreuzberg</a></li>
+            <li class=""><a href="{{ "/bezirke/pankow" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Pankow</a></li>
+            <li class=""><a href="{{ "/bezirke/charlottenburg-wilmersdorf" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-end"></i>Charlottenburg-Wilmersdorf</a></li>
+            <li class=""><a href="{{ "/bezirke/spandau" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-start"></i>Spandau</a></li>
+            <li class=""><a href="{{ "/bezirke/steglitz-zehlendorf" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Steglitz-Zehlendorf</a></li>
+            <li><a href="{{ "/bezirke/tempelhof-schoeneberg" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Tempelhof-Schöneberg</a></li>
+            <li class=""><a href="{{ "/bezirke/neukoelln" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-start"></i>Neukölln</a></li>
+            <li class=""><a href="{{ "/bezirke/treptow-koepenick" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Treptow-Köpenick</a></li>
+            <li class=""><a href="{{ "/bezirke/marzahn-hellersdorf" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-start"></i>Marzahn-Hellersdorf</a></li>
+            <li class=""><a href="{{ "/bezirke/lichtenberg" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-half"></i>Lichtenberg</a></li>
+            <li class=""><a href="{{ "/bezirke/reinickendorf" | prepend: site.baseurl }}"><i class="fa-li fa fa-hourglass-start"></i>Reinickendorf</a></li>
           </ul>
-        </li>
+     </li>
       </ul>
       
       <footer class="small">	    	
@@ -54,7 +59,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>  
-<main id="main" class="col-lg-4 col-md-5">
+<main id="main" class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-3 col-xs-12">
 	<div class="content">
 	  <h1>{{ page.title }}<i class="pull-right fa fa-times-circle"></i></h1>
   	{{ content }} 
@@ -62,7 +67,7 @@
 </main>
 
 
-	<div id="map" class="col-lg-10 col-md-9"></div>
+	<div id="map" class="col-lg-10 col-md-9 col-xs-12"></div>
 	  
   <div id="search" class="leaflet-custom col-lg-3 col-md-5 col-lg-offset-6">
     <form class="has-feedback">

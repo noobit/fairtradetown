@@ -1,7 +1,6 @@
 ---
 layout: map
-title: Jeder kann etwas tun
-permalink: /jeder-kann-etwas-tun/
+title: 
 ---
 
 
