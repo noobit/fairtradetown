@@ -1,0 +1,290 @@
+
+body {
+  height:100vH;
+}
+#sidebar {
+  width: 250px;
+  height: 100%;
+  max-width: 100%;
+  float: left;
+  -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border:none;
+}
+#map {
+  height:100vH;
+  overflow: auto;
+}
+.fa-times-circle {
+  line-height: 58px;
+  margin-right: 15px;
+  cursor:pointer;
+}
+main h1 {
+  background-color: rgb(4, 177, 221);
+  color: #fff;
+  line-height: 58px;
+  margin:25px -15px 10px -15px;
+  padding-left: 15px;
+}
+
+main h2 {
+  display: inline-block;
+  margin: 25px -15px 10px -15px;
+  padding: 5px 15px;
+  background-color: rgb(206, 212, 30);
+}
+
+.leaflet-custom {
+  pointer-events: auto;
+  position: absolute;
+  margin-top:25px;
+  padding: 10px 15px;
+  height:58px;
+  background: rgb(206, 212, 30);
+}
+main {
+  height:100vH;
+  overflow-x:scroll;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  position: absolute !important; 
+  //left: 16.666667%; 
+  background: rgba(255,255,255,.9);
+  z-index: 1001;
+}
+
+main ul, main ol {
+  border-left: 6px solid rgb(206, 212, 30);
+}
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom:15px;
+}
+.navbar-brand {
+  float:none;
+  height:initial;
+  padding:25px 0;
+}
+.navbar-bezirke {
+  padding-left: 15px;
+}
+.navbar-bezirke li>a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 2px 6px;
+    color: #777;
+}
+.navbar-bezirke li>a:hover {
+    color: #333;
+    background-color: #fff !important;
+}
+.navbar-bezirke li {
+  list-style-type: none;
+  color: #777;
+}
+.navbar-bezirke li:hover {
+  color: #333;
+}
+.navbar-brand img, main img {
+  max-width:100%;
+}
+.navbar-collapse {
+  padding:0;
+}
+.container-fluid {
+  padding:0;
+}
+
+#features {
+  margin: 0px;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#sidebar-hide-btn {
+  margin-top: -2px;
+}
+.btn-lg {
+  margin-bottom: 30px;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #1EB5DA;
+}
+.form-control:focus {
+    border-color: #1EB5DA;
+    }
+#aboutTabsContent {
+  padding-top: 10px;
+}
+.progress-bar-full {
+  width: 100%;
+}
+.white {
+  color: #FFFFFF;
+}
+.feature-row {
+  cursor: pointer;
+}
+.sidebar-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sidebar-table {
+  position: absolute;
+  width: 100%;
+  top: 103px;
+  bottom: 0px;
+  overflow: auto;
+}
+.leaflet-control-layers label {
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+
+.table {
+  margin-bottom: 0px;
+}
+
+
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+
+.form-group {
+  margin-top:15px;
+}
+
+
+.form-custom {
+  border:none;
+  border-bottom:1px dashed #ccc;
+  border-radius: 0;
+  margin-top:10px;
+  width:100%;
+}
+.form-custom:focus {
+border:none;
+}
+@media (min-width: 768px) {
+
+  nav li>a:hover {
+    background: rgb(206, 212, 30);
+  }
+  .navbar-form {
+/*    padding-top: 20px;
+    padding-bottom: 20px;*/
+    background-color: rgb(206, 212, 30);
+  }
+
+  .header {
+    text-align: right;
+    margin-right: 15px;
+    color: rgb(0, 180, 222);
+  }
+   nav {
+   height:100vH !important;
+}
+}
+.typeahead {
+  background-color: #FFFFFF;
+}
+.tt-dropdown-menu {
+  background-color: rgba(255,255,255,.9);
+  /*border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
+  margin-top: 8px;
+  padding: 4px 0;
+  width: 100%;
+  max-height: 80vH;
+  overflow: auto;
+}
+.tt-suggestion {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 3px 10px;
+}
+.tt-suggestion.tt-cursor {
+  background-color: #0097CF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.tt-suggestion p {
+  margin: 0;
+}
+.tt-suggestion + .tt-suggestion {
+  border-top: 1px solid #ccc;
+}
+.typeahead-header {
+  margin: 0 5px 5px 5px;
+  padding: 3px 0;
+  border-bottom: 2px solid #333;
+}
+.has-feedback .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+.twitter-typeahead .form-control, .twitter-typeahead #searchbox {
+  width: 100% !important;
+
+}
+
+@media (max-width: 767px){
+  #sidebar {
+    display: none;
+  }
+
+  .url-break {
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+      hyphens: auto;
+  }
+  .dropdown-menu a i{
+    color: #FFFFFF;
+  }
+
+}
+
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #00B4DF;
+  border-color: #00B4DF;
+}
+
+.leaflet-control-layers {
+  border-radius:0;
+  background-color: rgb(206, 212, 30);
+}
+
+/* Print Handling */
+@media print {
+  .navbar {
+    display: none !important;
+  }
+  .leaflet-control-container {
+    display: none !important;
+  }
+}
