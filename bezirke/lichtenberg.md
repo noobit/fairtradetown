@@ -4,5 +4,5 @@ title: Lichtenberg
 permalink: /bezirke/lichtenberg/
 ---
 
-In Lichtenberg hat die BVV am 15.10.2015 den Beschluss gefasst, sich um den Titel Fairtrade-Bezirk zu bewerben.
+In Lichtenberg hat die BVV am 15.10.2015 den Antrag, sich um den Titel Fairtrade-Bezirk zu bewerben, an den Hauptausschuss überwiesen.
 

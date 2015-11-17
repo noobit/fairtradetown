@@ -320,7 +320,7 @@ function displayFeatures(features, layers, icons) {
         cat  = "Bioläden & -ketten";
         break;
       case "Biomarkt":
-        symbol = "grocery";
+        symbol = "shop";
         cat  = "Bioläden & -ketten";
         break;
       case "Reformhaus":

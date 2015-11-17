@@ -39,7 +39,7 @@ Für Betriebe, die in den Einkaufsführer aufgenommen werden möchten:
   </div>
   <div class="checkbox">
     <label>
-    <input type="checkbox" class="form-control" />Ich bin mit der Nennung meines Betriebes im "Fairen Einkaufsführer" für Berlin einverstanden.</label>
+      <input type="checkbox" >Ich bin mit der Nennung meines Betriebes im "Fairen Einkaufsführer" für Berlin einverstanden.</label>
   </div>
     <input type="hidden" name="_next" value="http://www.fairtradetown.berlin" /><br />
     <input type="hidden" name="_subject" value="Neuer Eintrag Fairer Einkaufsführer" /><br />

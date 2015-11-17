@@ -19,13 +19,15 @@ Falls Sie Anregungen oder Korrekturvorschläge haben sollten, bitte benutzen Sie
 
 Falls Sie einen eigenen Betrieb zur Aufnahme in den Einkaufsführer anmelden möchten, bitte benutzen Sie unser Anmeldformular: (interner Link: Anmeldungen).
 
+---
 
+<span class="logos">
 <img src="{{ "/images/eu.jpg" | prepend: site.baseurl }}"  width="66px" style="float:left; margin-right:10px;" />
-_Dieses Dokument wurde mit finanzieller Unterstützung der Europäischen Union erstellt._
-
-<img src="{{ "/images/trinet.jpg" | prepend: site.baseurl }}"  width="66px" style="float:left; margin-right:10px" />
+_Dieses Dokument wurde mit finanzieller Unterstützung der Europäischen Union erstellt._  
+<span class="logos">
+<img src="{{ "/images/trinet.jpg" | prepend: site.baseurl }}"  width="66px" style="float:left; margin-right:10px;" />
 _Für seinen Inhalt ist allein die Senatsverwaltung für Wirtschaft, Technologie und Forschung verantwortlich; es gibt nicht den Standpunkt der Europäischen Union wieder._
-
+</span>
 
 
 
