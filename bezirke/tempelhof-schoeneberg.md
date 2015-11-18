@@ -19,9 +19,9 @@ Netzwerk Faires Berlin
 
 Stefanie Holtz & Jürgen Krause  
 
-Gotenstr. 21  
-10829 Berlin
+<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Gotenstr. 21  
+<i class='fa fa-fw'></i>&nbsp;&nbsp;10829 Berlin
 
-Tel: (030) 893 744 80  
-E-Mail: [fairtradetown.ts@berlin.de](mailto:fairtradetown.ts@berlin.de) 
+<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;(030) 893 744 80  
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[fairtradetown.ts@berlin.de](mailto:fairtradetown.ts@berlin.de) 
 

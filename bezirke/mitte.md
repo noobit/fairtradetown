@@ -16,11 +16,11 @@ Bezirksamt Mitte von Berlin, Umwelt- und Naturschutzamt
 
 Susanne Wander
 
-Karl-Marx-Allee 31  
-10178 Berlin
+<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Karl-Marx-Allee 31  
+<i class='fa fa-fw'></i>&nbsp;&nbsp;10178 Berlin
 
-Tel: (030) 9018-22081  
-E-Mail: [Fairtrade@ba-mitte.berlin.de](mailto:Fairtrade@ba-mitte.berlin.de)
+<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;(030) 9018-22081  
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;Fairtrade@ba-mitte.berlin.de](mailto:Fairtrade@ba-mitte.berlin.de)
 
 
 

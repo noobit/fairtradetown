@@ -15,7 +15,7 @@ Bezirksamt Pankow von Berlin
 Gordon Lemm  
 Referent des Bezirksbürgermeisters
 
-Breite Straße 24a-26  
-13187 Berlin
+<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Breite Straße 24a-26    
+<i class='fa fa-fw'></i>&nbsp;&nbsp;13187 Berlin
 
-E-Mail: [gordon.lemm@ba-pankow.berlin.de](mailto:gordon.lemm@ba-pankow.berlin.de) 
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[gordon.lemm@ba-pankow.berlin.de](mailto:gordon.lemm@ba-pankow.berlin.de) 
