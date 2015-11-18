@@ -17,7 +17,7 @@ Er entstand im Jahr 2015 im Rahmen des EU-geförderten [TriNet-Projektes](http:/
 
 Falls Sie Anregungen oder Korrekturvorschläge haben sollten, bitte benutzen Sie unser [Kontaktformular]({{site.baseurl}}/kontakt).
 
-Falls Sie einen eigenen Betrieb zur Aufnahme in den Einkaufsführer anmelden möchten, bitte benutzen Sie unser Anmeldformular: (interner Link: Anmeldungen).
+Falls Sie einen eigenen Betrieb zur Aufnahme in den Einkaufsführer anmelden möchten, bitte benutzen Sie unser [Anmeldeformular]({{site.baseurl}}/anmeldeformular).
 
 ---
 

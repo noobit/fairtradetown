@@ -280,7 +280,7 @@ function displayFeatures(features, layers, icons) {
   for (var id in features) {
     var feat = features[id];
     //console.log(feat);
-    if (feat.geometry === null) { continue; }
+    if (feat.geometry === null || feat.properties.show !== 'x') { continue; }
     //var cat =  "Bioläden & -ketten"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
     switch (feat.properties.kategorie1) {
       case "Supermarkt":

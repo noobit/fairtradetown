@@ -12,7 +12,7 @@ _Gründung der Steuerungsgruppe im Rathaus Schöneberg_
 
 
 
-Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [www.facebook.com/FairtradetownTS](https://www.facebook.com/FairtradetownTS)
+Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [www.facebook.com/FairtradetownTS](https://www.facebook.com/FairtradetownTS){:target="_blank"}
 
 ## Kontakt
 Netzwerk Faires Berlin

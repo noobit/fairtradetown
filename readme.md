@@ -1,19 +1,7 @@
-
-## About
-
-
-## Todos
-
-
+## Todos langfristig
 * Bezirk main -> pan/zoom bounds
 * sidebar marker pro bereich
 * Attribution Control berlin Bounds
-* Bezirke: Kontaktformular
-
-
-* Kaufhof, Galeria Kaufhof Weiß
-
-
 
 
 ## Todos bis 19.11. Vormittag
@@ -28,6 +16,6 @@
 * Kaisers (Wilmersdorf) raus?
 * Alnatura: Alle drin. Einige nicht positioniert...
 
+- Kaufhof, Galeria Kaufhof Weiß
 
-19.11. Vormittag.
 

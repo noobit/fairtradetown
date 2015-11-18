@@ -13,8 +13,9 @@ Die Anforderungen sind:
 3.	In Einzelhandelsgeschäften und bei Floristen sowie in Cafés und Restaurants werden mindestens zwei Produkte aus Fairem Handel angeboten. Die mindestens notwendige Anzahl von Anbietern richtet sich nach der Einwohnerzahl des Bezirks.
 4.	Produkte aus Fairem Handel werden in öffentlichen Einrichtungen wie Schulen, Vereinen und Kirchen verwendet. Darüber hinaus werden Bildungsaktivitäten zum Thema Fairer Handel umgesetzt.
 5.	Die örtlichen Medien berichten über Aktivitäten auf dem Weg  zum Fairtrade-Bezirk.
+
 Nähere Informationen zur Kampagne erhalten Sie 
- [hier](www.fairtrade-towns.de){:target="_blank"}.
+ [hier](http://www.fairtrade-towns.de){:target="_blank"}.
 
 
 

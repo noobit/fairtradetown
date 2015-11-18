@@ -1,6 +1,6 @@
 ---
 layout: map
-title: Bezirke
+title: Fairtrade Town Berlin
 permalink: /bezirke/
 ---
 
