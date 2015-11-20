@@ -114,33 +114,33 @@ var loadHandler = function (event) {
 
 //var path = window.location.host.indexOf('noobit') > -1 ? 'fairtradetown' : '';
 
-function syncSidebar() {
-  /* Empty sidebar features */
-  jQuery("#feature-list tbody").empty();
-  /* Loop through layer and add only features which are in the map bounds */
-  ortsteile.eachLayer(function (layer) {
-    if (map.hasLayer(ortsteileLayer)) {
-      if (map.getBounds().contains(layer.getLatLng())) {
-        jQuery("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.BEZIRK + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      }
-    }
-  });
-  /* Loop through museums layer and add only features which are in the map bounds */
-  marker.eachLayer(function (layer) {
-    if (map.hasLayer(markerLayer)) {
-      if (map.getBounds().contains(layer.getLatLng())) {
-        jQuery("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/museum.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      }
-    }
-  });
-  /* Update list.js featureList */
-  /*featureList = new List("features", {
-    valueNames: ["feature-name"]
-  });
-  featureList.sort("feature-name", {
-    order: "asc"
-  });*/
-}
+// function syncSidebar() {
+//   /* Empty sidebar features */
+//   jQuery("#feature-list tbody").empty();
+//   /* Loop through layer and add only features which are in the map bounds */
+//   ortsteile.eachLayer(function (layer) {
+//     if (map.hasLayer(ortsteileLayer)) {
+//       if (map.getBounds().contains(layer.getLatLng())) {
+//         jQuery("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.BEZIRK + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+//       }
+//     }
+//   });
+//    Loop through museums layer and add only features which are in the map bounds 
+//   marker.eachLayer(function (layer) {
+//     if (map.hasLayer(markerLayer)) {
+//       if (map.getBounds().contains(layer.getLatLng())) {
+//         jQuery("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/museum.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+//       }
+//     }
+//   });
+//   /* Update list.js featureList */
+//   /*featureList = new List("features", {
+//     valueNames: ["feature-name"]
+//   });
+//   featureList.sort("feature-name", {
+//     order: "asc"
+//   });*/
+// }
 
 
 /* Basemap Layers */
@@ -774,32 +774,32 @@ markerLayer.on('load', loadHandler);
   map.addControl(loadingControl);
 
 /* Layer control listeners that allow for a single markerClusters layer */
-map.on("overlayadd", function(e) {
-  if (e.layer === markerLayer) {
-    //markerClusters.addLayer(marker);
-    //syncSidebar();
-  }
- /* if (e.layer === museumLayer) {
-    markerClusters.addLayer(museums);
-    syncSidebar();
-  }*/
-});
+// map.on("overlayadd", function(e) {
+//   if (e.layer === markerLayer) {
+//     //markerClusters.addLayer(marker);
+//     //syncSidebar();
+//   }
+//  /* if (e.layer === museumLayer) {
+//     markerClusters.addLayer(museums);
+//     syncSidebar();
+//   }*/
+// });
 
-map.on("overlayremove", function(e) {
-  if (e.layer === markerLayer) {
-   // markerClusters.removeLayer(marker);
-    syncSidebar();
-  }
-  if (e.layer === museumLayer) {
-    // markerLayerClusters.removeLayer(museums);
-    syncSidebar();
-  }
-});
+// map.on("overlayremove", function(e) {
+//   if (e.layer === markerLayer) {
+//    // markerClusters.removeLayer(marker);
+//     //syncSidebar();
+//   }
+//   if (e.layer === museumLayer) {
+//     // markerLayerClusters.removeLayer(museums);
+//     //syncSidebar();
+//   }
+// });
 
-/* Filter sidebar feature list to only show features in current map bounds */
-map.on("moveend", function (e) {
-  syncSidebar();
-});
+// /* Filter sidebar feature list to only show features in current map bounds */
+// map.on("moveend", function (e) {
+//   syncSidebar();
+// });
 
 /* Clear feature highlight when map is clicked */
 map.on("click", function(e) {
