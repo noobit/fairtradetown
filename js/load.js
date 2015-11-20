@@ -11,7 +11,7 @@ fallback.load({
         path + '/css/font-awesome.min.css'
       ], 
       leafletcss: [
-        '//cdn.leafletjs.com/leaflet-0.7.7/leaflet.css',
+        '//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css',
         path + '/css/leaflet.css'
       ],
       markerclustercss: [
@@ -45,7 +45,7 @@ fallback.load({
         path + '/js/bootstrap.min.js'
       ],
       'L': [
-        '//cdn.leafletjs.com/leaflet-0.7.7/leaflet.js',
+        '//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js',
         path + '/js/leaflet.js'
       ],
       'jQuery.fn.typeahead': [
