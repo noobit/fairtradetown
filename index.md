@@ -1,6 +1,6 @@
 ---
 layout: map
-title: Über den Einkaufsführer
+title: Der Einkaufsführer
 permalink: /
 ---
 
