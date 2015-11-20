@@ -16,8 +16,12 @@ jQuery(document).ready(function($) {
         //jQuery("#search").addClass("col-lg-offset-6 col-md-offset-8");
 
         e.preventDefault();
-        
+                
+  jQuery(".navbar-collapse").removeClass("in");
+
+
         History.pushState({}, "", this.pathname);
+
     });
 
     // Catch all History stateChange events
@@ -40,6 +44,7 @@ jQuery(document).ready(function($) {
             // });
         });
     });
+
 });
 
 
@@ -71,6 +76,8 @@ jQuery("#nav-btn").click(function() {
   jQuery(".navbar-collapse").collapse("toggle");
   return false;
 });
+
+
 
 jQuery("#sidebar-toggle-btn").click(function() {
   jQuery("#sidebar").toggle();
