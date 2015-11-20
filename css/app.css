@@ -300,3 +300,14 @@ border:none;
     display: none !important;
   }
 }
+
+@media (max-height: 800px) {
+  .navbar-bezirke {
+    //display:none;
+  }
+}
+
+.navbar-nav>li>a  {
+  padding-top:1vh;
+  padding-bottom:1vh;
+}

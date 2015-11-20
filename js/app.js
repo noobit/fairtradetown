@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
         jQuery("#main").show(); //animate({left: 'show'});
         // jQuery("#map").addClass("col-lg-6");
         // jQuery("#map").removeClass("col-lg-10");
-        jQuery("#search").removeClass("col-lg-offset-2");
-        jQuery("#search").addClass("col-lg-offset-6");
+        jQuery("#search").removeClass("col-lg-offset-2 col-md-offset-3").addClass("col-lg-offset-6 col-md-offset-8");
+        //jQuery("#search").addClass("col-lg-offset-6 col-md-offset-8");
 
         e.preventDefault();
         
@@ -57,8 +57,9 @@ jQuery(document).on("click", ".fa-times-circle", function(e) {
   jQuery("#main").hide(); //collapse("toggle");
   // jQuery("#map").addClass("col-lg-10");
   // jQuery("#map").removeClass("col-lg-6");
-  jQuery("#search").addClass("col-lg-offset-2");
-  jQuery("#search").removeClass("col-lg-offset-6");
+  jQuery("#search").addClass("col-lg-offset-2 col-md-offset-3").removeClass("col-lg-offset-6 col-md-offset-8");
+ // jQuery("#search").removeClass("col-lg-offset-6 col-md-offset-8");
+
   //map.invalidateSize();
   return false;
 });
@@ -261,6 +262,29 @@ var setupIcons = function() {
 var layers = {},
     cultureLayer = L.layerGroup();
 
+var layerControl = L.control.layers(null, null, {
+  position: 'bottomright',
+  collapsed: isCollapsed
+});
+// var zoomControl = L.control.zoom({
+//   position: 'topright'
+// });
+var borderControl = L.control.layers(null, null, {
+  position: 'topright',
+  collapsed: 'true' 
+});
+
+for (var icat in categories) {  
+  var layer = L.featureGroup();
+  layers[icat] = layer;
+  cultureLayer.addLayer(layer);
+  if (icat != 'nicht kategorisiert') {
+    var cat = categories[icat];
+    ico = "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cat.icon + "+" + cat.color + "@2x.png";
+    desc = "<img class='layer-control-img' src='" + ico + "' />"  +  cat.desc;
+    layerControl.addOverlay(layer, desc);
+  }
+}
 
 /* Overlay Layers */
 var highlight = L.geoJson(null);
@@ -529,22 +553,22 @@ var ortsteile = L.geoJson(null, {
       });
     }*/
     layer.setStyle({
-      color: "#2262CC",
-      weight: 3,
+      color: "#999",
+      weight: 2,
       opacity: 0.6,
-      fillOpacity: 0.1,
-      fillColor: "#2262CC",
+      fillOpacity: 0.3,
+      fillColor: "#999",
       dashArray: "2 4"
     });
 
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#2262CC', 
-          weight: 4,
+          color: '#999', 
+          weight: 2,
           opacity: 0.6,
-          fillOpacity: 0.65,
-          fillColor: '#2262CC'
+          fillOpacity: 0.6,
+          fillColor: '#999'
         });
         var popup = jQuery("<div></div>", {
           id: "popup-" + properties.OTEIL,
@@ -566,11 +590,11 @@ var ortsteile = L.geoJson(null, {
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
-          color: "#2262CC",
-          weight: 3,
+          color: "#999",
+          weight: 2,
           opacity: 0.6,
-          fillOpacity: 0.1,
-          fillColor: "#2262CC"
+          fillOpacity: 0.3,
+          fillColor: "#999"
         }); 
         jQuery("#popup-" + properties.OTEIL).remove();
       });
@@ -602,31 +626,31 @@ var bezirke = L.geoJson(null, {
       bounds: layer.getBounds()
     });
     layer.setStyle({
-      color: "#225522",
-      weight: 4,
+      color: "#999",
+      weight: 3,
       opacity: 0.6,
       fillOpacity: 0.3,
-      fillColor: "#226434"
+      fillColor: "#999"
     });
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#225522', 
-          weight: 5,
+          color: '#999', 
+          weight: 3,
           opacity: 0.6,
-          fillOpacity: 0.65,
-          fillColor: '#226434'
+          fillOpacity: 0.6,
+          fillColor: '#999'
         });
         jQuery("#bezirk").text(properties.spatial_alias); 
        
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
-          color: "#225522",
-          weight: 4,
+          color: "#999",
+          weight: 3,
           opacity: 0.6,
           fillOpacity: 0.3,
-          fillColor: "#226434"
+          fillColor: "#999"
         }); 
         jQuery("#popup-" + properties.OTEIL).remove();
       });
@@ -668,22 +692,22 @@ var plz = L.geoJson(null, {
       });
     }*/
     layer.setStyle({
-      color: "#555500",
+      color: "#999",
       weight: 1,
-      opacity: 0.4,
-      fillOpacity: 0.1,
-      fillColor: "#cd6635",
+      opacity: 0.8,
+      fillOpacity: 0.3,
+      fillColor: "#999",
       dashArray: "5 2 3 2"
     });
 
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#555500', 
-          weight: 2,
-          opacity: 0.5,
-          fillOpacity: 0.65,
-          fillColor: '#cd6635'
+          color: '#999', 
+          weight: 1,
+          opacity: 0.8,
+          fillOpacity: 0.6,
+          fillColor: '#999'
         });
         /*var hed = jQuery("<div></div>", {
             text: "Bezirk / Ortsteil / PLZ: " + properties.BEZIRK + " / " + properties.OTEIL + " / ",
@@ -694,11 +718,11 @@ var plz = L.geoJson(null, {
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
-          color: "#555500",
+          color: "#999",
           weight: 1,
-          opacity: 0.4,
-          fillOpacity: 0.1,
-          fillColor: "#cd6635"
+          opacity: 0.8,
+          fillOpacity: 0.3,
+          fillColor: "#999"
         }); 
         //jQuery("#popup-" + properties.OTEIL).remove();
       });
@@ -847,30 +871,9 @@ if (document.body.clientWidth <= 767) {
   map.invalidateSize();
 }
 
-var layerControl = L.control.layers(null, null, {
-  position: 'bottomright',
-  collapsed: isCollapsed
-});
-// var zoomControl = L.control.zoom({
-//   position: 'topright'
-// });
-var borderControl = L.control.layers(null, null, {
-  position: 'topright',
-  collapsed: 'true' });
 
-for (var icat in categories) {
-  
-    var layer = L.featureGroup();
-    layers[icat] = layer;
-    cultureLayer.addLayer(layer);
-   
-    if (icat != 'nicht kategorisiert') {
-      var cat = categories[icat];
-        ico = "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cat.icon + "+" + cat.color + "@2x.png";
-       desc = "<img class='layer-control-img' src='" + ico + "' />"  +  cat.desc;
-      layerControl.addOverlay(layer, desc);
-    }
-    }
+
+
   
   cultureLayer.addTo(map);
 
