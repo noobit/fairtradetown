@@ -49,10 +49,10 @@ jQuery(document).ready(function($) {
 
 
 
-jQuery(document).on("click", ".feature-row", function(e) {
-  jQuery(document).off("mouseout", ".feature-row", clearHighlight);
-  sidebarClick(parseInt(jQuery(this).attr("id"), 10));
-});
+// jQuery(document).on("click", ".feature-row", function(e) {
+//   jQuery(document).off("mouseout", ".feature-row", clearHighlight);
+//   sidebarClick(parseInt(jQuery(this).attr("id"), 10));
+// });
 
 jQuery(document).on("mouseover", ".feature-row", function(e) {
   highlight.clearLayers().addLayer(L.circleMarker([jQuery(this).attr("lat"), jQuery(this).attr("lng")], highlightStyle));
@@ -69,42 +69,39 @@ jQuery(document).on("click", ".fa-times-circle", function(e) {
   return false;
 });
 
-jQuery(document).on("mouseout", ".feature-row", clearHighlight);
-
+// jQuery(document).on("mouseout", ".feature-row", clearHighlight);
 
 jQuery("#nav-btn").click(function() {
   jQuery(".navbar-collapse").collapse("toggle");
   return false;
 });
 
+// jQuery("#sidebar-toggle-btn").click(function() {
+//   jQuery("#sidebar").toggle();
+//   map.invalidateSize();
+//   return false;
+// });
 
+// jQuery("#sidebar-hide-btn").click(function() {
+//   jQuery('#sidebar').hide();
+//   map.invalidateSize();
+// });
 
-jQuery("#sidebar-toggle-btn").click(function() {
-  jQuery("#sidebar").toggle();
-  map.invalidateSize();
-  return false;
-});
+// function clearHighlight() {
+//   highlight.clearLayers();
+// }
 
-jQuery("#sidebar-hide-btn").click(function() {
-  jQuery('#sidebar').hide();
-  map.invalidateSize();
-});
-
-function clearHighlight() {
-  highlight.clearLayers();
-}
-
-function sidebarClick(id) {
-  var layer = markerClusters.getLayer(id);
-  map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
-  layer.fire("click");
-  /* Hide sidebar and go to the map on small screens */
+// function sidebarClick(id) {
+//   var layer = markerClusters.getLayer(id);
+//   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
+//   layer.fire("click");
+//   /* Hide sidebar and go to the map on small screens */
   
-  if (document.body.clientWidth <= 767) {
-    jQuery("#sidebar").hide();
-    map.invalidateSize();
-  }
-}
+//   if (document.body.clientWidth <= 767) {
+//     jQuery("#sidebar").hide();
+//     map.invalidateSize();
+//   }
+// }
 
 // Loading Handler Spin
 var loadingHandler = function (event) {
@@ -153,32 +150,32 @@ var loadHandler = function (event) {
 /* Basemap Layers */
 var berlinAttribution = 'Geoportal Berlin / Orteile von Berlin.';
 
-var baseTile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-   attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-   detectRetina: true
-});
-var blackwhiteTile = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
-   attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-   detectRetina: true
-}); 
-var bmapTile = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
-   attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-   detectRetina: true
-}); 
+// var baseTile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+//    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+//    detectRetina: true
+// });
+// var blackwhiteTile = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
+//    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+//    detectRetina: true
+// }); 
+// var bmapTile = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+//    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+//    detectRetina: true
+// }); 
 var mapquestTile = L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
-   attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+   attribution: 'Data, imagery and map information provided by MapQuest,<a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> and contributors,<a href="http://wiki.openstreetmap.org/wiki/Legal_FAQ#3a._I_would_like_to_use_OpenStreetMap_maps._How_should_I_credit_you.3F" target="_blank">ODbL</a>.',
    detectRetina: true
 }); 
-var mapboxTile = L.tileLayer(
-  'http://{s}.tiles.mapbox.com/v3/medardus.ki1enpim/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
-  detectRetina: true,
-  maxZoom: 18
-}); 
-var positronTile = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>', 
-  detectRetina: true
-}); 
+// var mapboxTile = L.tileLayer(
+//   'http://{s}.tiles.mapbox.com/v3/medardus.ki1enpim/{z}/{x}/{y}.png', {
+//   attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
+//   detectRetina: true,
+//   maxZoom: 18
+// }); 
+// var positronTile = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+//   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>', 
+//   detectRetina: true
+// }); 
 var retina = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
 
 
@@ -577,23 +574,23 @@ var ortsteile = L.geoJson(null, {
           fillOpacity: 0.6,
           fillColor: '#999'
         });
-        var popup = jQuery("<div></div>", {
-          id: "popup-" + properties.OTEIL,
-          css: {
-            position: "absolute",
-            bottom: "85px",
-            left: "50px",
-            zIndex: 1002,
-            backgroundColor: "white",
-            padding: "8px",
-            border: "1px solid #ccc"
-          }
-        });
-        var hed = jQuery("<div></div>", {
-            text: "Bezirk / Ortsteil: " + properties.BEZIRK + " / " + properties.OTEIL,
-            css: { fontSize: "16px", marginBottom: "3px" }
-        }).appendTo(popup);
-        popup.appendTo("#map");
+        // var popup = jQuery("<div></div>", {
+        //   id: "popup-" + properties.OTEIL,
+        //   css: {
+        //     position: "absolute",
+        //     bottom: "85px",
+        //     left: "50px",
+        //     zIndex: 1002,
+        //     backgroundColor: "white",
+        //     padding: "8px",
+        //     border: "1px solid #ccc"
+        //   }
+        // });
+        // var hed = jQuery("<div></div>", {
+        //     text: "Bezirk / Ortsteil: " + properties.BEZIRK + " / " + properties.OTEIL,
+        //     css: { fontSize: "16px", marginBottom: "3px" }
+        // }).appendTo(popup);
+        // popup.appendTo("#map");
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
@@ -648,7 +645,7 @@ var bezirke = L.geoJson(null, {
           fillOpacity: 0.6,
           fillColor: '#999'
         });
-        jQuery("#bezirk").text(properties.spatial_alias); 
+        // jQuery("#bezirk").text(properties.spatial_alias); 
        
       });
       layer.on("mouseout", function (e) {
@@ -921,9 +918,9 @@ if (document.body.clientWidth <= 767) {
     }
   });
 
-  jQuery("#featureModal").on("hidden.bs.modal", function (e) {
-    jQuery(document).on("mouseout", ".feature-row", clearHighlight);
-  });
+  // jQuery("#featureModal").on("hidden.bs.modal", function (e) {
+  //   jQuery(document).on("mouseout", ".feature-row", clearHighlight);
+  // });
 
 /* Typeahead search functionality */
 jQuery(document).one("ajaxStop", function () {

@@ -278,7 +278,8 @@ border:none;
     color: #FFFFFF;
   }
   .navbar-brand img {
-    max-height: 80px;
+    max-height: 50px;
+    display:inline-block;
   }
   main {
     height:initial;
@@ -288,8 +289,20 @@ border:none;
     margin-top:0;
   }
   #map {
-    height: 90vH;
+    height: 100vH;
+    position: absolute;
+    top: 0;
   }
+  .leaflet-top {
+    top: 50px;
+  }
+  .leaflet-custom {
+    margin-top: 10px;
+  }
+  .navbar-default {
+    z-index: 999;
+  }
+
 }
 
 .panel-primary>.panel-heading {
