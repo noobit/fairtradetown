@@ -261,6 +261,15 @@ var setupIcons = function() {
   }
   return icons;
 };
+/* Larger screens get expanded layer control and visible sidebar */
+if (document.body.clientWidth <= 767) {
+  var isCollapsed = true; 
+} else {
+  var isCollapsed = false;
+  // jQuery("#sidebar").hide();
+  //map.invalidateSize();
+}
+
 
 // Layer control, setting up 1 layer per category
 var layers = {},
@@ -865,18 +874,6 @@ var locateControl = L.control.locate({
     timeout: 10000
   }
 }).addTo(map);
-
-/* Larger screens get expanded layer control and visible sidebar */
-if (document.body.clientWidth <= 767) {
-  var isCollapsed = true; 
-} else {
-  var isCollapsed = false;
-  jQuery("#sidebar").hide();
-  map.invalidateSize();
-}
-
-
-
 
   
   cultureLayer.addTo(map);
