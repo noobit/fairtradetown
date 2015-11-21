@@ -302,7 +302,10 @@ border:none;
   .navbar-default {
     z-index: 999;
   }
+  .leaflet-popup-content {
+    max-width: 85vW;
 
+  }
 }
 
 .panel-primary>.panel-heading {
