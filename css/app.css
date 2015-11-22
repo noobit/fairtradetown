@@ -297,14 +297,17 @@ border:none;
     top: 50px;
   }
   .leaflet-custom {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .navbar-default {
-    z-index: 999;
+    z-index: 9999;
   }
   .leaflet-popup-content {
     max-width: 85vW;
 
+  }
+  .leaflet-top .leaflet-control-layers {
+    display:none;
   }
 }
 
