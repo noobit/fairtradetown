@@ -159,7 +159,9 @@ footer {
   font-weight: normal;
   margin-bottom: 0px;
 }
-
+.leaflet-control {
+  border-color: rgb(206, 212, 30) !important;
+}
 
 .table {
   margin-bottom: 0px;
