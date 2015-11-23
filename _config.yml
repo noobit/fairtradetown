@@ -2,7 +2,7 @@
 title: Fairtradetown Berlin - Your Guide
 email: hardenberg.persico@googlemail.com
 description: Fairtradetown Berlin -- Ihr fairer Einkaufsführer für Berlin
-baseurl: "/fairtradetown" # the subpath of your site, e.g. /blog/
+baseurl: "/fairtradetown/" # the subpath of your site, e.g. /blog/
 url: "http://www.fairtradetown.berlin" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
