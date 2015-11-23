@@ -20,7 +20,7 @@ Susanne Wander
 <i class='fa fa-fw'></i>&nbsp;&nbsp;10178 Berlin
 
 <i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;(030) 9018-22081  
-<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;Fairtrade@ba-mitte.berlin.de](mailto:Fairtrade@ba-mitte.berlin.de)
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[Fairtrade@ba-mitte.berlin.de](mailto:Fairtrade@ba-mitte.berlin.de)
 
 
 
