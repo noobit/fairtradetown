@@ -1,7 +1,7 @@
 # Site settings
 title: Fairtradetown Berlin - Your Guide
 email: hardenberg.persico@googlemail.com
-description: > Fairtradetown Berlin -- Ihr fairer Einkaufsführer für Berlin
+description: Fairtradetown Berlin -- Ihr fairer Einkaufsführer für Berlin
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.fairtradetown.berlin" # the base hostname & protocol for your site
 twitter_username: jekyllrb
