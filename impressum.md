@@ -4,8 +4,7 @@ title: Impressum
 permalink: /impressum/
 ---
 
-
-## Angaben gemäß § 5 TMG
+## Angaben gemäß § 5 TMG:
 Volkmar Lübke
 
 Jägerndorfer Zeile 3  
@@ -15,9 +14,9 @@ Jägerndorfer Zeile 3
 Telefon:	0172 / 54 00 582  
 E-Mail:	[info@fairtradetown.berlin](mailto:info@fairtradetown.berlin)
  
-
-_Quelle: [www.e-recht24.de](http://www.e-recht24.de){:target="_blank"}_
+_Quelle: [www.e-recht24.de](http://www.e-recht24.de){:target="_blank" rel="nofollow"}_
   
+ ---
 
 <img src="{{ "/images/eu.jpg" | prepend: site.baseurl }}" width="66px" style="float:left; margin-right:10px;" />
 _Dieses Dokument wurde mit finanzieller Unterstützung der Europäischen Union erstellt._
