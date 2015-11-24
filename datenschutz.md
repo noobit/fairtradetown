@@ -4,6 +4,7 @@ title: Datenschutz
 permalink: /datenschutz/
 ---
 
+
 ## Datenschutzerklärung
 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 
@@ -34,4 +35,3 @@ Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung die
 
 ## Kontaktformular
 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
-
