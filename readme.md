@@ -18,4 +18,5 @@
 
 - Kaufhof, Galeria Kaufhof Weiß
 
-
+## Todos 26.11.
+* Öffnungszeiten in die Oberflächeche

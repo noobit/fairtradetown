@@ -6,6 +6,8 @@ baseurl: "/fairtradetown/" # the subpath of your site, e.g. /blog/
 url: "http://www.fairtradetown.berlin" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+sass:
+    style: compressed
 
 # Build settings
 markdown: kramdown

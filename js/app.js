@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
         //jQuery("#search").addClass("col-lg-offset-6 col-md-offset-8");
 
         e.preventDefault();
-                
+
   jQuery(".navbar-collapse").removeClass("in");
 
 
@@ -96,7 +96,7 @@ jQuery("#nav-btn").click(function() {
 //   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
 //   layer.fire("click");
 //   /* Hide sidebar and go to the map on small screens */
-  
+
 //   if (document.body.clientWidth <= 767) {
 //     jQuery("#sidebar").hide();
 //     map.invalidateSize();
@@ -129,7 +129,7 @@ var loadHandler = function (event) {
 //       }
 //     }
 //   });
-//    Loop through museums layer and add only features which are in the map bounds 
+//    Loop through museums layer and add only features which are in the map bounds
 //   marker.eachLayer(function (layer) {
 //     if (map.hasLayer(markerLayer)) {
 //       if (map.getBounds().contains(layer.getLatLng())) {
@@ -157,25 +157,25 @@ var berlinAttribution = 'Geoportal Berlin / Orteile von Berlin.';
 // var blackwhiteTile = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
 //    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 //    detectRetina: true
-// }); 
+// });
 // var bmapTile = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
 //    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 //    detectRetina: true
-// }); 
+// });
 var mapquestTile = L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
    attribution: 'Data, imagery and map information provided by MapQuest,<a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> and contributors,<a href="http://wiki.openstreetmap.org/wiki/Legal_FAQ#3a._I_would_like_to_use_OpenStreetMap_maps._How_should_I_credit_you.3F" target="_blank">ODbL</a>.',
    detectRetina: true
-}); 
+});
 // var mapboxTile = L.tileLayer(
 //   'http://{s}.tiles.mapbox.com/v3/medardus.ki1enpim/{z}/{x}/{y}.png', {
 //   attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
 //   detectRetina: true,
 //   maxZoom: 18
-// }); 
+// });
 // var positronTile = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-//   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>', 
+//   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 //   detectRetina: true
-// }); 
+// });
 var retina = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
 
 
@@ -191,7 +191,7 @@ var categories = {
 };
 
 // pruneCluster.BuildLeafletClusterIcon = function(cluster) {
-//     var e = new L.Icon.MarkerCluster(); 
+//     var e = new L.Icon.MarkerCluster();
 //     e.stats = cluster.stats;
 //     e.population = cluster.population;
 //     return e;
@@ -253,8 +253,8 @@ var setupIcons = function() {
   var icons = {};
   for (var cat in categories) {
     var icon = new L.MakiMarkers.icon({
-      icon: categories[cat].icon, 
-      color: '#' + categories[cat].color, 
+      icon: categories[cat].icon,
+      color: '#' + categories[cat].color,
       size: "m"
     });
     icons[cat] = icon;
@@ -263,7 +263,7 @@ var setupIcons = function() {
 };
 /* Larger screens get expanded layer control and visible sidebar */
 if (document.body.clientWidth <= 767) {
-  var isCollapsed = true; 
+  var isCollapsed = true;
 } else {
   var isCollapsed = false;
   // jQuery("#sidebar").hide();
@@ -284,10 +284,10 @@ var layerControl = L.control.layers(null, null, {
 // });
 var borderControl = L.control.layers(null, null, {
   position: 'topright',
-  collapsed: 'true' 
+  collapsed: 'true'
 });
 
-for (var icat in categories) {  
+for (var icat in categories) {
   var layer = L.featureGroup();
   layers[icat] = layer;
   cultureLayer.addLayer(layer);
@@ -402,24 +402,24 @@ function displayFeatures(features, layers, icons) {
     var layer = layers[cat];
     var cati = categories[cat];
     marker = L.geoJson(feat, {
-      pointToLayer: function(feature, latLng) {         
-        //var icon = icons[cat]; 
+      pointToLayer: function(feature, latLng) {
+        //var icon = icons[cat];
         var icon = new L.MakiMarkers.icon({
           icon: symbol ? symbol : 'circle-stroked',
-          color: '#' + categories[cat].color, 
+          color: '#' + categories[cat].color,
           size: "m"
         });
         /*var markerPrune = new PruneCluster.Marker(latLng.lat, latLng.lng);
           markerPrune.data.name = feature.properties.name;
           markerPrune.data.ID = feature.properties.id;
-          markerPrune.data.icon = icon; 
+          markerPrune.data.icon = icon;
           markerPrune.data.riseOnHover = true;
           markerPrune.data.popup = bindePopup(feature);
 
           markerPrune.category = categories[cat].category;
           markerPrune.weight   = categories[cat].category;*/
 
-        var marker = new L.marker(latLng, { 
+        var marker = new L.marker(latLng, {
           icon: icon,
           keyboard: false,
           riseOnHover: true,
@@ -449,23 +449,23 @@ function displayFeatures(features, layers, icons) {
       markerSearch.push({
         name: feat.properties.name,
         address: feat.properties.strasse,
-        marker: marker, 
+        marker: marker,
         icon: "https://api.tiles.mapbox.com/v3/marker/pin-s-" + cati.icon + "+" + cati.color + ".png",
         source: "Marker",
         id: feat.properties.id, //L.stamp(layer),
         lat: feat.geometry.coordinates[1],
         lng: feat.geometry.coordinates[0]
       });
-    }  
+    }
   }
   map.fitBounds(layer.getBounds(), {padding: [10, 10]});
   return layers;
 }
- 
+
 
 function bindePopup(feature, layer) {
 
-  /* feature.layer = layer; */  
+  /* feature.layer = layer; */
   var props = feature.properties;
   // var color =  "fff"; /* = feat.properties.kategorie1 ? feat.properties.kategorie1 : 'nicht kategorisiert';*/
   //   if (props.kategorie1.indexOf("Super") != -1 || props.kategorie1.indexOf("kette") != -1) {
@@ -488,18 +488,17 @@ function bindePopup(feature, layer) {
     desc +=     "<i class='fa fa-map-marker fa-fw'></i>&nbsp;" + props.strasse + "<br />";
     desc +=     "<i class='fa fa-fw'></i>&nbsp;" + props.plz + " " + props.ort + "";
     desc += "</div>";
-    desc += "<p>";
+    desc += "<div id='oeffnungszeiten'>";
+    desc +=   (props.oeffnungszeiten ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten.replace(/(\r\n)|(\r)|(\n)/g, "<br /><i class='fa fa-fw'></i>&nbsp;") : "" );
+    desc += "</div>";
     desc += "<div id='contact'>";
     desc +=   (props.telefon1   ? "<i class='fa fa-phone fa-fw'></i>&nbsp;" + props.telefon1 + "<br />" : "");
     desc +=   (props.telefax    ? "<i class='fa fa-fax fa-fw'></i>&nbsp;" + props.telefax + "<br />" : "" );
     desc +=   (props.email      ? "<i class='fa fa-envelope fa-fw'></i>&nbsp;<a href='mailto:" + props.email + "'>" + props.email + "</a><br />" : "" );
     desc +=   (props.homepage   ? "<i class='fa fa-external-link fa-fw'></i>&nbsp;<a href='http://" + props.homepage + "' target=_blank>" + props.homepage + "</a><br />" : "" );
-    // desc +=   (props.kategorie1 ? "<i class='fa fa-th-list fa-fw'></i>&nbsp;" + props.kategorie1 : "" ); 
+    // desc +=   (props.kategorie1 ? "<i class='fa fa-th-list fa-fw'></i>&nbsp;" + props.kategorie1 : "" );
     // desc +=   (props.kategorie2 ? "&nbsp;/&nbsp;" + props.kategorie2 : "");
     desc += "</div>"
-    desc += "<div id='oeffnungszeiten'>";
-    desc +=   ((!props.oeffnungszeiten == null) ? "<i class='fa fa-sign-in fa-fw'></i>&nbsp;" + props.oeffnungszeiten : "" );
-    desc += "</div>";
     desc += (props.logo ? "<img src='/images/logos/" + props.logo + "' alt='logo' />" : "" );
     desc += "<div id='socialweb'>";
     desc +=   "<i class='fa fa-fw'></i>";
@@ -508,14 +507,14 @@ function bindePopup(feature, layer) {
     desc +=   (props.twitter  ? "<a href='http://" + props.twitter  + "' target=_blank><span class='fa-stack fa-lg'><i class='fa fa-square-o fa-stack-2x'></i><i class='fa fa-twitter fa-stack-1x'></i></span></a>" : "");
     desc += "</div>";
     desc += "</span>";
-    
+
     layer.bindPopup(desc, {
       minWidth: 250,
       maxWidth: 400,
       autoPanPaddingTopLeft: [10,90]
-     // class: 
-    }); 
-  } 
+     // class:
+    });
+  }
 
 }
 
@@ -549,7 +548,7 @@ var ortsteile = L.geoJson(null, {
   },*/
   onEachFeature: function (feature, layer) {
     ortsteileSearch.push({
-        name: feature.properties.OTEIL, 
+        name: feature.properties.OTEIL,
         source: "Ortsteil",
         id: L.stamp(layer),
         bounds: layer.getBounds()
@@ -577,7 +576,7 @@ var ortsteile = L.geoJson(null, {
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#999', 
+          color: '#999',
           weight: 2,
           opacity: 0.6,
           fillOpacity: 0.6,
@@ -608,11 +607,11 @@ var ortsteile = L.geoJson(null, {
           opacity: 0.6,
           fillOpacity: 0.3,
           fillColor: "#999"
-        }); 
+        });
         jQuery("#popup-" + properties.OTEIL).remove();
       });
     })(layer, feature.properties);
-  
+
   }
 });
 jQuery.getJSON(path + "/data/ortsteile.geojson", function (data) {
@@ -648,14 +647,14 @@ var bezirke = L.geoJson(null, {
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#999', 
+          color: '#999',
           weight: 3,
           opacity: 0.6,
           fillOpacity: 0.6,
           fillColor: '#999'
         });
-        // jQuery("#bezirk").text(properties.spatial_alias); 
-       
+        // jQuery("#bezirk").text(properties.spatial_alias);
+
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
@@ -664,7 +663,7 @@ var bezirke = L.geoJson(null, {
           opacity: 0.6,
           fillOpacity: 0.3,
           fillColor: "#999"
-        }); 
+        });
         jQuery("#popup-" + properties.OTEIL).remove();
       });
     })(layer, feature.properties);
@@ -688,7 +687,7 @@ var plz = L.geoJson(null, {
   },*/
   onEachFeature: function (feature, layer) {
     plzSearch.push({
-        name: feature.properties.spatial_alias, 
+        name: feature.properties.spatial_alias,
         source: "PLZ",
         id: L.stamp(layer),
         bounds: layer.getBounds()
@@ -716,7 +715,7 @@ var plz = L.geoJson(null, {
     (function(layer, properties) {
       layer.on("mouseover", function (e) {
         layer.setStyle({
-          color: '#999', 
+          color: '#999',
           weight: 1,
           opacity: 0.8,
           fillOpacity: 0.6,
@@ -727,7 +726,7 @@ var plz = L.geoJson(null, {
             css: { fontSize: "16px", marginBottom: "3px" }
         }).appendTo(popup);
         popup.appendTo("#map");*/
-        
+
       });
       layer.on("mouseout", function (e) {
         layer.setStyle({
@@ -736,11 +735,11 @@ var plz = L.geoJson(null, {
           opacity: 0.8,
           fillOpacity: 0.3,
           fillColor: "#999"
-        }); 
+        });
         //jQuery("#popup-" + properties.OTEIL).remove();
       });
     })(layer, feature.properties);
-  
+
   }
 });
 jQuery.getJSON(path + "/data/plz.geojson", function (data) {
@@ -753,8 +752,8 @@ jQuery.getJSON(path + "/data/plz.geojson", function (data) {
   showCoverageOnHover: false,
   zoomToBoundsOnClick: true,
   disableClusteringAtZoom: 16
-});*/ 
-               
+});*/
+
 
 
 map = L.map("map", {
@@ -778,7 +777,7 @@ markerLayer.on('load', loadHandler);
   map.addControl(zoomControl);
 
 
- // Add our loading control in the same position and pass the 
+ // Add our loading control in the same position and pass the
   // zoom control to attach to it
   var loadingControl = L.Control.loading({
       position: 'topright',
@@ -875,7 +874,7 @@ var locateControl = L.control.locate({
   }
 }).addTo(map);
 
-  
+
   cultureLayer.addTo(map);
 
   // Add Base Tiles
@@ -974,7 +973,7 @@ jQuery(document).one("ajaxStop", function () {
      url: "http://nominatim.openstreetmap.org/search?format=json&polygon_geojson=1&limit=5&countrycodes=de&q=Berlin, %QUERY",
       filter: function (data) {
         return jQuery.map(data, function (result) {
-          return {  
+          return {
             name: result.display_name,
             lat: result.lat,
             lng: result.lon,
@@ -1056,10 +1055,10 @@ jQuery(document).one("ajaxStop", function () {
       // if (!map.hasLayer(markerLayer)) {
       //   map.addLayer(markerLayer);
       // }
-      map.setView([datum.lat, datum.lng], 16);    
+      map.setView([datum.lat, datum.lng], 16);
       datum.marker.openPopup();
       // if (map._layers[datum.id]) {
-      //   map._layers[datum.id].fire("click");  
+      //   map._layers[datum.id].fire("click");
       // }
     }
     if (datum.source === "GeoNames") {
