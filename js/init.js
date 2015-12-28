@@ -38,7 +38,6 @@
 			}
 		}
 	});
-lkölkö
 	$(function() {
 
 		var	$window = $(window),
@@ -119,6 +118,6 @@ $('#nav a').on('click', function() {
 
 				$.scrollzer(ids, { pad: 200, lastHack: true });
 */
-	}); 
+	});
 
 })(jQuery);

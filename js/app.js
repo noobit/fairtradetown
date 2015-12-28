@@ -519,7 +519,7 @@ function bindePopup(feature, layer) {
 }
 
 var account_name = 'noobit';
-var sql_statement = 'SELECT * FROM Marker Map';
+var sql_statement = "SELECT * FROM Marker Map WHERE show = 'x'";
 
 $.getJSON('https://'+account_name+'.cartodb.com/api/v2/sql?format=GeoJSON&q='+sql_statement, function(data) {
   displayFeatures(data.features, layers, icons);
