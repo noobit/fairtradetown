@@ -4,12 +4,12 @@ title: Pankow
 permalink: /bezirke/pankow/
 ---
 
-
-In Pankow fasste die Bezirksverordnetenversammlung im Juni 2013 den Beschluss, sich um den Titel „Fairtrade Bezirk“ zu bewerben.
-
-**Nachdem der Bezirk alle Kriterien erfüllt hat, wird die Ehrung am 12.01.2016 im Rahmen einer Veranstaltung in den Schönhauser Allee Arkaden, Schönhauser Allee 80, 10439 Berlin, vorgenommen. Die Veranstaltung dauert von 12:00 bis 20:00 Uhr, die Verleihung der Urkunde an den Bürgermeister wird ca. um 17:00 Uhr stattfinden.**
+Die Verleihung des Titels „Fairtrade-Bezirk Pankow“ fand am 12.01.2016 statt.
 
 Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie [hier](http://www.fairhandlung-pankow.de){:target="_blank"}.
+
+## Downloads:
+<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Pankow_Layout-04.pdf)
 
 ## Kontakt:
 Bezirksamt Pankow von Berlin

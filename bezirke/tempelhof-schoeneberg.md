@@ -10,9 +10,13 @@ In Tempelhof-Schöneberg wurde der Beschluss zur Bewerbung um den Titel Fairtrad
 
 _Gründung der Steuerungsgruppe im Rathaus Schöneberg_
 
-
-
 Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [www.facebook.com/FairtradetownTS](https://www.facebook.com/FairtradetownTS){:target="_blank"}
+
+## Termine
+Sitzung der Steuerungsgruppe am 18.02.2016 ab 19:00 Uhr im Rathaus Schöneberg, Raum 1108.
+
+## Downloads:
+<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schöneberg_Layout-12.pdf)
 
 ## Kontakt
 Netzwerk Faires Berlin
@@ -23,5 +27,4 @@ Stefanie Holtz & Jürgen Krause
 <i class='fa fa-fw'></i>&nbsp;&nbsp;10829 Berlin
 
 <i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;(030) 893 744 80  
-<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[fairtradetown.ts@berlin.de](mailto:fairtradetown.ts@berlin.de) 
-
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[fairtradetown.ts@berlin.de](mailto:fairtradetown.ts@berlin.de)
