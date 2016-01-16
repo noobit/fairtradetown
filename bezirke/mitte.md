@@ -10,11 +10,11 @@ Dem Bezirk Mitte wurde der Titel Fairtrade-Bezirk am 08.10.2014 verliehen. Seitd
 
 Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie auch [hier](http://www.berlin.de/ba-mitte/ueber-den-bezirk/fairtrade-bezirk){:target="_blank"}.
 
-## Downloads:
+## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Mitte_Layout-11.pdf){:target="_blank"}
 
 
-## Kontakt:
+## Kontakt
 Bezirksamt Mitte von Berlin, Umwelt- und Naturschutzamt
 
 Susanne Wander

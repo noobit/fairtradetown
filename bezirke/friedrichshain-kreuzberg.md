@@ -10,7 +10,7 @@ Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessie
 
 
 
-## Kontakt:
+## Kontakt
 Helena Jansen
 
 Fachpromotorin für Kommunale Entwicklungspolitik
