@@ -9,6 +9,10 @@ In Friedrichshain Kreuzberg hat die BVV am 29.4.2015 den Beschluss gefasst, sich
 Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessierte, die in der Steuerungsgruppe des Bezirks mitarbeiten wollen. Weitere Mitstreiter und Anregungen sind gern willkommen.
 
 
+## Termine
+Sitzung der Steuerungsgruppe am 26.01.2016, 17:00 - 19:00 Uhr im Büro des Vereins zur Förderung der Städtepartnerschaft Kreuzberg - San Rafael del Sur e.V., Adalbertstr. 23b, 10997 Berlin -- 5. Stock, Zimmer 513
+
+Die Sitzung ist öffentlich. Um Anmeldung unter [helena.jansen@staepa-berlin.de](mailto:helena.jansen@staepa-berlin.de) wird gebeten.
 
 ## Kontakt
 Helena Jansen
