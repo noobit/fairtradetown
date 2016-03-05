@@ -10,9 +10,8 @@ Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessie
 
 
 ## Termine
-Sitzung der Steuerungsgruppe am 26.01.2016, 17:00 - 19:00 Uhr im Büro des Vereins zur Förderung der Städtepartnerschaft Kreuzberg - San Rafael del Sur e.V., Adalbertstr. 23b, 10997 Berlin -- 5. Stock, Zimmer 513
 
-Die Sitzung ist öffentlich. Um Anmeldung unter [helena.jansen@staepa-berlin.de](mailto:helena.jansen@staepa-berlin.de) wird gebeten.
+Die Sitzungen der Steuerungsgruppe sind öffentlich. Um Anmeldung unter [helena.jansen@staepa-berlin.de](mailto:helena.jansen@staepa-berlin.de) wird gebeten.
 
 ## Kontakt
 Helena Jansen
