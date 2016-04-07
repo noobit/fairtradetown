@@ -18,6 +18,6 @@ Kontakt: [a.janela@ewsl.de](mailto:a.janela@ewsl.de)
 Weitere Informationen unter [www.fairtradetown-charlottenburgwilmersdorf.de ](http://www.fairtradetown-charlottenburgwilmersdorf.de ){:target="_blank"}.
 
 ## Termine
-* Sitzungen der Steuerungsgruppe: Am 15.03. und am 12.05. ab 17:00 Uhr im Weltladen A Janela
-* Faires Frühstück am 21.05. (Ort wird noch festgelegt)
+* Sitzungen der Steuerungsgruppe: Am 14.04. (Planung des Fairen Frühstücks) und am 12.05. ab 17:00 Uhr im Weltladen A Janela
+* Faires Frühstück am 21.05. um 11:00 Uhr / Rüdesheimer Platz
 * Stände auf dem Fest der Nationen (Prager Platz): geplant: 27. – 29.05.
