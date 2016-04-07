@@ -13,7 +13,7 @@ _Gründung der Steuerungsgruppe im Rathaus Schöneberg_
 Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [www.facebook.com/FairtradetownTS](https://www.facebook.com/FairtradetownTS){:target="_blank"}
 
 ## Termine
-Sitzung der Steuerungsgruppe am 18.03.2016 ab 19:00 Uhr im Rathaus Schöneberg.
+Sitzung der Steuerungsgruppe am 12.05.2016 ab 19:00 Uhr im Rathaus Schöneberg.
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schoeneberg_Layout-12.pdf){:target="_blank"}
