@@ -13,6 +13,7 @@ _Gründung der Steuerungsgruppe im Rathaus Schöneberg_
 Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [www.facebook.com/FairtradetownTS](https://www.facebook.com/FairtradetownTS){:target="_blank"}
 
 ## Termine
+Infostand auf dem Fest "Kunst trifft Wein" am Lichtenrader Dorfteich, Alt-Lichtenrade - 29.04. bis 01.05.2016
 Sitzung der Steuerungsgruppe am 12.05.2016 ab 19:00 Uhr im Rathaus Schöneberg.
 
 ## Downloads
