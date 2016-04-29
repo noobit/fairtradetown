@@ -20,4 +20,4 @@ Weitere Informationen unter [www.fairtradetown-charlottenburgwilmersdorf.de ](ht
 ## Termine
 * Sitzungen der Steuerungsgruppe: Am 12.05.2016 ab 17:00 Uhr im Weltladen A Janela
 * Faires Frühstück am 21.05.2016 um 11:00 Uhr / Rüdesheimer Platz
-* Stände auf dem Fest der Nationen (Prager Platz): geplant: 27. – 29.05.2016
+* Stände auf dem Fest der Nationen (Prager Platz): geplant: 09. – 11.09.2016
