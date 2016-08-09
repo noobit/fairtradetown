@@ -162,8 +162,8 @@ var berlinAttribution = 'Geoportal Berlin / Orteile von Berlin.';
 //    attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 //    detectRetina: true
 // });
-var mapquestTile = L.tileLayer('https://maps.wikimedia.org/osm-intl/$%7Bz%7D/$%7Bx%7D/$%7By%7D.png', { //'http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
-   attribution: 'Data, imagery and map information provided by MapQuest,<a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> and contributors,<a href="http://wiki.openstreetmap.org/wiki/Legal_FAQ#3a._I_would_like_to_use_OpenStreetMap_maps._How_should_I_credit_you.3F" target="_blank">ODbL</a>.',
+var mapquestTile = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { //'http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
+   attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
    detectRetina: true
 });
 // var mapboxTile = L.tileLayer(
