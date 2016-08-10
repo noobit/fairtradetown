@@ -18,7 +18,5 @@ Kontakt: [a.janela@ewsl.de](mailto:a.janela@ewsl.de)
 Weitere Informationen unter [www.fairtradetown-charlottenburgwilmersdorf.de ](http://www.fairtradetown-charlottenburgwilmersdorf.de ){:target="_blank"}.
 
 ## Termine
-* Geplante Sitzungen der Steuerungsgruppe: Am 07.07., 20.09., 01.11.2016, jeweils ab 17:00 Uhr im Weltladen A Janela
-* Faires Frühstück am 21.05.2016 um 11:00 Uhr / Rüdesheimer Platz
-* Faires Frühstück bei Franziska Becker (SPD/MdA) am 31.05.2016 um 11:00 Uhr im Wahlkreisbüro Fechnerstr. 69
+* Geplante Sitzungen der Steuerungsgruppe: Am 20.09., 01.11.2016, jeweils ab 17:00 Uhr im Weltladen A Janela
 * Stände auf dem Fest der Nationen (Prager Platz): geplant: 09. – 11.09.2016
