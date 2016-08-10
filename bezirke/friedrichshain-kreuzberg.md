@@ -6,7 +6,8 @@ permalink: /bezirke/friedrichshain-kreuzberg/
 
 In Friedrichshain Kreuzberg hat die BVV am 29.4.2015 den Beschluss gefasst, sich um den Titel Fairtrade-Bezirk zu bewerben.
 
-Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessierte, die in der Steuerungsgruppe des Bezirks mitarbeiten wollen. Weitere Mitstreiter und Anregungen sind gern willkommen. Das Selbstverständnis der Steuerungsgruppe finden Sie unter: http://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksamt/das-kollegium/artikel.497262.php 
+Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessierte, die in der Steuerungsgruppe des Bezirks mitarbeiten wollen. Weitere Mitstreiter und Anregungen sind gern willkommen. Das Selbstverständnis der Steuerungsgruppe finden Sie unter [hier](http://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksamt/das-kollegium/artikel.497262.php){:target="_blank"}
+
 
 
 ## Termine
