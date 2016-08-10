@@ -14,10 +14,10 @@ Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie [hier](ht
 ## Kontakt
 Bezirksamt Pankow von Berlin
 
-Gordon Lemm  
-Referent des Bezirksbürgermeisters
+Dr. Ute Waschkowitz  
+EU-Beauftragt / BBWA / Lokale Agenda 21 Pankow
 
 <i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Breite Straße 24a-26    
 <i class='fa fa-fw'></i>&nbsp;&nbsp;13187 Berlin
 
-<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[gordon.lemm@ba-pankow.berlin.de](mailto:gordon.lemm@ba-pankow.berlin.de)
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[ute.waschkowitz@ba-pankow.berlin.de](mailto:ute.waschkowitz@ba-pankow.berlin.de)
