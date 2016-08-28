@@ -17,7 +17,7 @@ Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [w
 Sitzung der Steuerungsgruppe am 18.08.2016 ab 19:00 Uhr im Rathaus Schöneberg.
 
 ## Downloads
-<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schöneberg-2016_neu.pdf){:target="_blank"}
+<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schoeneberg-2016_neu.pdf){:target="_blank"}
 
 ## Kontakt
 Netzwerk Faires Berlin
