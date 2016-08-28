@@ -12,6 +12,6 @@ Falls Sie uns dabei unterstützen möchten, die Stadt Berlin zur Fairtrade Town 
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faires Frühstück]({{ site.url }}/downloads/Dokumentation_Faires_Frühstück_020716.pdf){:target="_blank"}
-<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faire Bezirke]({{ site.url }}/downloads/Dokumentation_Faire_Bezirke_pdf){:target="_blank"}
+<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faire Bezirke]({{ site.url }}/downloads/Dokumentation_Faire_Bezirke.pdf){:target="_blank"}
 
 
