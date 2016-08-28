@@ -11,7 +11,7 @@ Um den Prozess zu unterstützen hat sich eine Arbeitsgruppe von Engagierten (AG 
 Falls Sie uns dabei unterstützen möchten, die Stadt Berlin zur Fairtrade Town zu machen, nutzen Sie bitte unser [Kontaktformular]({{site.baseurl}}/kontakt).
 
 ## Downloads
-<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faires Frühstück]({{ site.url }}/downloads/Dokumentation_Faires_Frühstück_020716.pdf){:target="_blank"}
+<i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faires Frühstück]({{ site.url }}/downloads/Dokumentation_Faires_Fruehstueck_020716.pdf){:target="_blank"}
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation faire Bezirke]({{ site.url }}/downloads/Dokumentation_Faire_Bezirke.pdf){:target="_blank"}
 
 
