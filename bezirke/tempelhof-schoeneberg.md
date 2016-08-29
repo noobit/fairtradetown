@@ -4,7 +4,7 @@ title: Tempelhof-Schöneberg
 permalink: /bezirke/tempelhof-schoeneberg/
 ---
 
-In Tempelhof-Schöneberg wurde der Beschluss zur Bewerbung um den Titel Fairtrade-Bezirk am 19.11.2014 in der Bezirksverordnetenversammlung gefasst. Die Steuerungsgruppe wurde am 05.03.2015 gegründet. Die Bewerbung um den Titel liegt beim TransFair e.V. vor und es wird eine Feier zur Übergabe der Urkunde im September 2016 vorbereitet.
+In Tempelhof-Schöneberg wurde der Beschluss zur Bewerbung um den Titel Fairtrade-Bezirk am 19.11.2014 in der Bezirksverordnetenversammlung gefasst. Die Steuerungsgruppe wurde am 05.03.2015 gegründet. Die Bewerbung um den Titel war erfolgreich und die feierliche Übergabe der Urkunde wird am 7. September 2016 vor dem Rathaus Tempelhof stattfinden.
 
 ![Gründung]({{site.baseurl}}/images/tempelhof-schoeneberg_gruendung.jpg)
 
@@ -14,7 +14,7 @@ Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [w
 
 ## Termine
 
-Sitzung der Steuerungsgruppe am 18.08.2016 ab 19:00 Uhr im Rathaus Schöneberg.
+Feier zur Ernennung des Bezirks am 7. September 2016 von 14:00 bis 17:00 Uhr vor dem Rathaus Tempelhof, Tempelhofer Damm 165. Die Übergabe der Urkunde findet ca. um 15:00 Uhr statt.
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schoeneberg-2016_neu.pdf){:target="_blank"}
