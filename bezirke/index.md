@@ -4,11 +4,11 @@ title: Fairtrade Town Berlin
 permalink: /bezirke/
 ---
 
-Wenn in einer Großstadt wie Berlin zwei Drittel der Bezirke oder zwei Drittel der durch diese Bezirke repräsentierten Bevölkerung den Titel „Fairtrade-Bezirk“ erlangt haben, kann der Titel auch der gesamten Stadt verliehen werden. Da sich in Berlin inzwischen sieben von zwölf Bezirken auf den Weg gemacht haben, ist die Verfolgung dieses Ziels nicht unrealistisch!
+Vier Berliner Bezirke haben inzwischen den Titel "Fairtrade-Bezirk" erhalten, drei weitere befinden sich auf dem Weg. Nun wird immer häufiger die Frage gestellt, ob sich die Hauptstadt insgesamt nicht ebenfalls um den Titel "Fairtrade Town" bemühen sollte, wie es andere Großstädte bereits mit Erfolg vorgemacht haben. Dazu wären natürlich zunächst einmal ein Beschluss im Abgeordnetenhaus und entsprechende Aktivitäten auf der Landesebene nötig.   
 
-Um den Prozess zu unterstützen hat sich eine Arbeitsgruppe von Engagierten (AG Fairtradetown Berlin) gebildet, die bereits an vorbereitenden Schritten dazu arbeitet. In einer Diskussionsveranstaltung im November 2015 und bei einem ersten Berliner Fairen Frühstück im Juli 2016 wurden bereits Überlegungen zur Bildung einer Steuerungsgruppe auf Landesebene angestellt. Der Prozess soll auf einem Auswertungstreffen am 13.09.2016 weitergeführt werden.
+Um diesen Prozess zu unterstützen hat sich eine Arbeitsgruppe von Engagierten (AG Fairtradetown Berlin) gebildet, die bereits an vorbereitenden Schritten dazu arbeitet. In einer Diskussionsveranstaltung im November 2015 und bei einem ersten Berliner Fairen Frühstück im Juli 2016 wurden bereits Überlegungen zur Bildung einer Steuerungsgruppe auf Landesebene angestellt. Der Prozess soll am 16.11. um 17:00 Uhr auf einer Fachveranstaltung im Rahmen der Messe "Bazaar" weitergeführt werden. 
 
-Falls Sie uns dabei unterstützen möchten, die Stadt Berlin zur Fairtrade Town zu machen, nutzen Sie bitte unser [Kontaktformular]({{site.baseurl}}/kontakt).
+Für weitere Informationen und falls Sie uns dabei unterstützen möchten, die Stadt Berlin zur Fairtrade Town zu machen, nutzen Sie bitte unser [Kontaktformular]({{site.baseurl}}/kontakt).
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Dokumentation der Fachdiskussion „Faire Bezirke – Faires Berlin? Wie
