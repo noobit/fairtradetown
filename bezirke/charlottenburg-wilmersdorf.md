@@ -18,5 +18,5 @@ Kontakt: [a.janela@ewsl.de](mailto:a.janela@ewsl.de)
 Weitere Informationen unter [www.fairtradetown-charlottenburgwilmersdorf.de ](http://www.fairtradetown-charlottenburgwilmersdorf.de ){:target="_blank"}.
 
 ## Termine
-* Geplante Sitzungen der Steuerungsgruppe: Am 20.09., 01.11.2016, jeweils ab 17:00 Uhr im Weltladen A Janela
-* Stände auf dem Fest der Nationen (Prager Platz): geplant: 09. – 11.09.2016
+* Geplante Sitzungen der Steuerungsgruppe: Am 10.01.2017 um 17:00 Uhr im Weltladen A Janela
+* Stände: Die Termine stehen noch nicht fest.
