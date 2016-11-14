@@ -4,7 +4,7 @@ title: Mitte
 permalink: /bezirke/mitte/
 ---
 
-Dem Bezirk Mitte wurde der Titel Fairtrade-Bezirk am 08.10.2014 verliehen. Seitdem arbeitet eine Steuerungsgruppe aktiv im Bezirk und bereitet bereits die Erneuerung des Titels im Jahr 2016 vor.
+Dem Bezirk Mitte wurde der Titel Fairtrade-Bezirk am 08.10.2014 verliehen und seine Verlängerung wurde im November 2016 bestätigt. Es arbeitet eine Steuerungsgruppe an zahlreichen Aktivitäten, um den Fairen Handel in Mitte zu stärken.
 
 ![Verleihung]({{site.baseurl}}/images/team.jpg)_Verleihung der Urkunde im Rathaus Mitte_
 
