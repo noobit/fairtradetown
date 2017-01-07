@@ -15,7 +15,6 @@ Kristallisationspunkt im Bezirk ist der Weltladen [A Janela](http://www.ajanela.
 
 Kontakt: [a.janela@ewsl.de](mailto:a.janela@ewsl.de)
 
-Weitere Informationen unter [www.fairtradetown-charlottenburgwilmersdorf.de ](http://www.fairtradetown-charlottenburgwilmersdorf.de ){:target="_blank"}.
 
 ## Termine
 * Geplante Sitzungen der Steuerungsgruppe: Am 10.01.2017 um 17:00 Uhr im Weltladen A Janela
