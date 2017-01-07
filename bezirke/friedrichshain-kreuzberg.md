@@ -12,19 +12,19 @@ Am 27.11.2015 meldeten sich auf einer Auftaktveranstaltung im Rathaus Interessie
 
 ## Termine
 
-Die Sitzungen der Steuerungsgruppe sind öffentlich. Um Anmeldung unter [helena.jansen@staepa-berlin.de](mailto:helena.jansen@staepa-berlin.de) wird gebeten.
+Die Sitzungen der Steuerungsgruppe sind öffentlich. Um Anmeldung unter [helena.jansen@ba-fk.berlin.de](mailto:helena.jansen@ba-fk.berlin.de) wird gebeten.
 
 ## Kontakt
 Helena Jansen
 
-Fachpromotorin für Kommunale Entwicklungspolitik
-Verein zur Förderung der Städtepartnerschaft Kreuzberg - San Rafael del Sur e.V.
+Koordination bezirkliche Entwicklungspolitik
+Bezirksamt Friedrichshain-Kreuzberg von Berlin
 
-<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Adalbertstr. 23b    
-<i class='fa fa-fw'></i>&nbsp;&nbsp;10997 Berlin
+<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Frankfurter Allee 35/37 
+<i class='fa fa-fw'></i>&nbsp;&nbsp;10247 Berlin 
 
 
-<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;(030) 6120 9165  
-<i class='fa fa-fax fa-fw'></i>&nbsp;&nbsp;(030) 6120 9167
+<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;030-90298-4768 
+<i class='fa fa-fax fa-fw'></i>&nbsp;&nbsp;030-90298-4182
 
-<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[helena.jansen@staepa-berlin.de](mailto:helena.jansen@staepa-berlin.de)
+<i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[helena.jansen@ba-fk.berlin.de](mailto:helena.jansen@ba-fk.berlin.de)
