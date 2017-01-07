@@ -18,13 +18,16 @@ Die Sitzungen der Steuerungsgruppe sind öffentlich. Um Anmeldung unter [helena.
 Helena Jansen
 
 Koordination bezirkliche Entwicklungspolitik
+
 Bezirksamt Friedrichshain-Kreuzberg von Berlin
 
-<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Frankfurter Allee 35/37 
+<i class='fa fa-map-marker fa-fw'></i>&nbsp;&nbsp;Frankfurter Allee 35/37
+
 <i class='fa fa-fw'></i>&nbsp;&nbsp;10247 Berlin 
 
 
-<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;030-90298-4768 
+<i class='fa fa-phone fa-fw'></i>&nbsp;&nbsp;030-90298-4768
+
 <i class='fa fa-fax fa-fw'></i>&nbsp;&nbsp;030-90298-4182
 
 <i class='fa fa-envelope fa-fw'></i>&nbsp;&nbsp;[helena.jansen@ba-fk.berlin.de](mailto:helena.jansen@ba-fk.berlin.de)
