@@ -17,5 +17,5 @@ Kontakt: [a.janela@ewsl.de](mailto:a.janela@ewsl.de)
 
 
 ## Termine
-* Geplante Sitzungen der Steuerungsgruppe: Am 10.01.2017 um 17:00 Uhr im Weltladen A Janela
+* Geplante Sitzungen der Steuerungsgruppe: Am 07.03.2017 um 17:00 Uhr im Weltladen A Janela
 * Stände: Faires Frühstück am 20.05.2017. Weitere Termine und Orte stehen noch nicht fest.
