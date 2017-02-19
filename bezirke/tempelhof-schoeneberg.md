@@ -14,7 +14,7 @@ Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [w
 
 ## Termine
 
-Nächste Sitzung der Steuerungsgruppe im Rathaus Schöneberg: 30.11.2016 
+Der Termin der nächsten Sitzung der Steuerungsgruppe wird noch bekannt gegeben. 
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schoeneberg-2016_neu.pdf){:target="_blank"}
