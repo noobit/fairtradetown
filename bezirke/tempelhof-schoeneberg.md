@@ -14,7 +14,7 @@ Weitere Informationen über die Arbeit der Steuerungsgruppe finden Sie unter: [w
 
 ## Termine
 
-Der Termin der nächsten Sitzung der Steuerungsgruppe wird noch bekannt gegeben. 
+Den Termin der nächsten Sitzung der Steuerungsgruppe erfahren Sie von: Nicole Stahl, Bezirksamt Tempelhof-Schöneberg -  Wirtschaftsberatung und Europaangelegenheiten, E-Mail: nicole.stahl@ba-ts.berlin.de 
 
 ## Downloads
 <i class='fa fa-download fa-fw'></i>&nbsp;&nbsp;[Flyer]({{ site.url }}/downloads/FTT-Flyer-Tempelhof-Schoeneberg-2016_neu.pdf){:target="_blank"}
